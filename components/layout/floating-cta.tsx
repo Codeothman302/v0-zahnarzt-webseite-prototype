@@ -13,7 +13,7 @@ export function FloatingCTA({ onClick }: FloatingCTAProps) {
       <Button
         onClick={onClick}
         size="lg"
-        className="h-14 gap-2 rounded-full px-6 shadow-lg transition-transform hover:scale-105"
+        className="h-14 gap-2 rounded-full px-6 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl active:scale-95"
       >
         <MessageCircle className="size-5" />
         <span className="hidden sm:inline">Anliegen starten</span>
