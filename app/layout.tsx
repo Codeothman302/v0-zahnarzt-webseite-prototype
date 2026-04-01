@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { VoiceflowChat } from '@/components/voiceflow-chat'
 import './globals.css'
 
 const inter = Inter({
@@ -46,23 +47,8 @@ export default function RootLayout({
     <html lang="de">
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}
+        <VoiceflowChat />
         <Analytics />
-        <script type="text/javascript">
-          (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-          v.onload = function() {
-            window.voiceflow.chat.load({
-              verify: { projectID: '694854a4a20f534a73cb8ae9' },
-              url: 'https://general-runtime.voiceflow.com',
-              versionID: 'production',
-              voice: {
-                url: "https://runtime-api.voiceflow.com"
-              }
-            });
-      }
-          v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-        </script>
       </body>
     </html>
   )

@@ -1,10 +1,9 @@
 "use client";
 
-import { useState } from "react";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { FloatingCTA } from "@/components/layout/floating-cta";
-import { AssistantModal } from "@/components/modals/assistant-modal";
+import { openVoiceflowChat } from "@/components/voiceflow-chat";
 import { Hero } from "@/components/sections/hero";
 import { Services } from "@/components/sections/services";
 import { Doctors } from "@/components/sections/doctors";
@@ -19,30 +18,25 @@ import { CTABanner } from "@/components/sections/cta-banner";
 import { Contact } from "@/components/sections/contact";
 
 export default function Home() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => setIsModalOpen(true);
-
   return (
     <>
-      <Navbar onOpenModal={openModal} />
+      <Navbar onOpenModal={openVoiceflowChat} />
       <main>
-        <Hero onOpenModal={openModal} />
-        <Services onOpenModal={openModal} />
+        <Hero onOpenModal={openVoiceflowChat} />
+        <Services onOpenModal={openVoiceflowChat} />
         <Doctors />
         <Team />
         <Features />
-        <Pricing onOpenModal={openModal} />
+        <Pricing onOpenModal={openVoiceflowChat} />
         <Testimonials />
         <BeforeAfter />
         <Stories />
         <FAQ />
-        <CTABanner onOpenModal={openModal} />
+        <CTABanner onOpenModal={openVoiceflowChat} />
         <Contact />
       </main>
       <Footer />
-      <FloatingCTA onClick={openModal} />
-      <AssistantModal open={isModalOpen} onOpenChange={setIsModalOpen} />
+      <FloatingCTA onClick={openVoiceflowChat} />
     </>
   );
 }
