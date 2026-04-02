@@ -11,6 +11,9 @@ declare global {
           verify: { projectID: string };
           url: string;
           versionID: string;
+          render?: {
+            mode: string;
+          };
         }) => void;
         open: () => void;
         close: () => void;
@@ -28,6 +31,9 @@ export function VoiceflowChat() {
         verify: { projectID: "694854a4a20f534a73cb8ae9" },
         url: "https://general-runtime.voiceflow.com",
         versionID: "production",
+        render: {
+          mode: "embedded",
+        },
       });
     }
   }, []);
