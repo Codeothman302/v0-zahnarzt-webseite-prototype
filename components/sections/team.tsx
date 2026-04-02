@@ -32,7 +32,24 @@ const team = [
 ];
 
 export function Team() {
-  const [selectedMember, setSelectedMember] = useState<any>(null);
+  const [selectedMember, setSelectedMember] = useState<typeof team[0] | null>(null);
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setSelectedMember(null);
+      }
+    };
+
+    if (selectedMember) {
+      window.addEventListener("keydown", handleEsc);
+      document.body.style.overflow = "hidden";
+    }
+
+    return () => {
+      window.removeEventListener("keydown", handleEsc);
+      document.body.style.overflow = "auto";
+    };
+  }, [selectedMember]);
 
   return (
     <section id="team" className="bg-card py-20 sm:py-24">
