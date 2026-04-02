@@ -26,13 +26,17 @@ const doctors = [
 
 export function Doctors() {
   const [selectedDoctor, setSelectedDoctor] = useState<typeof doctors[0] | null>(null);
+  const [zoomImage, setZoomImage] = useState<string | null>(null);
 
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setSelectedDoctor(null);
+      if (e.key === "Escape") {
+        setSelectedDoctor(null);
+        setZoomImage(null);
+      }
     };
 
-    if (selectedDoctor) {
+    if (selectedDoctor || zoomImage) {
       window.addEventListener("keydown", handleEsc);
       document.body.style.overflow = "hidden";
     }
@@ -41,7 +45,7 @@ export function Doctors() {
       window.removeEventListener("keydown", handleEsc);
       document.body.style.overflow = "auto";
     };
-  }, [selectedDoctor]);
+  }, [selectedDoctor, zoomImage]);
 
   return (
     <section id="aerzte" className="bg-background py-20 sm:py-24">
