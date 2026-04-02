@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { AnimatedSection } from "@/components/ui/animated-section";
 
@@ -54,7 +54,7 @@ export function Team() {
             <AnimatedSection key={member.name} delay={index * 100}>
               <div
                 onClick={() => setSelectedMember(member)}
-                className="group flex w-full max-w-xs flex-col items-center text-center cursor-pointer"
+                className="group flex w-full max-w-xs flex-col items-center text-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
                 <div className="relative size-32 overflow-hidden rounded-full bg-muted transition-transform duration-300 group-hover:scale-105">
                   <Image
