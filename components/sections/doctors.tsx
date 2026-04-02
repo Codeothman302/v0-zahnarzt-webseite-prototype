@@ -78,32 +78,66 @@ export function Doctors() {
           ))}
         </div>
         {selectedDoctor && (
-          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50">
 
-            <div className="bg-white rounded-2xl p-8 max-w-lg w-full relative">
+            <div className="bg-white rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl animate-in fade-in zoom-in-95">
 
+              {/* CLOSE BUTTON */}
               <button
                 onClick={() => setSelectedDoctor(null)}
-                className="absolute top-4 right-4 text-gray-500"
+                className="absolute top-4 right-4 text-gray-400 hover:text-black text-xl"
               >
                 ✕
               </button>
 
-              <h2 className="text-2xl font-bold mb-2">
-                {selectedDoctor.name}
-              </h2>
+              {/* HEADER */}
+              <div className="flex gap-6 items-center mb-6">
+                <Image
+                  src={selectedDoctor.image}
+                  alt={selectedDoctor.name}
+                  width={96}
+                  height={96}
+                  className="w-24 h-24 rounded-xl object-cover"
+                />
 
-              <p className="text-primary mb-2">
-                {selectedDoctor.experience}
-              </p>
+                <div>
+                  <h2 className="text-2xl font-bold">
+                    {selectedDoctor.name}
+                  </h2>
+                  <p className="text-primary font-medium">
+                    {selectedDoctor.specialty}
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    {selectedDoctor.experience}
+                  </p>
+                </div>
+              </div>
 
-              <p className="text-sm mb-2">
-                {selectedDoctor.specialty}
-              </p>
+              {/* CONTENT */}
+              <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
 
-              <p className="text-sm text-gray-600">
-                {selectedDoctor.description}
-              </p>
+                <p>
+                  {selectedDoctor.description}
+                </p>
+
+                <div>
+                  <h3 className="font-semibold mb-1">Schwerpunkte</h3>
+                  <ul className="list-disc ml-5">
+                    <li>Implantologie</li>
+                    <li>Ästhetische Zahnmedizin</li>
+                    <li>Minimalinvasive Verfahren</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold mb-1">Philosophie</h3>
+                  <p>
+                    Der Fokus liegt auf einer ruhigen, vertrauensvollen Behandlung
+                    und maximalem Komfort für den Patienten.
+                  </p>
+                </div>
+
+              </div>
 
             </div>
           </div>
