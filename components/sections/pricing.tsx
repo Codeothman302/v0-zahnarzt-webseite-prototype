@@ -13,6 +13,7 @@ interface PricingProps {
 const plans = [
   {
     name: "Zahnreinigung",
+    subtitle: "Gönnen Sie Ihren Zähnen etwas Frische ✨",
     price: "80–150 €",
     note: "",
     features: [
@@ -25,6 +26,7 @@ const plans = [
   },
   {
     name: "Implantate",
+    subtitle: "Wieder fest zubeißen können 💪",
     price: "ab 2.000 €",
     note: "",
     features: [
@@ -37,6 +39,7 @@ const plans = [
   },
   {
     name: "Bleaching",
+    subtitle: "Ein Lächeln, das auffällt 😁",
     price: "ab 250 €",
     note: "",
     features: [
@@ -75,11 +78,6 @@ export function Pricing({ onOpenModal }: PricingProps) {
                     : "border-border/50 hover:-translate-y-1 hover:border-primary/30 hover:shadow-md"
                 )}
               >
-                {plan.highlighted && (
-                  <div className="absolute top-0 right-0 left-0 bg-primary py-1.5 text-center text-sm font-medium text-primary-foreground">
-                    Beliebteste Wahl
-                  </div>
-                )}
                 <CardHeader className={cn(plan.highlighted && "pt-10")}>
                   <CardTitle className="text-xl">{plan.name}</CardTitle>
                   <div className="mt-4">
