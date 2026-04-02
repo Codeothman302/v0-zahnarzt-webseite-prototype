@@ -56,7 +56,7 @@ export function Pricing({ onOpenModal }: PricingProps) {
         <AnimatedSection>
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Transparente Preise
+              Preise & Behandlungen
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">
               Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.
