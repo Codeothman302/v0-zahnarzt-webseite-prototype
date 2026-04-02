@@ -135,13 +135,18 @@ export function Doctors() {
 
               {/* Header */}
               <div className="flex gap-6 items-center mb-6">
-                <Image
-                  src={selectedDoctor.image}
-                  alt={selectedDoctor.name}
-                  width={96}
-                  height={96}
-                  className="rounded-xl object-cover"
-                />
+                <div
+                  onClick={() => setZoomImage(selectedDoctor.image)}
+                  className="cursor-zoom-in"
+                >
+                  <Image
+                    src={selectedDoctor.image}
+                    alt={selectedDoctor.name}
+                    width={96}
+                    height={96}
+                    className="rounded-xl object-cover transition duration-300 hover:scale-105"
+                  />
+                </div>
 
                 <div>
                   <h2 className="text-2xl font-bold">
@@ -183,6 +188,37 @@ export function Doctors() {
         )}
 
       </div>
+      {zoomImage && (
+        <div
+          className="fixed inset-0 z-[60] flex items-center justify-center"
+          onClick={() => setZoomImage(null)}
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/80 backdrop-blur-md animate-in fade-in duration-300" />
+
+          {/* Image */}
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="relative z-10 max-w-4xl w-full px-4 animate-in zoom-in-95 duration-300"
+          >
+            <Image
+              src={zoomImage}
+              alt="Zoom"
+              width={1200}
+              height={800}
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
+
+            {/* Close */}
+            <button
+              onClick={() => setZoomImage(null)}
+              className="absolute top-4 right-4 text-white text-2xl"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
