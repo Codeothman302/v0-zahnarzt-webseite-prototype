@@ -81,9 +81,16 @@ export function Team() {
 
       {/* MODAL */}
       {selectedMember && (
-        <div className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50">
+        <div
+          onClick={() => setSelectedMember(null)}
+          className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50"
+        >
 
-          <div className="bg-white rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="bg-white rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl
+animate-in fade-in zoom-in-95 duration-300 ease-out"
+          >
 
             {/* CLOSE BUTTON */}
             <button
