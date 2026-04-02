@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedSection } from "@/components/ui/animated-section";
@@ -24,6 +25,9 @@ const doctors = [
 ];
 
 export function Doctors() {
+
+  const [selectedDoctor, setSelectedDoctor] = useState<any>(null);
+
   return (
     <section id="aerzte" className="bg-background py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -41,7 +45,10 @@ export function Doctors() {
         <div className="mt-16 grid gap-8 md:grid-cols-2">
           {doctors.map((doctor, index) => (
             <AnimatedSection key={doctor.name} delay={index * 150}>
-              <Card className="group h-full overflow-hidden border-0 bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+              <Card
+                onClick={() => setSelectedDoctor(doctor)}
+                className="group h-full overflow-hidden border-0 bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg cursor-pointer"
+              >
                 <div className="flex flex-col sm:flex-row">
                   <div className="relative aspect-square w-full overflow-hidden sm:aspect-[3/4] sm:w-48 md:w-56">
                     <Image
