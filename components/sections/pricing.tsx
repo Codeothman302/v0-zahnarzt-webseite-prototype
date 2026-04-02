@@ -21,7 +21,7 @@ const plans = [
       "Vorbeugung gegen Karies",
       "Gesunde Zähne langfristig",
     ],
-    highlighted: false,
+    highlighted: true,
   },
   {
     name: "Implantate",
@@ -45,7 +45,7 @@ const plans = [
       "Sichtbare Ergebnisse",
       "Schonende Methode",
     ],
-    highlighted: false,
+    highlighted: true,
   },
 ];
 
