@@ -12,40 +12,43 @@ interface PricingProps {
 
 const plans = [
   {
-    name: "Basis",
-    price: "ab 0€",
-    note: "(Kassenleistung)",
-    features: [
-      "Kontrolluntersuchung",
-      "Standard Beratung",
-      "Gesetzlich Versicherte geeignet",
-      "Halbjährliche Kontrolle",
-    ],
-    highlighted: false,
-  },
-  {
-    name: "Komfort",
-    price: "ab 89€",
+    name: "Zahnreinigung",
+    subtitle: "Gönnen Sie Ihren Zähnen etwas Frische ✨",
+    price: "80–150 €",
     note: "",
     features: [
-      "Professionelle Zahnreinigung",
-      "Erweiterte Beratung",
-      "Schnellere Terminvergabe",
-      "Individuelle Pflegetipps",
+      "Gründliche Reinigung",
+      "Frischer Atem",
+      "Vorbeugung gegen Karies",
+      "Gesunde Zähne langfristig",
     ],
     highlighted: true,
   },
   {
-    name: "Premium",
-    price: "individuell",
+    name: "Implantate",
+    subtitle: "Wieder fest zubeißen können 💪",
+    price: "ab 2.000 €",
     note: "",
     features: [
-      "Ästhetische Behandlungen",
-      "Implantat-Beratung",
-      "Individuelle Betreuung",
-      "Exklusive Behandlungszeiten",
+      "Feste Zähne wie echte",
+      "Langlebige Lösung",
+      "Mehr Lebensqualität",
+      "Individuelle Planung",
     ],
-    highlighted: false,
+    highlighted: true,
+  },
+  {
+    name: "Bleaching",
+    subtitle: "Ein Lächeln, das auffällt 😁",
+    price: "ab 250 €",
+    note: "",
+    features: [
+      "Strahlend weiße Zähne",
+      "Schnelle Behandlung",
+      "Sichtbare Ergebnisse",
+      "Schonende Methode",
+    ],
+    highlighted: true,
   },
 ];
 
@@ -56,7 +59,7 @@ export function Pricing({ onOpenModal }: PricingProps) {
         <AnimatedSection>
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Transparente Preise
+              Preise & Behandlungen
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">
               Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.
@@ -75,13 +78,15 @@ export function Pricing({ onOpenModal }: PricingProps) {
                     : "border-border/50 hover:-translate-y-1 hover:border-primary/30 hover:shadow-md"
                 )}
               >
-                {plan.highlighted && (
-                  <div className="absolute top-0 right-0 left-0 bg-primary py-1.5 text-center text-sm font-medium text-primary-foreground">
-                    Beliebteste Wahl
-                  </div>
-                )}
-                <CardHeader className={cn(plan.highlighted && "pt-10")}>
-                  <CardTitle className="text-xl">{plan.name}</CardTitle>
+                <CardHeader>
+
+                  <p className="text-sm text-primary font-medium mb-2">
+                    {plan.subtitle}
+                  </p>
+
+                  <CardTitle className="text-xl">
+                    {plan.name}
+                  </CardTitle>
                   <div className="mt-4">
                     <span className="text-3xl font-bold text-foreground">
                       {plan.price}
