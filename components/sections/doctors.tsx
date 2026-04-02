@@ -77,6 +77,37 @@ export function Doctors() {
             </AnimatedSection>
           ))}
         </div>
+        {selectedDoctor && (
+          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+
+            <div className="bg-white rounded-2xl p-8 max-w-lg w-full relative">
+
+              <button
+                onClick={() => setSelectedDoctor(null)}
+                className="absolute top-4 right-4 text-gray-500"
+              >
+                ✕
+              </button>
+
+              <h2 className="text-2xl font-bold mb-2">
+                {selectedDoctor.name}
+              </h2>
+
+              <p className="text-primary mb-2">
+                {selectedDoctor.experience}
+              </p>
+
+              <p className="text-sm mb-2">
+                {selectedDoctor.specialty}
+              </p>
+
+              <p className="text-sm text-gray-600">
+                {selectedDoctor.description}
+              </p>
+
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
