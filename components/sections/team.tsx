@@ -33,11 +33,10 @@ const team = [
 
 export function Team() {
   const [selectedMember, setSelectedMember] = useState<typeof team[0] | null>(null);
+
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        setSelectedMember(null);
-      }
+      if (e.key === "Escape") setSelectedMember(null);
     };
 
     if (selectedMember) {
@@ -99,25 +98,26 @@ export function Team() {
       {/* MODAL */}
       {selectedMember && (
         <div
+          className="fixed inset-0 z-50 flex items-center justify-center"
           onClick={() => setSelectedMember(null)}
-          className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center z-50"
         >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm animate-in fade-in duration-300" />
 
+          {/* Modal */}
           <div
             onClick={(e) => e.stopPropagation()}
-            className="bg-white rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl
-animate-in fade-in zoom-in-95 duration-300 ease-out"
+            className="relative z-10 w-full max-w-2xl rounded-2xl bg-white p-8 shadow-2xl animate-in fade-in zoom-in-95 duration-300"
           >
-
-            {/* CLOSE BUTTON */}
+            {/* Close Button */}
             <button
               onClick={() => setSelectedMember(null)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-black text-xl"
+              className="absolute top-4 right-4 text-gray-400 hover:text-black text-xl transition"
             >
               ✕
             </button>
 
-            {/* HEADER */}
+            {/* Header */}
             <div className="flex gap-6 items-center mb-6">
               <Image
                 src={selectedMember.image}
@@ -137,9 +137,8 @@ animate-in fade-in zoom-in-95 duration-300 ease-out"
               </div>
             </div>
 
-            {/* CONTENT */}
+            {/* Content */}
             <div className="space-y-4 text-sm text-gray-700">
-
               <p>{selectedMember.bio}</p>
 
               <div>
@@ -151,9 +150,7 @@ animate-in fade-in zoom-in-95 duration-300 ease-out"
                 <h3 className="font-semibold">Philosophie</h3>
                 <p>{selectedMember.philosophy}</p>
               </div>
-
             </div>
-
           </div>
         </div>
       )}
