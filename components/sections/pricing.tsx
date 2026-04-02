@@ -78,8 +78,15 @@ export function Pricing({ onOpenModal }: PricingProps) {
                     : "border-border/50 hover:-translate-y-1 hover:border-primary/30 hover:shadow-md"
                 )}
               >
-                <CardHeader className={cn(plan.highlighted && "pt-10")}>
-                  <CardTitle className="text-xl">{plan.name}</CardTitle>
+                <CardHeader>
+
+                  <p className="text-sm text-primary font-medium mb-2">
+                    {plan.subtitle}
+                  </p>
+
+                  <CardTitle className="text-xl">
+                    {plan.name}
+                  </CardTitle>
                   <div className="mt-4">
                     <span className="text-3xl font-bold text-foreground">
                       {plan.price}
