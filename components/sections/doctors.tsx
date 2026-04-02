@@ -136,7 +136,10 @@ export function Doctors() {
               {/* Header */}
               <div className="flex gap-6 items-center mb-6">
                 <div
-                  onClick={() => setZoomImage(selectedDoctor.image)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setZoomImage(selectedDoctor.image);
+                  }}
                   className="cursor-zoom-in"
                 >
                   <Image
