@@ -101,8 +101,27 @@ export function Contact() {
             </div>
           </AnimatedSection>
 
-          {/* Clickable Map */}
-          Marktplatz 1
+          {/* REAL GOOGLE MAP */}
+          <AnimatedSection delay={200}>
+            <div className="relative overflow-hidden rounded-xl shadow-lg lg:h-full lg:min-h-[400px]">
+
+              <iframe
+                src="https://www.google.com/maps?q=Marktplatz+1+72160+Horb+am+Neckar+Deutschland&output=embed"
+                className="w-full h-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+
+              {/* CLICK OVERLAY */}
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Marktplatz+1+72160+Horb+am+Neckar+Deutschland"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 cursor-pointer"
+              />
+
+            </div>
+          </AnimatedSection>
         </div>
       </div>
     </section>
