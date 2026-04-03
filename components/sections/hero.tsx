@@ -120,15 +120,35 @@ export function Hero({ onOpenModal }: HeroProps) {
 
           {/* Image */}
           <AnimatedSection className="relative flex-1" delay={200}>
-            <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted shadow-xl transition-shadow duration-300 hover:shadow-2xl lg:aspect-square">
-              <Image
-                src="/images/dentist-patient.png"
-                alt="Zahnarzt behandelt Patientin"
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                priority
-              />
-            </div>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Marktplatz+1+72160+Horb+am+Neckar+Deutschland"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] lg:aspect-square cursor-pointer">
+
+                <Image
+                  src="/images/dentist-patient.png"
+                  alt="Zahnarzt behandelt Patientin"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  priority
+                />
+
+                {/* PREMIUM OVERLAY */}
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition" />
+
+                {/* TEXT OVERLAY */}
+                <div className="absolute bottom-4 left-4 text-white">
+                  <p className="text-sm opacity-80">Standort</p>
+                  <p className="text-lg font-semibold">
+                    Horb am Neckar
+                  </p>
+                </div>
+
+              </div>
+            </a>
 
             <ExperienceBadge />
           </AnimatedSection>
