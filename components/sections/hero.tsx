@@ -49,11 +49,11 @@ function ExperienceBadge() {
             </p>
 
             <p className="text-muted-foreground mb-4">
-              Unser Fokus liegt auf moderner, schmerzfreier Behandlung und einer entspannten Atmosphäre – auch für Angstpatienten.
+              Moderne Technik, schmerzfreie Behandlung und persönliche Betreuung stehen bei uns im Mittelpunkt.
             </p>
 
             <p className="text-muted-foreground">
-              Durch neueste Technologien und kontinuierliche Weiterbildung garantieren wir höchste Qualität.
+              Unser Ziel: nachhaltige Ergebnisse und ein Lächeln, mit dem Sie sich wohlfühlen.
             </p>
 
             <button
@@ -118,37 +118,17 @@ export function Hero({ onOpenModal }: HeroProps) {
             </div>
           </AnimatedSection>
 
-          {/* Image */}
+          {/* Image (NICHT klickbar!) */}
           <AnimatedSection className="relative flex-1" delay={200}>
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=Marktplatz+1+72160+Horb+am+Neckar+Deutschland"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] lg:aspect-square cursor-pointer">
-
-                <Image
-                  src="/images/dentist-patient.png"
-                  alt="Zahnarzt behandelt Patientin"
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  priority
-                />
-
-                {/* PREMIUM OVERLAY */}
-                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition" />
-
-                {/* TEXT OVERLAY */}
-                <div className="absolute bottom-4 left-4 text-white">
-                  <p className="text-sm opacity-80">Standort</p>
-                  <p className="text-lg font-semibold">
-                    Horb am Neckar
-                  </p>
-                </div>
-
-              </div>
-            </a>
+            <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted shadow-xl transition-shadow duration-300 hover:shadow-2xl lg:aspect-square">
+              <Image
+                src="/images/dentist-patient.png"
+                alt="Zahnarzt behandelt Patientin"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                priority
+              />
+            </div>
 
             <ExperienceBadge />
           </AnimatedSection>
