@@ -174,9 +174,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Team",
     teamDesc: "Lernen Sie unser Team kennen",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Praxismanagerin",
+    teamRole2: "Zahnmedizinischer Fachangestellter",
+    teamRole3: "Patientenbetreuung & Empfang",
 
     teamBio1:
       "Anna Müller ist das Herzstück der Praxisorganisation. Mit über 10 Jahren Erfahrung sorgt sie für einen reibungslosen Ablauf und ein angenehmes Erlebnis für jeden Patienten.",
@@ -297,13 +297,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Laura accompanies patients from the first contact to aftercare. She places great value on individual care and a positive experience.",
 
-    teamHobbies1: "Hobbies",
-    teamHobbies2: "Hobbies",
-    teamHobbies3: "Hobbies",
+    teamHobbies1: "Yoga, Traveling, Personal Development",
+    teamHobbies2: "Fitness, Football, Technology",
+    teamHobbies3: "Reading, Organization, Communication",
 
-    teamPhilosophy1: "Philosophy",
-    teamPhilosophy2: "Philosophy",
-    teamPhilosophy3: "Philosophy",
+    teamPhilosophy1:
+      "A good first impression defines the entire treatment experience.",
+
+    teamPhilosophy2:
+      "Trust is built through calmness, precision, and honest communication.",
+
+    teamPhilosophy3:
+      "Every patient deserves personal and empathetic care.",
 
     hobbies: "Hobbies",
     philosophy: "Philosophy",
@@ -403,13 +408,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Laura acompaña a los pacientes desde el primer contacto hasta el seguimiento. Da gran importancia a la atención individual y a una experiencia positiva.",
 
-    teamHobbies1: "Aficiones",
-    teamHobbies2: "Aficiones",
-    teamHobbies3: "Aficiones",
+    teamHobbies1: "Yoga, Viajar, Desarrollo personal",
+    teamHobbies2: "Fitness, Fútbol, Tecnología",
+    teamHobbies3: "Lectura, Organización, Comunicación",
 
-    teamPhilosophy1: "Filosofía",
-    teamPhilosophy2: "Filosofía",
-    teamPhilosophy3: "Filosofía",
+    teamPhilosophy1:
+      "Una buena primera impresión define toda la experiencia del tratamiento.",
+
+    teamPhilosophy2:
+      "La confianza se construye con calma, precisión y comunicación honesta.",
+
+    teamPhilosophy3:
+      "Cada paciente merece una atención personal y empática.",
 
     hobbies: "Aficiones",
     philosophy: "Filosofía",
@@ -508,13 +518,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Laura accompagne les patients du premier contact jusqu’au suivi. Elle accorde une grande importance à un accompagnement personnalisé et à une expérience positive.",
 
-    teamHobbies1: "Loisirs",
-    teamHobbies2: "Loisirs",
-    teamHobbies3: "Loisirs",
+    teamHobbies1: "Yoga, Voyages, Développement personnel",
+    teamHobbies2: "Fitness, Football, Technologie",
+    teamHobbies3: "Lecture, Organisation, Communication",
 
-    teamPhilosophy1: "Philosophie",
-    teamPhilosophy2: "Philosophie",
-    teamPhilosophy3: "Philosophie",
+    teamPhilosophy1:
+      "Une bonne première impression détermine toute l'expérience du traitement.",
+
+    teamPhilosophy2:
+      "La confiance naît du calme, de la précision et d'une communication honnête.",
+
+    teamPhilosophy3:
+      "Chaque patient mérite un accompagnement personnel et empathique.",
 
     hobbies: "Loisirs",
     philosophy: "Philosophie",
@@ -613,13 +628,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Laura accompagna i pazienti dal primo contatto fino al follow-up. Dà grande importanza alla cura individuale e a un'esperienza positiva.",
 
-    teamHobbies1: "Passatempi",
-    teamHobbies2: "Passatempi",
-    teamHobbies3: "Passatempi",
+    teamHobbies1: "Yoga, Viaggi, Crescita personale",
+    teamHobbies2: "Fitness, Calcio, Tecnologia",
+    teamHobbies3: "Lettura, Organizzazione, Comunicazione",
 
-    teamPhilosophy1: "Filosofia",
-    teamPhilosophy2: "Filosofia",
-    teamPhilosophy3: "Filosofia",
+    teamPhilosophy1:
+      "Una buona prima impressione determina l'intera esperienza del trattamento.",
+
+    teamPhilosophy2:
+      "La fiducia nasce da calma, precisione e comunicazione sincera.",
+
+    teamPhilosophy3:
+      "Ogni paziente merita un'assistenza personale ed empatica.",
 
     hobbies: "Passatempi",
     philosophy: "Filosofia",
@@ -718,13 +738,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Laura, hastalara ilk temastan tedavi sonrası sürece kadar eşlik eder. Bireysel ilgi ve olumlu bir deneyime büyük önem verir.",
 
-    teamHobbies1: "Hobiler",
-    teamHobbies2: "Hobiler",
-    teamHobbies3: "Hobiler",
+    teamHobbies1: "Yoga, Seyahat, Kişisel Gelişim",
+    teamHobbies2: "Fitness, Futbol, Teknoloji",
+    teamHobbies3: "Okuma, Organizasyon, İletişim",
 
-    teamPhilosophy1: "Felsefe",
-    teamPhilosophy2: "Felsefe",
-    teamPhilosophy3: "Felsefe",
+    teamPhilosophy1:
+      "İyi bir ilk izlenim, tüm tedavi deneyimini belirler.",
+
+    teamPhilosophy2:
+      "Güven, sakinlik, hassasiyet ve dürüst iletişimle oluşur.",
+
+    teamPhilosophy3:
+      "Her hasta kişisel ve empatik bir bakımı hak eder.",
 
     hobbies: "Hobiler",
     philosophy: "Felsefe",
@@ -823,13 +848,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Лаура сопровождает пациентов от первого контакта до последующего ухода. Она уделяет большое внимание индивидуальному подходу и положительному опыту.",
 
-    teamHobbies1: "Хобби",
-    teamHobbies2: "Хобби",
-    teamHobbies3: "Хобби",
+    teamHobbies1: "Йога, Путешествия, Личностное развитие",
+    teamHobbies2: "Фитнес, Футбол, Технологии",
+    teamHobbies3: "Чтение, Организация, Коммуникация",
 
-    teamPhilosophy1: "Философия",
-    teamPhilosophy2: "Философия",
-    teamPhilosophy3: "Философия",
+    teamPhilosophy1:
+      "Хорошее первое впечатление определяет весь опыт лечения.",
+
+    teamPhilosophy2:
+      "Доверие строится на спокойствии, точности и честном общении.",
+
+    teamPhilosophy3:
+      "Каждый пациент заслуживает индивидуального и чуткого подхода.",
 
     hobbies: "Хобби",
     philosophy: "Философия",
@@ -928,13 +958,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "ترافق لورا المرضى من أول تواصل حتى مرحلة المتابعة. تولي أهمية كبيرة للرعاية الفردية وتجربة إيجابية.",
 
-    teamHobbies1: "الهوايات",
-    teamHobbies2: "الهوايات",
-    teamHobbies3: "الهوايات",
+    teamHobbies1: "اليوغا، السفر، تطوير الذات",
+    teamHobbies2: "اللياقة البدنية، كرة القدم، التكنولوجيا",
+    teamHobbies3: "القراءة، التنظيم، التواصل",
 
-    teamPhilosophy1: "الفلسفة",
-    teamPhilosophy2: "الفلسفة",
-    teamPhilosophy3: "الفلسفة",
+    teamPhilosophy1:
+      "الانطباع الأول الجيد يحدد تجربة العلاج بالكامل.",
+
+    teamPhilosophy2:
+      "الثقة تُبنى من خلال الهدوء والدقة والتواصل الصادق.",
+
+    teamPhilosophy3:
+      "كل مريض يستحق رعاية شخصية وإنسانية.",
 
     hobbies: "الهوايات",
     philosophy: "الفلسفة",
@@ -1033,13 +1068,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "لورا بیماران را از اولین تماس تا مراقبت‌های پس از درمان همراهی می‌کند. او به مراقبت فردی و تجربه‌ای مثبت اهمیت زیادی می‌دهد.",
 
-    teamHobbies1: "علایق",
-    teamHobbies2: "علایق",
-    teamHobbies3: "علایق",
+    teamHobbies1: "یوگا، سفر، توسعه فردی",
+    teamHobbies2: "تناسب اندام، فوتبال، فناوری",
+    teamHobbies3: "مطالعه، سازماندهی، ارتباطات",
 
-    teamPhilosophy1: "فلسفه",
-    teamPhilosophy2: "فلسفه",
-    teamPhilosophy3: "فلسفه",
+    teamPhilosophy1:
+      "یک برداشت اول خوب، کل تجربه درمان را تعیین می‌کند.",
+
+    teamPhilosophy2:
+      "اعتماد از طریق آرامش، دقت و ارتباط صادقانه ایجاد می‌شود.",
+
+    teamPhilosophy3:
+      "هر بیمار شایسته مراقبت شخصی و همدلانه است.",
 
     hobbies: "علایق",
     philosophy: "فلسفه",
@@ -1138,13 +1178,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Laura i shoqëron pacientët nga kontakti i parë deri në kujdesin pas trajtimit. Ajo i kushton shumë rëndësi kujdesit individual dhe një përvoje pozitive.",
 
-    teamHobbies1: "Hobi",
-    teamHobbies2: "Hobi",
-    teamHobbies3: "Hobi",
+    teamHobbies1: "Yoga, Udhëtime, Zhvillim personal",
+    teamHobbies2: "Fitness, Futboll, Teknologji",
+    teamHobbies3: "Lexim, Organizim, Komunikim",
 
-    teamPhilosophy1: "Filozofia",
-    teamPhilosophy2: "Filozofia",
-    teamPhilosophy3: "Filozofia",
+    teamPhilosophy1:
+      "Një përshtypje e mirë e parë përcakton gjithë përvojën e trajtimit.",
+
+    teamPhilosophy2:
+      "Besimi ndërtohet përmes qetësisë, saktësisë dhe komunikimit të sinqertë.",
+
+    teamPhilosophy3:
+      "Çdo pacient meriton kujdes personal dhe empatik.",
 
     hobbies: "Hobi",
     philosophy: "Filozofia",
