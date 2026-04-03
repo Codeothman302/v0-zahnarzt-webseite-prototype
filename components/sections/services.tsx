@@ -43,10 +43,10 @@ export function Services({ onOpenModal }: ServicesProps) {
 
         <AnimatedSection>
           <div className="text-center">
-            <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               Unsere Leistungen
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">
+            <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
               Umfassende zahnmedizinische Versorgung mit modernster Technologie und persönlicher Betreuung.
             </p>
           </div>
@@ -55,30 +55,30 @@ export function Services({ onOpenModal }: ServicesProps) {
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => {
             const Icon = service.icon;
+
             return (
               <AnimatedSection key={service.title} delay={index * 100}>
                 <Card className="group h-full border-0 bg-background shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
                   <CardContent className="pt-6 flex flex-col h-full">
 
-                    <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-primary/10 transition-colors duration-300 group-hover:bg-primary/20">
-                      <Icon className="size-6 text-primary transition-transform duration-300 group-hover:scale-110" />
+                    <div className="mb-4 flex size-12 items-center justify-center rounded-xl bg-primary/10 group-hover:bg-primary/20 transition">
+                      <Icon className="size-6 text-primary group-hover:scale-110 transition" />
                     </div>
 
-                    <h3 className="text-lg font-semibold text-foreground">
+                    <h3 className="text-lg font-semibold">
                       {service.title}
                     </h3>
 
-                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                    <p className="mt-2 text-sm text-muted-foreground">
                       {service.description}
                     </p>
 
-                    {/* 🔥 HIER SIND DIE NEUEN BUTTONS */}
-                    <div className="mt-5 flex flex-col gap-2">
-
+                    {/* ✅ NUR EIN BUTTON */}
+                    <div className="mt-5">
                       <Button
                         variant="outline"
-                        className="rounded-xl"
+                        className="w-full rounded-xl"
                         onClick={() => {
                           document.getElementById("preise")?.scrollIntoView({
                             behavior: "smooth",
@@ -87,14 +87,6 @@ export function Services({ onOpenModal }: ServicesProps) {
                       >
                         Mehr erfahren
                       </Button>
-
-                      <Button
-                        onClick={onOpenModal}
-                        className="rounded-xl"
-                      >
-                        Termin buchen
-                      </Button>
-
                     </div>
 
                   </CardContent>
@@ -110,10 +102,11 @@ export function Services({ onOpenModal }: ServicesProps) {
             <Button
               onClick={onOpenModal}
               size="lg"
-              className="rounded-xl transition-all duration-200 hover:scale-[1.02] hover:shadow-md active:scale-[0.98]"
+              className="rounded-xl transition hover:scale-[1.02]"
             >
               Beratungstermin vereinbaren
             </Button>
+
             <p className="mt-3 text-sm text-muted-foreground">
               Keine Registrierung erforderlich
             </p>
