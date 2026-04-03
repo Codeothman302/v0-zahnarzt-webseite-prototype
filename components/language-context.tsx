@@ -174,9 +174,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Team",
     teamDesc: "Lernen Sie unser Team kennen",
 
-    teamRole1: "Rolle 1",
-    teamRole2: "Rolle 2",
-    teamRole3: "Rolle 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "Bio 1",
     teamBio2: "Bio 2",
@@ -274,12 +274,12 @@ const translations: Record<string, Translation> = {
     teamTitle: "Team",
     teamDesc: "Meet our team",
 
-    teamRole1: "Role 1",
-    teamRole2: "Role 2",
-    teamRole3: "Role 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
-    teamBio1: "Bio 1",
     teamBio2: "Bio 2",
+    teamBio1: "Bio 1",
     teamBio3: "Bio 3",
 
     teamHobbies1: "Hobbies",
@@ -375,9 +375,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Equipo",
     teamDesc: "Conoce a nuestro equipo",
 
-    teamRole1: "Rol 1",
-    teamRole2: "Rol 2",
-    teamRole3: "Rol 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "Biografía 1",
     teamBio2: "Biografía 2",
@@ -475,9 +475,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Équipe",
     teamDesc: "Rencontrez notre équipe",
 
-    teamRole1: "Rôle 1",
-    teamRole2: "Rôle 2",
-    teamRole3: "Rôle 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "Biographie 1",
     teamBio2: "Biographie 2",
@@ -575,9 +575,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Team",
     teamDesc: "Scopri il nostro team",
 
-    teamRole1: "Ruolo 1",
-    teamRole2: "Ruolo 2",
-    teamRole3: "Ruolo 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "Biografia 1",
     teamBio2: "Biografia 2",
@@ -675,9 +675,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Ekibimiz",
     teamDesc: "Ekibimizle tanışın",
 
-    teamRole1: "Rol 1",
-    teamRole2: "Rol 2",
-    teamRole3: "Rol 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "Biyografi 1",
     teamBio2: "Biyografi 2",
@@ -775,9 +775,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Команда",
     teamDesc: "Познакомьтесь с нашей командой",
 
-    teamRole1: "Роль 1",
-    teamRole2: "Роль 2",
-    teamRole3: "Роль 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "Биография 1",
     teamBio2: "Биография 2",
@@ -875,9 +875,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "الفريق",
     teamDesc: "تعرّف على فريقنا",
 
-    teamRole1: "الدور 1",
-    teamRole2: "الدور 2",
-    teamRole3: "الدور 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "نبذة 1",
     teamBio2: "نبذة 2",
@@ -975,9 +975,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "تیم",
     teamDesc: "با تیم ما آشنا شوید",
 
-    teamRole1: "نقش 1",
-    teamRole2: "نقش 2",
-    teamRole3: "نقش 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "بیوگرافی 1",
     teamBio2: "بیوگرافی 2",
@@ -1075,9 +1075,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Ekipi",
     teamDesc: "Njihuni me ekipin tonë",
 
-    teamRole1: "Roli 1",
-    teamRole2: "Roli 2",
-    teamRole3: "Roli 3",
+    teamRole1: "",
+    teamRole2: "",
+    teamRole3: "",
 
     teamBio1: "Biografia 1",
     teamBio2: "Biografia 2",
