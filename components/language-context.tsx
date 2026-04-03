@@ -8,15 +8,18 @@ type Translation = {
   prices: string;
   contact: string;
   book: string;
+
   title1: string;
   title2: string;
   description: string;
   points: string[];
+
   heroButton: string;
   heroSubtext: string;
   happyPatients: string;
   location: string;
   heroImageAlt: string;
+
   experienceYears: string;
   experienceLabel: string;
   experienceModalTitle: string;
@@ -24,6 +27,23 @@ type Translation = {
   experienceModalText2: string;
   experienceModalText3: string;
   close: string;
+
+  // 🔥 HIER NEU (SEHR WICHTIG)
+  servicesTitle: string;
+  servicesDesc: string;
+
+  service1Title: string;
+  service1Desc: string;
+  service2Title: string;
+  service2Desc: string;
+  service3Title: string;
+  service3Desc: string;
+  service4Title: string;
+  service4Desc: string;
+
+  learnMore: string;
+  ctaConsultation: string;
+  noRegistration: string;
 };
 
 type LanguageContextType = {

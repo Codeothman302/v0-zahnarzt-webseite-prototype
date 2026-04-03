@@ -1,5 +1,6 @@
 "use client";
 
+import { useLanguage } from "@/components/language-context";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { AnimatedSection } from "@/components/ui/animated-section";
@@ -9,55 +10,55 @@ interface ServicesProps {
   onOpenModal: () => void;
 }
 
-const services = [
-  {
-    icon: HeartPulse,
-    title: "Implantate",
-    description:
-      "Feste Zähne für ein sicheres Lächeln. Dauerhafte Lösungen mit modernster Technik.",
-  },
-  {
-    icon: Sparkles,
-    title: "Professionelle Zahnreinigung",
-    description:
-      "Für ein frisches Gefühl und gesunde Zähne. Prävention auf höchstem Niveau.",
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Kieferorthopädie",
-    description:
-      "Schonende Zahnkorrektur für ein harmonisches und perfektes Lächeln.",
-  },
-  {
-    icon: Smile,
-    title: "Ästhetische Zahnmedizin",
-    description:
-      "Für ein Lächeln, das Sie gerne zeigen. Bleaching, Veneers und mehr.",
-  },
-];
-
 export function Services({ onOpenModal }: ServicesProps) {
+  const { t } = useLanguage();
+
+  const services = [
+    {
+      icon: HeartPulse,
+      title: t.service1Title,
+      description: t.service1Desc,
+    },
+    {
+      icon: Sparkles,
+      title: t.service2Title,
+      description: t.service2Desc,
+    },
+    {
+      icon: ClipboardCheck,
+      title: t.service3Title,
+      description: t.service3Desc,
+    },
+    {
+      icon: Smile,
+      title: t.service4Title,
+      description: t.service4Desc,
+    },
+  ];
+
   return (
     <section id="leistungen" className="bg-card py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
+        {/* HEADER */}
         <AnimatedSection>
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Unsere Leistungen
+              {t.servicesTitle}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-              Umfassende zahnmedizinische Versorgung mit modernster Technologie und persönlicher Betreuung.
+              {t.servicesDesc}
             </p>
           </div>
         </AnimatedSection>
 
+        {/* CARDS */}
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => {
             const Icon = service.icon;
 
             return (
-              <AnimatedSection key={service.title} delay={index * 100}>
+              <AnimatedSection key={index} delay={index * 100}>
                 <Card className="group h-full border-0 bg-background shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
                   <CardContent className="pt-6 flex flex-col h-full">
@@ -74,7 +75,6 @@ export function Services({ onOpenModal }: ServicesProps) {
                       {service.description}
                     </p>
 
-                    {/* ✅ NUR EIN BUTTON */}
                     <div className="mt-5">
                       <Button
                         variant="outline"
@@ -85,7 +85,7 @@ export function Services({ onOpenModal }: ServicesProps) {
                           });
                         }}
                       >
-                        Mehr erfahren
+                        {t.learnMore}
                       </Button>
                     </div>
 
@@ -97,6 +97,7 @@ export function Services({ onOpenModal }: ServicesProps) {
           })}
         </div>
 
+        {/* CTA */}
         <AnimatedSection delay={400}>
           <div className="mt-12 text-center">
             <Button
@@ -104,11 +105,11 @@ export function Services({ onOpenModal }: ServicesProps) {
               size="lg"
               className="rounded-xl transition hover:scale-[1.02]"
             >
-              Beratungstermin vereinbaren
+              {t.ctaConsultation}
             </Button>
 
             <p className="mt-3 text-sm text-muted-foreground">
-              Keine Registrierung erforderlich
+              {t.noRegistration}
             </p>
           </div>
         </AnimatedSection>
