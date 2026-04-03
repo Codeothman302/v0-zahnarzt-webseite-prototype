@@ -1,3 +1,4 @@
+import { LanguageProvider } from "@/components/language-context";
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
@@ -40,13 +41,17 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="de">
       <body className={`${inter.variable} font-sans antialiased`}>
-        {children}
+
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
+
         <VoiceflowChat />
         <Analytics />
       </body>
