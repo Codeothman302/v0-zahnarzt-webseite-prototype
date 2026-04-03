@@ -8,7 +8,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Adresse",
-    value: "Neckarstraße 12, 72160 Horb am Neckar",
+    value: "Marktplatz 1, 72160 Horb am Neckar",
   },
   {
     icon: Phone,
@@ -101,19 +101,25 @@ export function Contact() {
             </div>
           </AnimatedSection>
 
-          {/* Map placeholder */}
+          {/* REAL GOOGLE MAP */}
           <AnimatedSection delay={200}>
-            <div className="relative aspect-video overflow-hidden rounded-xl bg-muted lg:aspect-auto lg:h-full lg:min-h-[400px]">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="mx-auto size-12 text-muted-foreground/50" />
-                  <p className="mt-4 text-sm text-muted-foreground">
-                    Neckarstraße 12
-                    <br />
-                    72160 Horb am Neckar
-                  </p>
-                </div>
-              </div>
+            <div className="relative overflow-hidden rounded-xl shadow-lg lg:h-full lg:min-h-[400px]">
+
+              <iframe
+                src="https://www.google.com/maps?q=Marktplatz+1+72160+Horb+am+Neckar+Deutschland&output=embed"
+                className="w-full h-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+
+              {/* CLICK OVERLAY */}
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Marktplatz+1+72160+Horb+am+Neckar+Deutschland"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0 cursor-pointer"
+              />
+
             </div>
           </AnimatedSection>
         </div>
