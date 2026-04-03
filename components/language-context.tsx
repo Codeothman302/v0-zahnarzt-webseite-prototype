@@ -187,13 +187,18 @@ const translations: Record<string, Translation> = {
     teamBio3:
       "Laura begleitet Patienten vom ersten Kontakt bis zur Nachsorge. Sie legt großen Wert auf individuelle Betreuung und ein positives Erlebnis.",
 
-    teamHobbies1: "Hobbys",
-    teamHobbies2: "Hobbys",
-    teamHobbies3: "Hobbys",
+    teamHobbies1: "Yoga, Reisen, Persönlichkeitsentwicklung",
+    teamHobbies2: "Fitness, Fußball, Technik",
+    teamHobbies3: "Lesen, Organisation, Kommunikation",
 
-    teamPhilosophy1: "Philosophie",
-    teamPhilosophy2: "Philosophie",
-    teamPhilosophy3: "Philosophie",
+    teamPhilosophy1:
+      "Ein guter erster Eindruck entscheidet über das gesamte Behandlungserlebnis.",
+
+    teamPhilosophy2:
+      "Vertrauen entsteht durch Ruhe, Präzision und ehrliche Kommunikation.",
+
+    teamPhilosophy3:
+      "Jeder Patient verdient eine persönliche und einfühlsame Betreuung.",
 
     hobbies: "Hobbys",
     philosophy: "Philosophie",
@@ -283,9 +288,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio2: "Bio 2",
-    teamBio1: "Bio 1",
-    teamBio3: "Bio 3",
+    teamBio1:
+      "Anna Müller is the heart of the practice organization. With over 10 years of experience, she ensures smooth operations and a pleasant experience for every patient.",
+
+    teamBio2:
+      "Mehmet supports the medical team with precision and calmness. His friendly nature takes away patients' nervousness and builds trust.",
+
+    teamBio3:
+      "Laura accompanies patients from the first contact to aftercare. She places great value on individual care and a positive experience.",
 
     teamHobbies1: "Hobbies",
     teamHobbies2: "Hobbies",
@@ -384,9 +394,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "Biografía 1",
-    teamBio2: "Biografía 2",
-    teamBio3: "Biografía 3",
+    teamBio1:
+      "Anna Müller es el corazón de la organización de la clínica. Con más de 10 años de experiencia, garantiza un funcionamiento fluido y una experiencia agradable para cada paciente.",
+
+    teamBio2:
+      "Mehmet apoya al equipo médico con precisión y calma. Su carácter amable reduce el nerviosismo de los pacientes y genera confianza.",
+
+    teamBio3:
+      "Laura acompaña a los pacientes desde el primer contacto hasta el seguimiento. Da gran importancia a la atención individual y a una experiencia positiva.",
 
     teamHobbies1: "Aficiones",
     teamHobbies2: "Aficiones",
@@ -484,9 +499,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "Biographie 1",
-    teamBio2: "Biographie 2",
-    teamBio3: "Biographie 3",
+    teamBio1:
+      "Anna Müller est le cœur de l’organisation du cabinet. Avec plus de 10 ans d’expérience, elle assure un déroulement fluide et une تجربة agréable pour chaque patient.",
+
+    teamBio2:
+      "Mehmet soutient l’équipe médicale avec précision et calme. Sa nature amicale réduit l’anxiété des patients et crée de la confiance.",
+
+    teamBio3:
+      "Laura accompagne les patients du premier contact jusqu’au suivi. Elle accorde une grande importance à un accompagnement personnalisé et à une expérience positive.",
 
     teamHobbies1: "Loisirs",
     teamHobbies2: "Loisirs",
@@ -584,9 +604,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "Biografia 1",
-    teamBio2: "Biografia 2",
-    teamBio3: "Biografia 3",
+    teamBio1:
+      "Anna Müller è il cuore dell'organizzazione dello studio. Con oltre 10 anni di esperienza, garantisce un flusso di lavoro senza intoppi e un'esperienza piacevole per ogni paziente.",
+
+    teamBio2:
+      "Mehmet supporta il team medico con precisione e calma. Il suo modo amichevole riduce la tensione dei pazienti e crea fiducia.",
+
+    teamBio3:
+      "Laura accompagna i pazienti dal primo contatto fino al follow-up. Dà grande importanza alla cura individuale e a un'esperienza positiva.",
 
     teamHobbies1: "Passatempi",
     teamHobbies2: "Passatempi",
@@ -684,9 +709,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "Biyografi 1",
-    teamBio2: "Biyografi 2",
-    teamBio3: "Biyografi 3",
+    teamBio1:
+      "Anna Müller, muayene organizasyonunun kalbidir. 10 yılı aşkın deneyimiyle sorunsuz bir süreç ve her hasta için keyifli bir deneyim sağlar.",
+
+    teamBio2:
+      "Mehmet, doktor ekibini hassasiyet ve sakinlikle destekler. Samimi tavrı hastaların gerginliğini azaltır ve güven oluşturur.",
+
+    teamBio3:
+      "Laura, hastalara ilk temastan tedavi sonrası sürece kadar eşlik eder. Bireysel ilgi ve olumlu bir deneyime büyük önem verir.",
 
     teamHobbies1: "Hobiler",
     teamHobbies2: "Hobiler",
@@ -784,9 +814,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "Биография 1",
-    teamBio2: "Биография 2",
-    teamBio3: "Биография 3",
+    teamBio1:
+      "Анна Мюллер — сердце организации клиники. Более 10 лет опыта позволяют ей обеспечивать бесперебойную работу и комфорт для каждого пациента.",
+
+    teamBio2:
+      "Мехмет поддерживает медицинскую команду с точностью и спокойствием. Его дружелюбие снижает тревожность пациентов и создает доверие.",
+
+    teamBio3:
+      "Лаура сопровождает пациентов от первого контакта до последующего ухода. Она уделяет большое внимание индивидуальному подходу и положительному опыту.",
 
     teamHobbies1: "Хобби",
     teamHobbies2: "Хобби",
@@ -884,9 +919,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "نبذة 1",
-    teamBio2: "نبذة 2",
-    teamBio3: "نبذة 3",
+    teamBio1:
+      "آنا مولر هي القلب النابض لتنظيم العيادة. بخبرة تزيد عن 10 سنوات، تضمن سير العمل بسلاسة وتجربة مريحة لكل مريض.",
+
+    teamBio2:
+      "يدعم محمد الفريق الطبي بدقة وهدوء. طبيعته الودية تقلل من توتر المرضى وتبني الثقة.",
+
+    teamBio3:
+      "ترافق لورا المرضى من أول تواصل حتى مرحلة المتابعة. تولي أهمية كبيرة للرعاية الفردية وتجربة إيجابية.",
 
     teamHobbies1: "الهوايات",
     teamHobbies2: "الهوايات",
@@ -984,9 +1024,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "بیوگرافی 1",
-    teamBio2: "بیوگرافی 2",
-    teamBio3: "بیوگرافی 3",
+    teamBio1:
+      "آنا مولر قلب تپنده سازمان‌دهی کلینیک است. با بیش از ۱۰ سال تجربه، روندی روان و تجربه‌ای دلپذیر برای هر بیمار فراهم می‌کند.",
+
+    teamBio2:
+      "محمد با دقت و آرامش از تیم پزشکی حمایت می‌کند. رفتار دوستانه او استرس بیماران را کاهش داده و اعتماد ایجاد می‌کند.",
+
+    teamBio3:
+      "لورا بیماران را از اولین تماس تا مراقبت‌های پس از درمان همراهی می‌کند. او به مراقبت فردی و تجربه‌ای مثبت اهمیت زیادی می‌دهد.",
 
     teamHobbies1: "علایق",
     teamHobbies2: "علایق",
@@ -1084,9 +1129,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "Biografia 1",
-    teamBio2: "Biografia 2",
-    teamBio3: "Biografia 3",
+    teamBio1:
+      "Anna Müller është zemra e organizimit të klinikës. Me mbi 10 vite përvojë, ajo siguron një rrjedhë të qetë dhe një përvojë të këndshme për çdo pacient.",
+
+    teamBio2:
+      "Mehmet mbështet ekipin mjekësor me saktësi dhe qetësi. Sjellja e tij miqësore ul nervozizmin e pacientëve dhe krijon besim.",
+
+    teamBio3:
+      "Laura i shoqëron pacientët nga kontakti i parë deri në kujdesin pas trajtimit. Ajo i kushton shumë rëndësi kujdesit individual dhe një përvoje pozitive.",
 
     teamHobbies1: "Hobi",
     teamHobbies2: "Hobi",
