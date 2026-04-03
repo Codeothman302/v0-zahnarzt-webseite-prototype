@@ -67,6 +67,29 @@ type Translation = {
 
   hobbies: string;
   philosophy: string;
+  // Doctors
+  doctorsTitle: string;
+  doctorsDesc: string;
+
+  doctor1Name: string;
+  doctor1Specialty: string;
+  doctor1Experience: string;
+  doctor1Desc: string;
+  doctor1Focus1: string;
+  doctor1Focus2: string;
+  doctor1Focus3: string;
+  doctor1Philosophy: string;
+
+  doctor2Name: string;
+  doctor2Specialty: string;
+  doctor2Experience: string;
+  doctor2Desc: string;
+  doctor2Focus1: string;
+  doctor2Focus2: string;
+  doctor2Focus3: string;
+  doctor2Philosophy: string;
+
+  focusAreas: string;
 };
 
 type LanguageContextType = {
@@ -165,6 +188,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Hobbys",
     philosophy: "Philosophie",
+    doctorsTitle: "Ihre Zahnärzte",
+    doctorsDesc: "Erfahrene Spezialisten mit Leidenschaft für moderne Zahnmedizin und Patientenwohl",
+
+    doctor1Name: "Dr. med. dent. Lukas Weber",
+    doctor1Specialty: "Implantologie & Ästhetische Zahnmedizin",
+    doctor1Experience: "12 Jahre Erfahrung",
+    doctor1Desc:
+      "Spezialisiert auf moderne Implantologie mit minimalinvasiven Techniken. Sein ruhiger Behandlungsstil sorgt für entspannte Patienten.",
+    doctor1Focus1: "Implantologie",
+    doctor1Focus2: "Ästhetische Zahnmedizin",
+    doctor1Focus3: "Minimalinvasive Verfahren",
+    doctor1Philosophy:
+      "Der Fokus liegt auf einer ruhigen, vertrauensvollen Behandlung und maximalem Komfort für den Patienten.",
+
+    doctor2Name: "Dr. med. dent. Sarah Klein",
+    doctor2Specialty: "Kieferorthopädie & Prävention",
+    doctor2Experience: "9 Jahre Erfahrung",
+    doctor2Desc:
+      "Expertin für sanfte Zahnkorrekturen bei Kindern und Erwachsenen. Ihr Fokus liegt auf Vertrauen und individueller Betreuung.",
+    doctor2Focus1: "Kieferorthopädie",
+    doctor2Focus2: "Prävention",
+    doctor2Focus3: "Individuelle Betreuung",
+    doctor2Philosophy:
+      "Eine erfolgreiche Behandlung beginnt mit Vertrauen, Geduld und einer persönlichen Begleitung auf Augenhöhe.",
+
+    focusAreas: "Schwerpunkte",
   },
 
   en: {
@@ -236,6 +285,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Hobbies",
     philosophy: "Philosophy",
+    doctorsTitle: "Our Dentists",
+    doctorsDesc: "Experienced specialists with a passion for modern dentistry and patient well-being",
+
+    doctor1Name: "Dr. med. dent. Lukas Weber",
+    doctor1Specialty: "Implantology & Cosmetic Dentistry",
+    doctor1Experience: "12 years of experience",
+    doctor1Desc:
+      "Specialized in modern implantology using minimally invasive techniques. His calm treatment style helps patients feel at ease.",
+    doctor1Focus1: "Implantology",
+    doctor1Focus2: "Cosmetic Dentistry",
+    doctor1Focus3: "Minimally Invasive Procedures",
+    doctor1Philosophy:
+      "The focus is on calm, trustworthy treatment and maximum comfort for the patient.",
+
+    doctor2Name: "Dr. med. dent. Sarah Klein",
+    doctor2Specialty: "Orthodontics & Prevention",
+    doctor2Experience: "9 years of experience",
+    doctor2Desc:
+      "An expert in gentle tooth correction for children and adults. Her focus is on trust and individualized care.",
+    doctor2Focus1: "Orthodontics",
+    doctor2Focus2: "Prevention",
+    doctor2Focus3: "Individual Care",
+    doctor2Philosophy:
+      "Successful treatment begins with trust, patience, and personal support at eye level.",
+
+    focusAreas: "Focus Areas",
   },
 
   es: {
@@ -308,6 +383,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Aficiones",
     philosophy: "Filosofía",
+    doctorsTitle: "Sus dentistas",
+    doctorsDesc: "Especialistas con experiencia y pasión por la odontología moderna y el bienestar del paciente",
+
+    doctor1Name: "Dr. med. dent. Lukas Weber",
+    doctor1Specialty: "Implantología & Odontología estética",
+    doctor1Experience: "12 años de experiencia",
+    doctor1Desc:
+      "Especializado en implantología moderna con técnicas mínimamente invasivas. Su estilo tranquilo garantiza pacientes relajados.",
+    doctor1Focus1: "Implantología",
+    doctor1Focus2: "Odontología estética",
+    doctor1Focus3: "Procedimientos mínimamente invasivos",
+    doctor1Philosophy:
+      "El enfoque está en un tratamiento tranquilo basado en la confianza y el máximo confort del paciente.",
+
+    doctor2Name: "Dr. med. dent. Sarah Klein",
+    doctor2Specialty: "Ortodoncia & Prevención",
+    doctor2Experience: "9 años de experiencia",
+    doctor2Desc:
+      "Experta en corrección dental suave para niños y adultos con enfoque en la confianza y atención personalizada.",
+    doctor2Focus1: "Ortodoncia",
+    doctor2Focus2: "Prevención",
+    doctor2Focus3: "Atención personalizada",
+    doctor2Philosophy:
+      "Un tratamiento exitoso comienza con confianza, paciencia y acompañamiento personal.",
+
+    focusAreas: "Áreas de enfoque",
   },
 
   fr: {
@@ -379,6 +480,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Loisirs",
     philosophy: "Philosophie",
+    doctorsTitle: "Vos dentistes",
+    doctorsDesc: "Des spécialistes expérimentés passionnés par la dentisterie moderne et le bien-être des patients",
+
+    doctor1Name: "Dr. med. dent. Lukas Weber",
+    doctor1Specialty: "Implantologie & Dentisterie esthétique",
+    doctor1Experience: "12 ans d'expérience",
+    doctor1Desc:
+      "Spécialisé en implantologie moderne avec des techniques mini-invasives. Son approche calme assure des patients détendus.",
+    doctor1Focus1: "Implantologie",
+    doctor1Focus2: "Dentisterie esthétique",
+    doctor1Focus3: "Techniques mini-invasives",
+    doctor1Philosophy:
+      "L'accent est mis sur un traitement calme basé sur la confiance et un confort maximal pour le patient.",
+
+    doctor2Name: "Dr. med. dent. Sarah Klein",
+    doctor2Specialty: "Orthodontie & Prévention",
+    doctor2Experience: "9 ans d'expérience",
+    doctor2Desc:
+      "Experte en correction douce des dents pour enfants et adultes avec un focus sur la confiance et le suivi personnalisé.",
+    doctor2Focus1: "Orthodontie",
+    doctor2Focus2: "Prévention",
+    doctor2Focus3: "Suivi personnalisé",
+    doctor2Philosophy:
+      "Un traitement réussi commence par la confiance, la patience et un accompagnement personnalisé.",
+
+    focusAreas: "Domaines clés",
   },
 
   it: {
@@ -450,6 +577,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Passatempi",
     philosophy: "Filosofia",
+    doctorsTitle: "I vostri dentisti",
+    doctorsDesc: "Specialisti esperti con passione per l'odontoiatria moderna e il benessere dei pazienti",
+
+    doctor1Name: "Dr. med. dent. Lukas Weber",
+    doctor1Specialty: "Implantologia & Odontoiatria estetica",
+    doctor1Experience: "12 anni di esperienza",
+    doctor1Desc:
+      "Specializzato in implantologia moderna con tecniche minimamente invasive. Il suo stile calmo garantisce pazienti rilassati.",
+    doctor1Focus1: "Implantologia",
+    doctor1Focus2: "Odontoiatria estetica",
+    doctor1Focus3: "Procedure minimamente invasive",
+    doctor1Philosophy:
+      "L'attenzione è su un trattamento calmo e basato sulla fiducia con il massimo comfort per il paziente.",
+
+    doctor2Name: "Dr. med. dent. Sarah Klein",
+    doctor2Specialty: "Ortodonzia & Prevenzione",
+    doctor2Experience: "9 anni di esperienza",
+    doctor2Desc:
+      "Esperta in correzione dentale delicata per bambini e adulti con focus su fiducia e cura personalizzata.",
+    doctor2Focus1: "Ortodonzia",
+    doctor2Focus2: "Prevenzione",
+    doctor2Focus3: "Cura personalizzata",
+    doctor2Philosophy:
+      "Un trattamento di successo inizia con fiducia, pazienza e supporto personale.",
+
+    focusAreas: "Aree di specializzazione",
   },
 
   tr: {
@@ -521,6 +674,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Hobiler",
     philosophy: "Felsefe",
+    doctorsTitle: "Diş Hekimleriniz",
+    doctorsDesc: "Modern diş hekimliği ve hasta memnuniyetine tutkuyla bağlı deneyimli uzmanlar",
+
+    doctor1Name: "Dr. med. dent. Lukas Weber",
+    doctor1Specialty: "İmplantoloji & Estetik Diş Hekimliği",
+    doctor1Experience: "12 yıl deneyim",
+    doctor1Desc:
+      "Minimal invaziv tekniklerle modern implantoloji konusunda uzmanlaşmıştır. Sakin tedavi tarzı hastaların rahatlamasını sağlar.",
+    doctor1Focus1: "İmplantoloji",
+    doctor1Focus2: "Estetik Diş Hekimliği",
+    doctor1Focus3: "Minimal İnvaziv Yöntemler",
+    doctor1Philosophy:
+      "Odak noktası, güvene dayalı sakin bir tedavi ve maksimum hasta konforudur.",
+
+    doctor2Name: "Dr. med. dent. Sarah Klein",
+    doctor2Specialty: "Ortodonti & Önleyici Tedavi",
+    doctor2Experience: "9 yıl deneyim",
+    doctor2Desc:
+      "Çocuklar ve yetişkinler için nazik diş düzeltme konusunda uzmandır. Güven ve bireysel bakım odaklıdır.",
+    doctor2Focus1: "Ortodonti",
+    doctor2Focus2: "Önleyici Tedavi",
+    doctor2Focus3: "Bireysel Bakım",
+    doctor2Philosophy:
+      "Başarılı bir tedavi, güven, sabır ve kişisel destekle başlar.",
+
+    focusAreas: "Uzmanlık Alanları",
   },
 
   ru: {
@@ -592,6 +771,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Хобби",
     philosophy: "Философия",
+    doctorsTitle: "Ваши стоматологи",
+    doctorsDesc: "Опытные специалисты с любовью к современной стоматологии и заботе о пациентах",
+
+    doctor1Name: "Д-р Лукас Вебер",
+    doctor1Specialty: "Имплантология & Эстетическая стоматология",
+    doctor1Experience: "12 лет опыта",
+    doctor1Desc:
+      "Специалист по современной имплантологии с минимально инвазивными методами. Его спокойный подход помогает пациентам расслабиться.",
+    doctor1Focus1: "Имплантология",
+    doctor1Focus2: "Эстетическая стоматология",
+    doctor1Focus3: "Минимально инвазивные методы",
+    doctor1Philosophy:
+      "Основное внимание уделяется спокойному лечению на основе доверия и максимальному комфорту пациента.",
+
+    doctor2Name: "Д-р Сара Кляйн",
+    doctor2Specialty: "Ортодонтия & Профилактика",
+    doctor2Experience: "9 лет опыта",
+    doctor2Desc:
+      "Эксперт по мягкой коррекции зубов для детей и взрослых с упором на доверие и индивидуальный подход.",
+    doctor2Focus1: "Ортодонтия",
+    doctor2Focus2: "Профилактика",
+    doctor2Focus3: "Индивидуальный подход",
+    doctor2Philosophy:
+      "Успешное лечение начинается с доверия, терпения и личного сопровождения.",
+
+    focusAreas: "Основные направления",
   },
 
   ar: {
@@ -663,6 +868,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "الهوايات",
     philosophy: "الفلسفة",
+    doctorsTitle: "أطباء الأسنان",
+    doctorsDesc: "متخصصون ذوو خبرة وشغف بطب الأسنان الحديث وراحة المرضى",
+
+    doctor1Name: "د. لوكاس ويبر",
+    doctor1Specialty: "زراعة الأسنان & طب الأسنان التجميلي",
+    doctor1Experience: "12 سنة خبرة",
+    doctor1Desc:
+      "متخصص في زراعة الأسنان الحديثة باستخدام تقنيات قليلة التوغل. أسلوبه الهادئ يضمن راحة المرضى.",
+    doctor1Focus1: "زراعة الأسنان",
+    doctor1Focus2: "طب الأسنان التجميلي",
+    doctor1Focus3: "إجراءات قليلة التوغل",
+    doctor1Philosophy:
+      "التركيز على علاج هادئ قائم على الثقة وأقصى راحة للمريض.",
+
+    doctor2Name: "د. سارة كلاين",
+    doctor2Specialty: "تقويم الأسنان & الوقاية",
+    doctor2Experience: "9 سنوات خبرة",
+    doctor2Desc:
+      "خبيرة في تصحيح الأسنان بلطف للأطفال والبالغين مع التركيز على الثقة والرعاية الفردية.",
+    doctor2Focus1: "تقويم الأسنان",
+    doctor2Focus2: "الوقاية",
+    doctor2Focus3: "رعاية فردية",
+    doctor2Philosophy:
+      "العلاج الناجح يبدأ بالثقة والصبر والدعم الشخصي.",
+
+    focusAreas: "مجالات التركيز",
   },
 
   fa: {
@@ -734,6 +965,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "علایق",
     philosophy: "فلسفه",
+    doctorsTitle: "دندانپزشکان شما",
+    doctorsDesc: "متخصصان با تجربه با اشتیاق به دندانپزشکی مدرن و رفاه بیماران",
+
+    doctor1Name: "دکتر لوکاس وبر",
+    doctor1Specialty: "ایمپلنتولوژی & دندانپزشکی زیبایی",
+    doctor1Experience: "۱۲ سال تجربه",
+    doctor1Desc:
+      "متخصص در ایمپلنتولوژی مدرن با استفاده از تکنیک‌های کم‌تهاجمی. سبک آرام او باعث آرامش بیماران می‌شود.",
+    doctor1Focus1: "ایمپلنتولوژی",
+    doctor1Focus2: "دندانپزشکی زیبایی",
+    doctor1Focus3: "روش‌های کم‌تهاجمی",
+    doctor1Philosophy:
+      "تمرکز بر درمانی آرام، مبتنی بر اعتماد و حداکثر راحتی برای بیمار است.",
+
+    doctor2Name: "دکتر سارا کلاین",
+    doctor2Specialty: "ارتودنسی & پیشگیری",
+    doctor2Experience: "۹ سال تجربه",
+    doctor2Desc:
+      "متخصص در اصلاح ملایم دندان‌ها برای کودکان و بزرگسالان با تمرکز بر اعتماد و مراقبت فردی.",
+    doctor2Focus1: "ارتودنسی",
+    doctor2Focus2: "پیشگیری",
+    doctor2Focus3: "مراقبت فردی",
+    doctor2Philosophy:
+      "درمان موفق با اعتماد، صبر و همراهی شخصی آغاز می‌شود.",
+
+    focusAreas: "حوزه‌های تخصصی",
   },
 
   sq: {
@@ -805,6 +1062,32 @@ const translations: Record<string, Translation> = {
 
     hobbies: "Hobi",
     philosophy: "Filozofia",
+    doctorsTitle: "Dentistët tuaj",
+    doctorsDesc: "Specialistë me përvojë dhe pasion për stomatologjinë moderne dhe mirëqenien e pacientëve",
+
+    doctor1Name: "Dr. med. dent. Lukas Weber",
+    doctor1Specialty: "Implantologji & Stomatologji estetike",
+    doctor1Experience: "12 vite përvojë",
+    doctor1Desc:
+      "I specializuar në implantologji moderne me teknika minimale invazive. Stili i tij i qetë siguron pacientë të relaksuar.",
+    doctor1Focus1: "Implantologji",
+    doctor1Focus2: "Stomatologji estetike",
+    doctor1Focus3: "Procedura minimale invazive",
+    doctor1Philosophy:
+      "Fokusi është në trajtim të qetë, të bazuar në besim dhe komoditet maksimal për pacientin.",
+
+    doctor2Name: "Dr. med. dent. Sarah Klein",
+    doctor2Specialty: "Ortodonci & Parandalim",
+    doctor2Experience: "9 vite përvojë",
+    doctor2Desc:
+      "Eksperte në korrigjimin e butë të dhëmbëve për fëmijë dhe të rritur me fokus në besim dhe kujdes individual.",
+    doctor2Focus1: "Ortodonci",
+    doctor2Focus2: "Parandalim",
+    doctor2Focus3: "Kujdes individual",
+    doctor2Philosophy:
+      "Një trajtim i suksesshëm fillon me besim, durim dhe mbështetje personale.",
+
+    focusAreas: "Fushat kryesore",
   },
 };
 
