@@ -44,6 +44,29 @@ type Translation = {
   learnMore: string;
   ctaConsultation: string;
   noRegistration: string;
+
+  // TEAM
+  teamTitle: string;
+  teamDesc: string;
+
+  teamRole1: string;
+  teamRole2: string;
+  teamRole3: string;
+
+  teamBio1: string;
+  teamBio2: string;
+  teamBio3: string;
+
+  teamHobbies1: string;
+  teamHobbies2: string;
+  teamHobbies3: string;
+
+  teamPhilosophy1: string;
+  teamPhilosophy2: string;
+  teamPhilosophy3: string;
+
+  hobbies: string;
+  philosophy: string;
 };
 
 type LanguageContextType = {
@@ -121,6 +144,27 @@ const translations: Record<string, Translation> = {
     learnMore: "Mehr erfahren",
     ctaConsultation: "Beratungstermin vereinbaren",
     noRegistration: "Keine Registrierung erforderlich",
+    teamTitle: "Team",
+    teamDesc: "Lernen Sie unser Team kennen",
+
+    teamRole1: "Rolle 1",
+    teamRole2: "Rolle 2",
+    teamRole3: "Rolle 3",
+
+    teamBio1: "Bio 1",
+    teamBio2: "Bio 2",
+    teamBio3: "Bio 3",
+
+    teamHobbies1: "Hobbys",
+    teamHobbies2: "Hobbys",
+    teamHobbies3: "Hobbys",
+
+    teamPhilosophy1: "Philosophie",
+    teamPhilosophy2: "Philosophie",
+    teamPhilosophy3: "Philosophie",
+
+    hobbies: "Hobbys",
+    philosophy: "Philosophie",
   },
 
   en: {
@@ -171,6 +215,27 @@ const translations: Record<string, Translation> = {
     learnMore: "Learn more",
     ctaConsultation: "Book consultation",
     noRegistration: "No registration required",
+    teamTitle: "Team",
+    teamDesc: "Meet our team",
+
+    teamRole1: "Role 1",
+    teamRole2: "Role 2",
+    teamRole3: "Role 3",
+
+    teamBio1: "Bio 1",
+    teamBio2: "Bio 2",
+    teamBio3: "Bio 3",
+
+    teamHobbies1: "Hobbies",
+    teamHobbies2: "Hobbies",
+    teamHobbies3: "Hobbies",
+
+    teamPhilosophy1: "Philosophy",
+    teamPhilosophy2: "Philosophy",
+    teamPhilosophy3: "Philosophy",
+
+    hobbies: "Hobbies",
+    philosophy: "Philosophy",
   },
 
   es: {
@@ -222,6 +287,27 @@ const translations: Record<string, Translation> = {
     learnMore: "Más información",
     ctaConsultation: "Reservar consulta",
     noRegistration: "No se requiere registro",
+    teamTitle: "Equipo",
+    teamDesc: "Conoce a nuestro equipo",
+
+    teamRole1: "Rol 1",
+    teamRole2: "Rol 2",
+    teamRole3: "Rol 3",
+
+    teamBio1: "Biografía 1",
+    teamBio2: "Biografía 2",
+    teamBio3: "Biografía 3",
+
+    teamHobbies1: "Aficiones",
+    teamHobbies2: "Aficiones",
+    teamHobbies3: "Aficiones",
+
+    teamPhilosophy1: "Filosofía",
+    teamPhilosophy2: "Filosofía",
+    teamPhilosophy3: "Filosofía",
+
+    hobbies: "Aficiones",
+    philosophy: "Filosofía",
   },
 
   fr: {
@@ -272,6 +358,27 @@ const translations: Record<string, Translation> = {
     learnMore: "En savoir plus",
     ctaConsultation: "Prendre rendez-vous",
     noRegistration: "Aucune inscription requise",
+    teamTitle: "Équipe",
+    teamDesc: "Rencontrez notre équipe",
+
+    teamRole1: "Rôle 1",
+    teamRole2: "Rôle 2",
+    teamRole3: "Rôle 3",
+
+    teamBio1: "Biographie 1",
+    teamBio2: "Biographie 2",
+    teamBio3: "Biographie 3",
+
+    teamHobbies1: "Loisirs",
+    teamHobbies2: "Loisirs",
+    teamHobbies3: "Loisirs",
+
+    teamPhilosophy1: "Philosophie",
+    teamPhilosophy2: "Philosophie",
+    teamPhilosophy3: "Philosophie",
+
+    hobbies: "Loisirs",
+    philosophy: "Philosophie",
   },
 
   it: {
@@ -322,6 +429,27 @@ const translations: Record<string, Translation> = {
     learnMore: "Scopri di più",
     ctaConsultation: "Prenota consulenza",
     noRegistration: "Nessuna registrazione richiesta",
+    teamTitle: "Team",
+    teamDesc: "Scopri il nostro team",
+
+    teamRole1: "Ruolo 1",
+    teamRole2: "Ruolo 2",
+    teamRole3: "Ruolo 3",
+
+    teamBio1: "Biografia 1",
+    teamBio2: "Biografia 2",
+    teamBio3: "Biografia 3",
+
+    teamHobbies1: "Passatempi",
+    teamHobbies2: "Passatempi",
+    teamHobbies3: "Passatempi",
+
+    teamPhilosophy1: "Filosofia",
+    teamPhilosophy2: "Filosofia",
+    teamPhilosophy3: "Filosofia",
+
+    hobbies: "Passatempi",
+    philosophy: "Filosofia",
   },
 
   tr: {
@@ -372,6 +500,27 @@ const translations: Record<string, Translation> = {
     learnMore: "Daha fazla bilgi",
     ctaConsultation: "Danışma al",
     noRegistration: "Kayıt gerekmez",
+    teamTitle: "Ekibimiz",
+    teamDesc: "Ekibimizle tanışın",
+
+    teamRole1: "Rol 1",
+    teamRole2: "Rol 2",
+    teamRole3: "Rol 3",
+
+    teamBio1: "Biyografi 1",
+    teamBio2: "Biyografi 2",
+    teamBio3: "Biyografi 3",
+
+    teamHobbies1: "Hobiler",
+    teamHobbies2: "Hobiler",
+    teamHobbies3: "Hobiler",
+
+    teamPhilosophy1: "Felsefe",
+    teamPhilosophy2: "Felsefe",
+    teamPhilosophy3: "Felsefe",
+
+    hobbies: "Hobiler",
+    philosophy: "Felsefe",
   },
 
   ru: {
@@ -422,6 +571,27 @@ const translations: Record<string, Translation> = {
     learnMore: "Daha fazla bilgi",
     ctaConsultation: "Danışma al",
     noRegistration: "Kayıt gerekmez",
+    teamTitle: "Команда",
+    teamDesc: "Познакомьтесь с нашей командой",
+
+    teamRole1: "Роль 1",
+    teamRole2: "Роль 2",
+    teamRole3: "Роль 3",
+
+    teamBio1: "Биография 1",
+    teamBio2: "Биография 2",
+    teamBio3: "Биография 3",
+
+    teamHobbies1: "Хобби",
+    teamHobbies2: "Хобби",
+    teamHobbies3: "Хобби",
+
+    teamPhilosophy1: "Философия",
+    teamPhilosophy2: "Философия",
+    teamPhilosophy3: "Философия",
+
+    hobbies: "Хобби",
+    philosophy: "Философия",
   },
 
   ar: {
@@ -472,6 +642,27 @@ const translations: Record<string, Translation> = {
     learnMore: "المزيد",
     ctaConsultation: "احجز استشارة",
     noRegistration: "لا حاجة للتسجيل",
+    teamTitle: "الفريق",
+    teamDesc: "تعرّف على فريقنا",
+
+    teamRole1: "الدور 1",
+    teamRole2: "الدور 2",
+    teamRole3: "الدور 3",
+
+    teamBio1: "نبذة 1",
+    teamBio2: "نبذة 2",
+    teamBio3: "نبذة 3",
+
+    teamHobbies1: "الهوايات",
+    teamHobbies2: "الهوايات",
+    teamHobbies3: "الهوايات",
+
+    teamPhilosophy1: "الفلسفة",
+    teamPhilosophy2: "الفلسفة",
+    teamPhilosophy3: "الفلسفة",
+
+    hobbies: "الهوايات",
+    philosophy: "الفلسفة",
   },
 
   fa: {
@@ -522,6 +713,27 @@ const translations: Record<string, Translation> = {
     learnMore: "بیشتر بدانید",
     ctaConsultation: "رزرو مشاوره",
     noRegistration: "بدون نیاز به ثبت‌نام",
+    teamTitle: "تیم",
+    teamDesc: "با تیم ما آشنا شوید",
+
+    teamRole1: "نقش 1",
+    teamRole2: "نقش 2",
+    teamRole3: "نقش 3",
+
+    teamBio1: "بیوگرافی 1",
+    teamBio2: "بیوگرافی 2",
+    teamBio3: "بیوگرافی 3",
+
+    teamHobbies1: "علایق",
+    teamHobbies2: "علایق",
+    teamHobbies3: "علایق",
+
+    teamPhilosophy1: "فلسفه",
+    teamPhilosophy2: "فلسفه",
+    teamPhilosophy3: "فلسفه",
+
+    hobbies: "علایق",
+    philosophy: "فلسفه",
   },
 
   sq: {
@@ -572,6 +784,27 @@ const translations: Record<string, Translation> = {
     learnMore: "Më shumë",
     ctaConsultation: "Rezervo konsultë",
     noRegistration: "Nuk kërkohet regjistrim",
+    teamTitle: "Ekipi",
+    teamDesc: "Njihuni me ekipin tonë",
+
+    teamRole1: "Roli 1",
+    teamRole2: "Roli 2",
+    teamRole3: "Roli 3",
+
+    teamBio1: "Biografia 1",
+    teamBio2: "Biografia 2",
+    teamBio3: "Biografia 3",
+
+    teamHobbies1: "Hobi",
+    teamHobbies2: "Hobi",
+    teamHobbies3: "Hobi",
+
+    teamPhilosophy1: "Filozofia",
+    teamPhilosophy2: "Filozofia",
+    teamPhilosophy3: "Filozofia",
+
+    hobbies: "Hobi",
+    philosophy: "Filozofia",
   },
 };
 
