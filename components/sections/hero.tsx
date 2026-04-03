@@ -122,7 +122,7 @@ export function Hero({ onOpenModal }: HeroProps) {
           <AnimatedSection className="relative flex-1" delay={200}>
             <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-muted shadow-xl transition-shadow duration-300 hover:shadow-2xl lg:aspect-square">
               <Image
-                src="/images/dentist-patient.jpg"
+                src="/images/dentist-patient.png"
                 alt="Zahnarzt behandelt Patientin"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
