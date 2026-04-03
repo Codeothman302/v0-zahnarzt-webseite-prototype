@@ -1,5 +1,6 @@
 "use client";
 
+import { useLanguage } from "@/components/language-context";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { AnimatedSection } from "@/components/ui/animated-section";
@@ -9,6 +10,7 @@ import { useState } from "react";
 interface HeroProps {
   onOpenModal: () => void;
 }
+const { t } = useLanguage();
 
 const trustPoints = [
   "Moderne, schmerzfreie Behandlung",
@@ -77,10 +79,13 @@ export function Hero({ onOpenModal }: HeroProps) {
 
           {/* Content */}
           <AnimatedSection className="flex-1 text-center lg:text-left">
-            <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Ihr Lächeln in{" "}
-              <span className="text-primary">besten Händen</span>
+            <h1>
+              {t.title1} <span>{t.title2}</span>
             </h1>
+
+            <p>
+              {t.description}
+            </p>
 
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
               Moderne Zahnmedizin mit persönlicher Betreuung. Schnell, digital und unkompliziert – für ein strahlendes Lächeln, das Sie verdienen.
