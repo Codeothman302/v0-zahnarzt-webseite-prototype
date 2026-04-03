@@ -178,9 +178,14 @@ const translations: Record<string, Translation> = {
     teamRole2: "",
     teamRole3: "",
 
-    teamBio1: "Bio 1",
-    teamBio2: "Bio 2",
-    teamBio3: "Bio 3",
+    teamBio1:
+      "Anna Müller ist das Herzstück der Praxisorganisation. Mit über 10 Jahren Erfahrung sorgt sie für einen reibungslosen Ablauf und ein angenehmes Erlebnis für jeden Patienten.",
+
+    teamBio2:
+      "Mehmet unterstützt das Ärzteteam mit Präzision und Ruhe. Seine freundliche Art nimmt Patienten die Nervosität und schafft Vertrauen.",
+
+    teamBio3:
+      "Laura begleitet Patienten vom ersten Kontakt bis zur Nachsorge. Sie legt großen Wert auf individuelle Betreuung und ein positives Erlebnis.",
 
     teamHobbies1: "Hobbys",
     teamHobbies2: "Hobbys",
