@@ -1,37 +1,40 @@
 "use client";
 
+import { useLanguage } from "@/components/language-context";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { AnimatedSection } from "@/components/ui/animated-section";
 
-const team = [
-  {
-    name: "Anna Müller",
-    role: "Praxismanagerin",
-    image: "/images/team-1.jpg",
-    bio: "Anna Müller ist das Herzstück der Praxisorganisation. Mit über 10 Jahren Erfahrung sorgt sie für einen reibungslosen Ablauf und ein angenehmes Erlebnis für jeden Patienten.",
-    hobbies: "Yoga, Reisen, Persönlichkeitsentwicklung",
-    philosophy: "Ein guter erster Eindruck entscheidet über das gesamte Behandlungserlebnis.",
-  },
-  {
-    name: "Mehmet Yilmaz",
-    role: "Zahnmedizinischer Assistent",
-    image: "/images/team-2.jpg",
-    bio: "Mehmet unterstützt das Ärzteteam mit Präzision und Ruhe. Seine freundliche Art nimmt Patienten die Nervosität und schafft Vertrauen.",
-    hobbies: "Fitness, Fußball, Technik",
-    philosophy: "Jeder Patient verdient eine ruhige und respektvolle Behandlung.",
-  },
-  {
-    name: "Laura Schneider",
-    role: "Prophylaxe-Spezialistin",
-    image: "/images/team-3.jpg",
-    bio: "Laura ist spezialisiert auf Prophylaxe und sorgt für gesunde, strahlende Lächeln. Sie legt großen Wert auf individuelle Betreuung.",
-    hobbies: "Ernährung, Sport, Natur",
-    philosophy: "Vorbeugen ist der Schlüssel zu langfristiger Zahngesundheit.",
-  },
-];
-
 export function Team() {
+  const { t } = useLanguage();
+
+  const team = [
+    {
+      name: "Anna Müller",
+      role: t.teamRole1,
+      image: "/images/team-1.jpg",
+      bio: t.teamBio1,
+      hobbies: t.teamHobbies1,
+      philosophy: t.teamPhilosophy1,
+    },
+    {
+      name: "Mehmet Yilmaz",
+      role: t.teamRole2,
+      image: "/images/team-2.jpg",
+      bio: t.teamBio2,
+      hobbies: t.teamHobbies2,
+      philosophy: t.teamPhilosophy2,
+    },
+    {
+      name: "Laura Schneider",
+      role: t.teamRole3,
+      image: "/images/team-3.jpg",
+      bio: t.teamBio3,
+      hobbies: t.teamHobbies3,
+      philosophy: t.teamPhilosophy3,
+    },
+  ];
+
   const [selectedMember, setSelectedMember] = useState<typeof team[0] | null>(null);
 
   useEffect(() => {
@@ -57,17 +60,17 @@ export function Team() {
         <AnimatedSection>
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Unser Team
+              {t.teamTitle}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">
-              Ein engagiertes Team, das sich um Ihr Wohlbefinden kümmert.
+              {t.teamDesc}
             </p>
           </div>
         </AnimatedSection>
 
         <div className="mt-16 flex flex-wrap justify-center gap-8">
           {team.map((member, index) => (
-            <AnimatedSection key={member.name} delay={index * 100}>
+            <AnimatedSection key={index} delay={index * 100}>
               <div
                 onClick={() => setSelectedMember(member)}
                 className="group flex w-full max-w-xs flex-col items-center text-center cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-xl"
@@ -101,15 +104,12 @@ export function Team() {
           className="fixed inset-0 z-50 flex items-center justify-center"
           onClick={() => setSelectedMember(null)}
         >
-          {/* Overlay */}
           <div className="absolute inset-0 bg-black/50 backdrop-blur-sm animate-in fade-in duration-300" />
 
-          {/* Modal */}
           <div
             onClick={(e) => e.stopPropagation()}
             className="relative z-10 w-full max-w-2xl rounded-2xl bg-white p-8 shadow-2xl animate-in fade-in zoom-in-95 duration-300"
           >
-            {/* Close Button */}
             <button
               onClick={() => setSelectedMember(null)}
               className="absolute top-4 right-4 text-gray-400 hover:text-black text-xl transition"
@@ -117,7 +117,6 @@ export function Team() {
               ✕
             </button>
 
-            {/* Header */}
             <div className="flex gap-6 items-center mb-6">
               <Image
                 src={selectedMember.image}
@@ -137,17 +136,16 @@ export function Team() {
               </div>
             </div>
 
-            {/* Content */}
             <div className="space-y-4 text-sm text-gray-700">
               <p>{selectedMember.bio}</p>
 
               <div>
-                <h3 className="font-semibold">Hobbys</h3>
+                <h3 className="font-semibold">{t.hobbies}</h3>
                 <p>{selectedMember.hobbies}</p>
               </div>
 
               <div>
-                <h3 className="font-semibold">Philosophie</h3>
+                <h3 className="font-semibold">{t.philosophy}</h3>
                 <p>{selectedMember.philosophy}</p>
               </div>
             </div>
