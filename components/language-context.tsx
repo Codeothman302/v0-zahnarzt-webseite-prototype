@@ -284,9 +284,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Team",
     teamDesc: "Meet our team",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Practice Manager",
+    teamRole2: "Dental Assistant",
+    teamRole3: "Patient Care & Reception",
 
     teamBio1:
       "Anna Müller is the heart of the practice organization. With over 10 years of experience, she ensures smooth operations and a pleasant experience for every patient.",
@@ -395,9 +395,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Equipo",
     teamDesc: "Conoce a nuestro equipo",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Gerente de la clínica",
+    teamRole2: "Asistente dental",
+    teamRole3: "Atención al paciente & Recepción",
 
     teamBio1:
       "Anna Müller es el corazón de la organización de la clínica. Con más de 10 años de experiencia, garantiza un funcionamiento fluido y una experiencia agradable para cada paciente.",
@@ -505,9 +505,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Équipe",
     teamDesc: "Rencontrez notre équipe",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Responsable du cabinet",
+    teamRole2: "Assistant(e) dentaire",
+    teamRole3: "Accueil & Service patient",
 
     teamBio1:
       "Anna Müller est le cœur de l’organisation du cabinet. Avec plus de 10 ans d’expérience, elle assure un déroulement fluide et une تجربة agréable pour chaque patient.",
@@ -615,9 +615,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Team",
     teamDesc: "Scopri il nostro team",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Responsabile dello studio",
+    teamRole2: "Assistente dentale",
+    teamRole3: "Accoglienza & Assistenza pazienti",
 
     teamBio1:
       "Anna Müller è il cuore dell'organizzazione dello studio. Con oltre 10 anni di esperienza, garantisce un flusso di lavoro senza intoppi e un'esperienza piacevole per ogni paziente.",
@@ -725,9 +725,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Ekibimiz",
     teamDesc: "Ekibimizle tanışın",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Klinik Yöneticisi",
+    teamRole2: "Diş Hekimi Asistanı",
+    teamRole3: "Hasta Hizmetleri & Resepsiyon",
 
     teamBio1:
       "Anna Müller, muayene organizasyonunun kalbidir. 10 yılı aşkın deneyimiyle sorunsuz bir süreç ve her hasta için keyifli bir deneyim sağlar.",
@@ -835,9 +835,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Команда",
     teamDesc: "Познакомьтесь с нашей командой",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Менеджер клиники",
+    teamRole2: "Стоматологический ассистент",
+    teamRole3: "Работа с пациентами & Ресепшн",
 
     teamBio1:
       "Анна Мюллер — сердце организации клиники. Более 10 лет опыта позволяют ей обеспечивать бесперебойную работу и комфорт для каждого пациента.",
@@ -945,9 +945,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "الفريق",
     teamDesc: "تعرّف على فريقنا",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "مديرة العيادة",
+    teamRole2: "مساعد طبيب أسنان",
+    teamRole3: "خدمة المرضى & الاستقبال",
 
     teamBio1:
       "آنا مولر هي القلب النابض لتنظيم العيادة. بخبرة تزيد عن 10 سنوات، تضمن سير العمل بسلاسة وتجربة مريحة لكل مريض.",
@@ -1055,9 +1055,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "تیم",
     teamDesc: "با تیم ما آشنا شوید",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "مدیر کلینیک",
+    teamRole2: "دستیار دندانپزشک",
+    teamRole3: "پذیرش و خدمات بیمار",
 
     teamBio1:
       "آنا مولر قلب تپنده سازمان‌دهی کلینیک است. با بیش از ۱۰ سال تجربه، روندی روان و تجربه‌ای دلپذیر برای هر بیمار فراهم می‌کند.",
@@ -1165,9 +1165,9 @@ const translations: Record<string, Translation> = {
     teamTitle: "Ekipi",
     teamDesc: "Njihuni me ekipin tonë",
 
-    teamRole1: "",
-    teamRole2: "",
-    teamRole3: "",
+    teamRole1: "Menaxhere e klinikës",
+    teamRole2: "Asistent dentar",
+    teamRole3: "Shërbimi i pacientëve & Recepsioni",
 
     teamBio1:
       "Anna Müller është zemra e organizimit të klinikës. Me mbi 10 vite përvojë, ajo siguron një rrjedhë të qetë dhe një përvojë të këndshme për çdo pacient.",
