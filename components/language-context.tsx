@@ -98,6 +98,29 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Unser Ziel: nachhaltige Ergebnisse und ein Lächeln, mit dem Sie sich wohlfühlen.",
     close: "Schließen",
+    servicesTitle: "Unsere Leistungen",
+    servicesDesc:
+      "Umfassende zahnmedizinische Versorgung mit modernster Technologie und persönlicher Betreuung.",
+
+    service1Title: "Implantate",
+    service1Desc:
+      "Feste Zähne für ein sicheres Lächeln. Dauerhafte Lösungen mit modernster Technik.",
+
+    service2Title: "Zahnreinigung",
+    service2Desc:
+      "Professionelle Reinigung für gesunde Zähne und frischen Atem.",
+
+    service3Title: "Kieferorthopädie",
+    service3Desc:
+      "Schonende Zahnkorrektur für ein perfektes Lächeln.",
+
+    service4Title: "Ästhetische Zahnmedizin",
+    service4Desc:
+      "Verschönerung Ihrer Zähne für ein strahlendes Erscheinungsbild.",
+
+    learnMore: "Mehr erfahren",
+    ctaConsultation: "Beratungstermin vereinbaren",
+    noRegistration: "Keine Registrierung erforderlich",
   },
 
   en: {
@@ -130,6 +153,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Our goal: long-lasting results and a smile that makes you feel confident.",
     close: "Close",
+    servicesTitle: "Our Services",
+    servicesDesc: "Comprehensive dental care with modern technology and personal attention.",
+
+    service1Title: "Dental Implants",
+    service1Desc: "Fixed teeth for a confident smile. Long-lasting solutions with modern technology.",
+
+    service2Title: "Teeth Cleaning",
+    service2Desc: "Professional cleaning for healthy teeth and fresh breath.",
+
+    service3Title: "Orthodontics",
+    service3Desc: "Gentle tooth correction for a perfect smile.",
+
+    service4Title: "Cosmetic Dentistry",
+    service4Desc: "Enhancing your smile for a radiant appearance.",
+
+    learnMore: "Learn more",
+    ctaConsultation: "Book consultation",
+    noRegistration: "No registration required",
   },
 
   es: {
@@ -162,6 +203,25 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Nuestro objetivo: resultados duraderos y una sonrisa con la que se sienta bien.",
     close: "Cerrar",
+
+    servicesTitle: "Nuestros servicios",
+    servicesDesc: "Atención dental integral con tecnología moderna y atención personalizada.",
+
+    service1Title: "Implantes",
+    service1Desc: "Dientes fijos para una sonrisa segura.",
+
+    service2Title: "Limpieza dental",
+    service2Desc: "Limpieza profesional para dientes sanos.",
+
+    service3Title: "Ortodoncia",
+    service3Desc: "Corrección dental suave.",
+
+    service4Title: "Odontología estética",
+    service4Desc: "Mejora de la sonrisa.",
+
+    learnMore: "Más información",
+    ctaConsultation: "Reservar consulta",
+    noRegistration: "No se requiere registro",
   },
 
   fr: {
@@ -194,6 +254,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Notre objectif : des résultats durables et un sourire dans lequel vous vous sentez bien.",
     close: "Fermer",
+    servicesTitle: "Nos services",
+    servicesDesc: "Soins dentaires complets avec technologie moderne et attention personnalisée.",
+
+    service1Title: "Implants dentaires",
+    service1Desc: "Dents fixes pour un sourire sûr.",
+
+    service2Title: "Nettoyage des dents",
+    service2Desc: "Nettoyage professionnel pour des dents saines.",
+
+    service3Title: "Orthodontie",
+    service3Desc: "Correction douce des dents.",
+
+    service4Title: "Dentisterie esthétique",
+    service4Desc: "Amélioration du sourire.",
+
+    learnMore: "En savoir plus",
+    ctaConsultation: "Prendre rendez-vous",
+    noRegistration: "Aucune inscription requise",
   },
 
   it: {
@@ -226,6 +304,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Il nostro obiettivo: risultati duraturi e un sorriso che ti faccia sentire bene.",
     close: "Chiudi",
+    servicesTitle: "I nostri servizi",
+    servicesDesc: "Cura dentale completa con tecnologia moderna.",
+
+    service1Title: "Impianti dentali",
+    service1Desc: "Denti fissi per un sorriso sicuro.",
+
+    service2Title: "Pulizia dei denti",
+    service2Desc: "Pulizia professionale.",
+
+    service3Title: "Ortodonzia",
+    service3Desc: "Correzione dentale delicata.",
+
+    service4Title: "Odontoiatria estetica",
+    service4Desc: "Miglioramento del sorriso.",
+
+    learnMore: "Scopri di più",
+    ctaConsultation: "Prenota consulenza",
+    noRegistration: "Nessuna registrazione richiesta",
   },
 
   tr: {
@@ -258,6 +354,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Hedefimiz: kalıcı sonuçlar ve size iyi hissettiren bir gülüş.",
     close: "Kapat",
+    servicesTitle: "Hizmetlerimiz",
+    servicesDesc: "Modern teknoloji ile kapsamlı diş bakımı.",
+
+    service1Title: "İmplantlar",
+    service1Desc: "Güvenli bir gülüş için sabit dişler.",
+
+    service2Title: "Diş temizliği",
+    service2Desc: "Profesyonel temizlik.",
+
+    service3Title: "Ortodonti",
+    service3Desc: "Nazik diş düzeltme.",
+
+    service4Title: "Estetik diş hekimliği",
+    service4Desc: "Gülüşünüzü güzelleştirme.",
+
+    learnMore: "Daha fazla bilgi",
+    ctaConsultation: "Danışma al",
+    noRegistration: "Kayıt gerekmez",
   },
 
   ru: {
@@ -290,6 +404,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Наша цель: долговечный результат и улыбка, с которой вы чувствуете себя уверенно.",
     close: "Закрыть",
+    servicesTitle: "Hizmetlerimiz",
+    servicesDesc: "Modern teknoloji ile kapsamlı diş bakımı.",
+
+    service1Title: "İmplantlar",
+    service1Desc: "Güvenli bir gülüş için sabit dişler.",
+
+    service2Title: "Diş temizliği",
+    service2Desc: "Profesyonel temizlik.",
+
+    service3Title: "Ortodonti",
+    service3Desc: "Nazik diş düzeltme.",
+
+    service4Title: "Estetik diş hekimliği",
+    service4Desc: "Gülüşünüzü güzelleştirme.",
+
+    learnMore: "Daha fazla bilgi",
+    ctaConsultation: "Danışma al",
+    noRegistration: "Kayıt gerekmez",
   },
 
   ar: {
@@ -322,6 +454,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "هدفنا: نتائج طويلة الأمد وابتسامة تجعلك تشعر بالراحة والثقة.",
     close: "إغلاق",
+    servicesTitle: "خدماتنا",
+    servicesDesc: "رعاية أسنان شاملة بأحدث التقنيات.",
+
+    service1Title: "زراعة الأسنان",
+    service1Desc: "أسنان ثابتة لابتسامة واثقة.",
+
+    service2Title: "تنظيف الأسنان",
+    service2Desc: "تنظيف احترافي.",
+
+    service3Title: "تقويم الأسنان",
+    service3Desc: "تصحيح لطيف للأسنان.",
+
+    service4Title: "طب الأسنان التجميلي",
+    service4Desc: "تحسين الابتسامة.",
+
+    learnMore: "المزيد",
+    ctaConsultation: "احجز استشارة",
+    noRegistration: "لا حاجة للتسجيل",
   },
 
   fa: {
@@ -354,6 +504,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "هدف ما: نتایج ماندگار و لبخندی که با آن احساس خوبی داشته باشید.",
     close: "بستن",
+    servicesTitle: "خدمات ما",
+    servicesDesc: "مراقبت کامل دندان با فناوری مدرن.",
+
+    service1Title: "ایمپلنت",
+    service1Desc: "دندان‌های ثابت برای لبخند مطمئن.",
+
+    service2Title: "تمیز کردن دندان",
+    service2Desc: "تمیزکاری حرفه‌ای.",
+
+    service3Title: "ارتودنسی",
+    service3Desc: "اصلاح ملایم دندان‌ها.",
+
+    service4Title: "دندانپزشکی زیبایی",
+    service4Desc: "بهبود لبخند.",
+
+    learnMore: "بیشتر بدانید",
+    ctaConsultation: "رزرو مشاوره",
+    noRegistration: "بدون نیاز به ثبت‌نام",
   },
 
   sq: {
@@ -386,6 +554,24 @@ const translations: Record<string, Translation> = {
     experienceModalText3:
       "Qëllimi ynë: rezultate afatgjata dhe një buzëqeshje që ju bën të ndiheni mirë.",
     close: "Mbyll",
+    servicesTitle: "Shërbimet tona",
+    servicesDesc: "Kujdes dentar modern dhe i plotë.",
+
+    service1Title: "Implante",
+    service1Desc: "Dhëmbë të qëndrueshëm për buzëqeshje të sigurt.",
+
+    service2Title: "Pastrimi i dhëmbëve",
+    service2Desc: "Pastrimi profesional.",
+
+    service3Title: "Ortodonci",
+    service3Desc: "Korrigjim i butë i dhëmbëve.",
+
+    service4Title: "Stomatologji estetike",
+    service4Desc: "Përmirësimi i buzëqeshjes.",
+
+    learnMore: "Më shumë",
+    ctaConsultation: "Rezervo konsultë",
+    noRegistration: "Nuk kërkohet regjistrim",
   },
 };
 
