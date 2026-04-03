@@ -1,3 +1,4 @@
+import { DirectionWrapper } from "@/components/direction-wrapper";
 import { LanguageProvider } from "@/components/language-context";
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
@@ -49,7 +50,9 @@ export default function RootLayout({
       <body className={`${inter.variable} font-sans antialiased`}>
 
         <LanguageProvider>
-          {children}
+          <DirectionWrapper>
+            {children}
+          </DirectionWrapper>
         </LanguageProvider>
 
         <VoiceflowChat />
