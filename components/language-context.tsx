@@ -67,6 +67,10 @@ type Translation = {
 
   hobbies: string;
   philosophy: string;
+  // Team Names
+  teamName1: string;
+  teamName2: string;
+  teamName3: string;
   // Doctors
   doctorsTitle: string;
   doctorsDesc: string;
@@ -214,6 +218,9 @@ const translations: Record<string, Translation> = {
       "Eine erfolgreiche Behandlung beginnt mit Vertrauen, Geduld und einer persönlichen Begleitung auf Augenhöhe.",
 
     focusAreas: "Schwerpunkte",
+    teamName1: "Anna Müller",
+    teamName2: "Mehmet Yilmaz",
+    teamName3: "Laura Schneider",
   },
 
   en: {
@@ -311,6 +318,9 @@ const translations: Record<string, Translation> = {
       "Successful treatment begins with trust, patience, and personal support at eye level.",
 
     focusAreas: "Focus Areas",
+    teamName1: "Anna Müller",
+    teamName2: "Mehmet Yilmaz",
+    teamName3: "Laura Schneider",
   },
 
   es: {
@@ -409,6 +419,9 @@ const translations: Record<string, Translation> = {
       "Un tratamiento exitoso comienza con confianza, paciencia y acompañamiento personal.",
 
     focusAreas: "Áreas de enfoque",
+    teamName1: "Anna Müller",
+    teamName2: "Mehmet Yilmaz",
+    teamName3: "Laura Schneider",
   },
 
   fr: {
@@ -506,6 +519,9 @@ const translations: Record<string, Translation> = {
       "Un traitement réussi commence par la confiance, la patience et un accompagnement personnalisé.",
 
     focusAreas: "Domaines clés",
+    teamName1: "Anna Müller",
+    teamName2: "Mehmet Yilmaz",
+    teamName3: "Laura Schneider",
   },
 
   it: {
@@ -603,6 +619,9 @@ const translations: Record<string, Translation> = {
       "Un trattamento di successo inizia con fiducia, pazienza e supporto personale.",
 
     focusAreas: "Aree di specializzazione",
+    teamName1: "Anna Müller",
+    teamName2: "Mehmet Yilmaz",
+    teamName3: "Laura Schneider",
   },
 
   tr: {
@@ -700,6 +719,9 @@ const translations: Record<string, Translation> = {
       "Başarılı bir tedavi, güven, sabır ve kişisel destekle başlar.",
 
     focusAreas: "Uzmanlık Alanları",
+    teamName1: "Anna Müller",
+    teamName2: "Mehmet Yilmaz",
+    teamName3: "Laura Schneider",
   },
 
   ru: {
@@ -797,6 +819,9 @@ const translations: Record<string, Translation> = {
       "Успешное лечение начинается с доверия, терпения и личного сопровождения.",
 
     focusAreas: "Основные направления",
+    teamName1: "Анна Мюллер",
+    teamName2: "Мехмет Йылмаз",
+    teamName3: "Лаура Шнайдер",
   },
 
   ar: {
@@ -894,6 +919,9 @@ const translations: Record<string, Translation> = {
       "العلاج الناجح يبدأ بالثقة والصبر والدعم الشخصي.",
 
     focusAreas: "مجالات التركيز",
+    teamName1: "آنا مولر",
+    teamName2: "محمد يلماز",
+    teamName3: "لورا شنايدر",
   },
 
   fa: {
@@ -991,6 +1019,9 @@ const translations: Record<string, Translation> = {
       "درمان موفق با اعتماد، صبر و همراهی شخصی آغاز می‌شود.",
 
     focusAreas: "حوزه‌های تخصصی",
+    teamName1: "آنا مولر",
+    teamName2: "محمد ییلماز",
+    teamName3: "لورا اشنایدر",
   },
 
   sq: {
@@ -1088,6 +1119,9 @@ const translations: Record<string, Translation> = {
       "Një trajtim i suksesshëm fillon me besim, durim dhe mbështetje personale.",
 
     focusAreas: "Fushat kryesore",
+    teamName1: "Anna Müller",
+    teamName2: "Mehmet Yilmaz",
+    teamName3: "Laura Schneider",
   },
 };
 

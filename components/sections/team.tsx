@@ -10,7 +10,7 @@ export function Team() {
 
   const team = [
     {
-      name: "Anna Müller",
+      name: t.teamName1,
       role: t.teamRole1,
       image: "/images/team-1.jpg",
       bio: t.teamBio1,
@@ -18,7 +18,7 @@ export function Team() {
       philosophy: t.teamPhilosophy1,
     },
     {
-      name: "Mehmet Yilmaz",
+      name: t.teamName2,
       role: t.teamRole2,
       image: "/images/team-2.jpg",
       bio: t.teamBio2,
@@ -26,7 +26,7 @@ export function Team() {
       philosophy: t.teamPhilosophy2,
     },
     {
-      name: "Laura Schneider",
+      name: t.teamName3,
       role: t.teamRole3,
       image: "/images/team-3.jpg",
       bio: t.teamBio3,
