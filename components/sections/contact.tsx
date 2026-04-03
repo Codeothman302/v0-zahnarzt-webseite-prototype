@@ -8,7 +8,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Adresse",
-    value: "Neckarstraße 12, 72160 Horb am Neckar",
+    value: "Marktplatz 1, 72160 Horb am Neckar",
   },
   {
     icon: Phone,
@@ -102,35 +102,7 @@ export function Contact() {
           </AnimatedSection>
 
           {/* Clickable Map */}
-          <AnimatedSection delay={200}>
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=Marktplatz+1+72160+Horb+am+Neckar+Deutschland"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <div className="relative aspect-video overflow-hidden rounded-xl bg-muted lg:aspect-auto lg:h-full lg:min-h-[400px] transition-all duration-300 hover:shadow-xl hover:scale-[1.02] cursor-pointer">
-
-                {/* ICON + TEXT */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="mx-auto size-12 text-primary" />
-
-                    <p className="mt-4 text-sm text-muted-foreground">
-                      Marktplatz 1
-                      <br />
-                      72160 Horb am Neckar
-                    </p>
-
-                    <p className="mt-2 text-xs text-primary">
-                      Karte öffnen
-                    </p>
-                  </div>
-                </div>
-
-              </div>
-            </a>
-          </AnimatedSection>
+          Marktplatz 1
         </div>
       </div>
     </section>
