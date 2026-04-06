@@ -402,6 +402,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+    pricesTitle: "Prices & Treatments",
+    pricesSubtitle:
+      "We inform you transparently before every treatment. No hidden costs.",
+
+    priceCard1Title: "Teeth Cleaning",
+    priceCard1Desc: "Give your teeth a fresh feeling ✨",
+    priceCard1Price: "€80–150",
+    priceCard1List1: "Thorough cleaning",
+    priceCard1List2: "Fresh breath",
+    priceCard1List3: "Prevention of cavities",
+    priceCard1List4: "Long-term dental health",
+
+    priceCard2Title: "Implants",
+    priceCard2Desc: "Bite firmly again 💪",
+    priceCard2Price: "from €2,000",
+    priceCard2List1: "Teeth like real ones",
+    priceCard2List2: "Long-lasting solution",
+    priceCard2List3: "Better quality of life",
+    priceCard2List4: "Individual planning",
+
+    priceCard3Title: "Teeth Whitening",
+    priceCard3Desc: "A smile that stands out 😁",
+    priceCard3Price: "from €250",
+    priceCard3List1: "Bright white teeth",
+    priceCard3List2: "Fast treatment",
+    priceCard3List3: "Visible results",
+    priceCard3List4: "Gentle method",
+
+    priceButton: "Request Appointment",
+    priceNote:
+      "All prices are indicative. Exact costs will be discussed individually.",
   },
 
   es: {
@@ -513,6 +544,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+    pricesTitle: "Precios & Tratamientos",
+    pricesSubtitle:
+      "Le informamos de forma transparente antes de cada tratamiento. Sin costes ocultos.",
+
+    priceCard1Title: "Limpieza dental",
+    priceCard1Desc: "Dale a tus dientes una sensación de frescura ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Limpieza profunda",
+    priceCard1List2: "Aliento fresco",
+    priceCard1List3: "Prevención de caries",
+    priceCard1List4: "Salud dental a largo plazo",
+
+    priceCard2Title: "Implantes",
+    priceCard2Desc: "Vuelve a morder con fuerza 💪",
+    priceCard2Price: "desde 2.000 €",
+    priceCard2List1: "Dientes como los naturales",
+    priceCard2List2: "Solución duradera",
+    priceCard2List3: "Mejor calidad de vida",
+    priceCard2List4: "Planificación individual",
+
+    priceCard3Title: "Blanqueamiento",
+    priceCard3Desc: "Una sonrisa que destaca 😁",
+    priceCard3Price: "desde 250 €",
+    priceCard3List1: "Dientes blancos brillantes",
+    priceCard3List2: "Tratamiento rápido",
+    priceCard3List3: "Resultados visibles",
+    priceCard3List4: "Método suave",
+
+    priceButton: "Solicitar cita",
+    priceNote:
+      "Todos los precios son orientativos. Los costes exactos se determinarán individualmente.",
   },
 
   fr: {
@@ -623,6 +685,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+    pricesTitle: "Prix & Traitements",
+    pricesSubtitle:
+      "Nous vous informons en toute transparence avant chaque traitement. Aucun coût caché.",
+
+    priceCard1Title: "Nettoyage dentaire",
+    priceCard1Desc: "Offrez à vos dents une sensation de fraîcheur ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Nettoyage en profondeur",
+    priceCard1List2: "Haleine fraîche",
+    priceCard1List3: "Prévention des caries",
+    priceCard1List4: "Santé dentaire durable",
+
+    priceCard2Title: "Implants",
+    priceCard2Desc: "Retrouvez une mastication solide 💪",
+    priceCard2Price: "à partir de 2000 €",
+    priceCard2List1: "Dents fixes comme naturelles",
+    priceCard2List2: "Solution durable",
+    priceCard2List3: "Meilleure qualité de vie",
+    priceCard2List4: "Planification personnalisée",
+
+    priceCard3Title: "Blanchiment",
+    priceCard3Desc: "Un sourire éclatant 😁",
+    priceCard3Price: "à partir de 250 €",
+    priceCard3List1: "Dents blanches éclatantes",
+    priceCard3List2: "Traitement rapide",
+    priceCard3List3: "Résultats visibles",
+    priceCard3List4: "Méthode douce",
+
+    priceButton: "Prendre rendez-vous",
+    priceNote:
+      "Tous les prix sont indicatifs. Les coûts exacts sont définis individuellement.",
   },
 
   it: {
@@ -733,6 +826,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+    pricesTitle: "Prezzi & Trattamenti",
+    pricesSubtitle:
+      "Vi informiamo in modo trasparente prima di ogni trattamento. Nessun costo nascosto.",
+
+    priceCard1Title: "Pulizia dentale",
+    priceCard1Desc: "Regala ai tuoi denti una sensazione di freschezza ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Pulizia approfondita",
+    priceCard1List2: "Alito fresco",
+    priceCard1List3: "Prevenzione della carie",
+    priceCard1List4: "Salute dentale a lungo termine",
+
+    priceCard2Title: "Impianti",
+    priceCard2Desc: "Torna a mordere con forza 💪",
+    priceCard2Price: "da 2.000 €",
+    priceCard2List1: "Denti come naturali",
+    priceCard2List2: "Soluzione duratura",
+    priceCard2List3: "Maggiore qualità della vita",
+    priceCard2List4: "Pianificazione personalizzata",
+
+    priceCard3Title: "Sbiancamento",
+    priceCard3Desc: "Un sorriso che si distingue 😁",
+    priceCard3Price: "da 250 €",
+    priceCard3List1: "Denti bianchi brillanti",
+    priceCard3List2: "Trattamento veloce",
+    priceCard3List3: "Risultati visibili",
+    priceCard3List4: "Metodo delicato",
+
+    priceButton: "Richiedi appuntamento",
+    priceNote:
+      "Tutti i prezzi sono indicativi. I costi esatti saranno concordati individualmente.",
   },
 
   tr: {
@@ -843,6 +967,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+    pricesTitle: "Fiyatlar & Tedaviler",
+    pricesSubtitle:
+      "Her tedavi öncesinde sizi şeffaf bir şekilde bilgilendiriyoruz. Gizli maliyet yok.",
+
+    priceCard1Title: "Diş Temizliği",
+    priceCard1Desc: "Dişlerinize ferahlık kazandırın ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Derinlemesine temizlik",
+    priceCard1List2: "Ferah nefes",
+    priceCard1List3: "Çürük önleme",
+    priceCard1List4: "Uzun vadeli diş sağlığı",
+
+    priceCard2Title: "İmplantlar",
+    priceCard2Desc: "Yeniden güçlü ısırın 💪",
+    priceCard2Price: "2000 €'dan itibaren",
+    priceCard2List1: "Gerçek gibi dişler",
+    priceCard2List2: "Uzun ömürlü çözüm",
+    priceCard2List3: "Daha iyi yaşam kalitesi",
+    priceCard2List4: "Kişiye özel planlama",
+
+    priceCard3Title: "Beyazlatma",
+    priceCard3Desc: "Dikkat çeken bir gülüş 😁",
+    priceCard3Price: "250 €'dan itibaren",
+    priceCard3List1: "Parlak beyaz dişler",
+    priceCard3List2: "Hızlı işlem",
+    priceCard3List3: "Görünür sonuçlar",
+    priceCard3List4: "Nazik yöntem",
+
+    priceButton: "Randevu Al",
+    priceNote:
+      "Tüm fiyatlar yaklaşık değerlerdir. Kesin maliyetler bireysel olarak belirlenir.",
   },
 
   ru: {
@@ -953,6 +1108,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Анна Мюллер",
     teamName2: "Мехмет Йылмаз",
     teamName3: "Лаура Шнайдер",
+    pricesTitle: "Цены & Лечение",
+    pricesSubtitle:
+      "Мы заранее информируем вас прозрачно перед каждым лечением. Без скрытых затрат.",
+
+    priceCard1Title: "Чистка зубов",
+    priceCard1Desc: "Подарите своим зубам свежесть ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Глубокая чистка",
+    priceCard1List2: "Свежое дыхание",
+    priceCard1List3: "Профилактика кариеса",
+    priceCard1List4: "Долгосрочное здоровье зубов",
+
+    priceCard2Title: "Импланты",
+    priceCard2Desc: "Снова уверенно кусать 💪",
+    priceCard2Price: "от 2.000 €",
+    priceCard2List1: "Зубы как настоящие",
+    priceCard2List2: "Долговечное решение",
+    priceCard2List3: "Лучшее качество жизни",
+    priceCard2List4: "Индивидуальное планирование",
+
+    priceCard3Title: "Отбеливание",
+    priceCard3Desc: "Улыбка, которая выделяется 😁",
+    priceCard3Price: "от 250 €",
+    priceCard3List1: "Ярко-белые зубы",
+    priceCard3List2: "Быстрое лечение",
+    priceCard3List3: "Видимый результат",
+    priceCard3List4: "Щадящий метод",
+
+    priceButton: "Записаться",
+    priceNote:
+      "Все цены являются ориентировочными. Точная стоимость определяется индивидуально.",
   },
 
   ar: {
@@ -1063,6 +1249,37 @@ const translations: Record<string, Translation> = {
     teamName1: "آنا مولر",
     teamName2: "محمد يلماز",
     teamName3: "لورا شنايدر",
+    pricesTitle: "الأسعار & العلاجات",
+    pricesSubtitle:
+      "نقوم بإعلامك بشفافية قبل كل علاج. لا توجد تكاليف مخفية.",
+
+    priceCard1Title: "تنظيف الأسنان",
+    priceCard1Desc: "امنح أسنانك إحساسًا بالانتعاش ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "تنظيف عميق",
+    priceCard1List2: "نفس منعش",
+    priceCard1List3: "الوقاية من التسوس",
+    priceCard1List4: "صحة طويلة الأمد",
+
+    priceCard2Title: "زراعة الأسنان",
+    priceCard2Desc: "استعد لقوة المضغ 💪",
+    priceCard2Price: "ابتداءً من 2000 €",
+    priceCard2List1: "أسنان ثابتة كالحقيقية",
+    priceCard2List2: "حل طويل الأمد",
+    priceCard2List3: "جودة حياة أفضل",
+    priceCard2List4: "تخطيط فردي",
+
+    priceCard3Title: "تبييض الأسنان",
+    priceCard3Desc: "ابتسامة ملفتة 😁",
+    priceCard3Price: "ابتداءً من 250 €",
+    priceCard3List1: "أسنان بيضاء ناصعة",
+    priceCard3List2: "علاج سريع",
+    priceCard3List3: "نتائج واضحة",
+    priceCard3List4: "طريقة لطيفة",
+
+    priceButton: "احجز موعد",
+    priceNote:
+      "جميع الأسعار تقديرية. يتم تحديد التكلفة النهائية بشكل فردي.",
   },
 
   fa: {
@@ -1173,6 +1390,37 @@ const translations: Record<string, Translation> = {
     teamName1: "آنا مولر",
     teamName2: "محمد ییلماز",
     teamName3: "لورا اشنایدر",
+    pricesTitle: "قیمت‌ها و درمان‌ها",
+    pricesSubtitle:
+      "ما قبل از هر درمان به‌صورت شفاف شما را مطلع می‌کنیم. بدون هزینه پنهان.",
+
+    priceCard1Title: "جرم‌گیری دندان",
+    priceCard1Desc: "به دندان‌های خود حس تازگی بدهید ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "تمیزکاری کامل",
+    priceCard1List2: "نفس تازه",
+    priceCard1List3: "پیشگیری از پوسیدگی",
+    priceCard1List4: "سلامت بلندمدت دندان",
+
+    priceCard2Title: "ایمپلنت",
+    priceCard2Desc: "دوباره محکم گاز بزنید 💪",
+    priceCard2Price: "از 2000 €",
+    priceCard2List1: "دندان‌های طبیعی‌مانند",
+    priceCard2List2: "راه‌حل ماندگار",
+    priceCard2List3: "کیفیت زندگی بهتر",
+    priceCard2List4: "برنامه‌ریزی شخصی",
+
+    priceCard3Title: "بلیچینگ",
+    priceCard3Desc: "لبخندی که می‌درخشد 😁",
+    priceCard3Price: "از 250 €",
+    priceCard3List1: "دندان‌های سفید درخشان",
+    priceCard3List2: "درمان سریع",
+    priceCard3List3: "نتایج قابل مشاهده",
+    priceCard3List4: "روش ملایم",
+
+    priceButton: "درخواست نوبت",
+    priceNote:
+      "تمام قیمت‌ها تقریبی هستند. هزینه نهایی به‌صورت فردی تعیین می‌شود.",
   },
 
   sq: {
@@ -1283,6 +1531,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+    pricesTitle: "Çmimet & Trajtimet",
+    pricesSubtitle:
+      "Ne ju informojmë në mënyrë transparente para çdo trajtimi. Pa kosto të fshehura.",
+
+    priceCard1Title: "Pastrimi i dhëmbëve",
+    priceCard1Desc: "Jepuni dhëmbëve tuaj freski ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Pastrimi i thellë",
+    priceCard1List2: "Frymëmarrje e freskët",
+    priceCard1List3: "Parandalimi i kariesit",
+    priceCard1List4: "Shëndet afatgjatë i dhëmbëve",
+
+    priceCard2Title: "Implantet",
+    priceCard2Desc: "Kafsho sërish fort 💪",
+    priceCard2Price: "nga 2000 €",
+    priceCard2List1: "Dhëmbë si natyralë",
+    priceCard2List2: "Zgjidhje afatgjatë",
+    priceCard2List3: "Cilësi më e mirë jete",
+    priceCard2List4: "Planifikim individual",
+
+    priceCard3Title: "Zbardhimi",
+    priceCard3Desc: "Një buzëqeshje që bie në sy 😁",
+    priceCard3Price: "nga 250 €",
+    priceCard3List1: "Dhëmbë të bardhë të ndritshëm",
+    priceCard3List2: "Trajtim i shpejtë",
+    priceCard3List3: "Rezultate të dukshme",
+    priceCard3List4: "Metodë e butë",
+
+    priceButton: "Rezervo takim",
+    priceNote:
+      "Të gjitha çmimet janë orientuese. Kostot e sakta përcaktohen individualisht.",
   },
 };
 
