@@ -3,6 +3,36 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Translation = {
+  pricesTitle: string;
+  pricesSubtitle: string;
+
+  priceCard1Title: string;
+  priceCard1Desc: string;
+  priceCard1Price: string;
+  priceCard1List1: string;
+  priceCard1List2: string;
+  priceCard1List3: string;
+  priceCard1List4: string;
+
+  priceCard2Title: string;
+  priceCard2Desc: string;
+  priceCard2Price: string;
+  priceCard2List1: string;
+  priceCard2List2: string;
+  priceCard2List3: string;
+  priceCard2List4: string;
+
+  priceCard3Title: string;
+  priceCard3Desc: string;
+  priceCard3Price: string;
+  priceCard3List1: string;
+  priceCard3List2: string;
+  priceCard3List3: string;
+  priceCard3List4: string;
+
+  priceButton: string;
+  priceNote: string;
+
   services: string;
   team: string;
   prices: string;
