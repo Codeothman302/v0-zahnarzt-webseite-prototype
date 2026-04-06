@@ -143,6 +143,18 @@ type Translation = {
   doctor2Philosophy: string;
 
   focusAreas: string;
+
+  testimonialsTitle: string;
+  testimonialsSubtitle: string;
+
+  testimonial1Text: string;
+  testimonial1Name: string;
+
+  testimonial2Text: string;
+  testimonial2Name: string;
+
+  testimonial3Text: string;
+  testimonial3Name: string;
 };
 
 type LanguageContextType = {
@@ -330,6 +342,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Termin anfragen",
     priceNote:
       "Alle Preise verstehen sich als Richtwerte. Die genauen Kosten werden individuell besprochen.",
+
+    testimonialsTitle: "Das sagen unsere Patienten",
+    testimonialsSubtitle:
+      "Über 1000 zufriedene Patienten vertrauen uns bereits.",
+
+    testimonial1Text:
+      "Endlich eine Praxis, die digital funktioniert. Kein Warten am Telefon mehr.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Sehr freundliches Team und moderne Praxis. Fühlte mich direkt wohl.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Super einfache Terminanfrage, ich war überrascht wie schnell alles ging.",
+    testimonial3Name: "Markus H",
   },
 
   en: {
