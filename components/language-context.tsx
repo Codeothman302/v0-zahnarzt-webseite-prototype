@@ -180,6 +180,9 @@ type Translation = {
   ctaPoint1: string;
   ctaPoint2: string;
   ctaPoint3: string;
+
+  contactTitle: string;
+  contactSubtitle: string;
 };
 
 type LanguageContextType = {
@@ -407,6 +410,10 @@ const translations: Record<string, Translation> = {
     story3:
       "Früher war alles kompliziert mit Terminen. Jetzt dauert es nur noch wenige Klicks – genau so sollte es sein.",
 
+    contactTitle: "Haben Sie ein Anliegen?",
+    contactSubtitle:
+      "Starten Sie Ihr Anliegen ganz einfach über unseren digitalen Assistenten – schnell, unkompliziert und jederzeit verfügbar.",
+
     ctaTitle: "Schnell, persönlich & zuverlässig",
     ctaSubtitle:
       "Starten Sie Ihre Anfrage bequem über unseren digitalen Assistenten – jederzeit und ohne Wartezeit.",
@@ -615,6 +622,10 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Appointments used to be complicated. Now it only takes a few clicks – exactly how it should be.",
+
+    contactTitle: "Haben Sie ein Anliegen?",
+    contactSubtitle:
+      "Starten Sie Ihr Anliegen ganz einfach über unseren digitalen Assistenten – schnell, unkompliziert und jederzeit verfügbar.",
 
     ctaTitle: "Fast, Personal & Reliable",
     ctaSubtitle:
