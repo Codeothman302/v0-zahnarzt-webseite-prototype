@@ -155,6 +155,16 @@ type Translation = {
 
   testimonial3Text: string;
   testimonial3Name: string;
+
+  beforeAfterTitle: string;
+  beforeAfterSubtitle: string;
+
+  beforeLabel: string;
+  afterLabel: string;
+
+  beforeAfter1Title: string;
+  beforeAfter2Title: string;
+  beforeAfter3Title: string;
 };
 
 type LanguageContextType = {
@@ -358,6 +368,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Super einfache Terminanfrage, ich war überrascht wie schnell alles ging.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "Vorher & Nachher",
+    beforeAfterSubtitle:
+      "Überzeugen Sie sich selbst von unseren Behandlungsergebnissen",
+
+    beforeLabel: "Vorher",
+    afterLabel: "Nachher",
+
+    beforeAfter1Title: "Implantat",
+    beforeAfter2Title: "Zahnkorrektur",
+    beforeAfter3Title: "Zahnaufhellung",
   },
 
   en: {
@@ -535,6 +556,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Super easy appointment request, I was surprised how fast everything went.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "Before & After",
+    beforeAfterSubtitle:
+      "See for yourself the results of our treatments",
+
+    beforeLabel: "Before",
+    afterLabel: "After",
+
+    beforeAfter1Title: "Implant",
+    beforeAfter2Title: "Teeth Alignment",
+    beforeAfter3Title: "Teeth Whitening",
   },
 
   es: {
@@ -713,6 +745,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Solicitar cita fue muy fácil, me sorprendió lo rápido que fue todo.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "Antes & Después",
+    beforeAfterSubtitle:
+      "Compruebe usted mismo los resultados de nuestros tratamientos",
+
+    beforeLabel: "Antes",
+    afterLabel: "Después",
+
+    beforeAfter1Title: "Implante",
+    beforeAfter2Title: "Corrección dental",
+    beforeAfter3Title: "Blanqueamiento dental",
   },
 
   fr: {
@@ -890,6 +933,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Demande de rendez-vous super simple, j’ai été surpris de la rapidité.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "Avant & Après",
+    beforeAfterSubtitle:
+      "Découvrez par vous-même les résultats de nos traitements",
+
+    beforeLabel: "Avant",
+    afterLabel: "Après",
+
+    beforeAfter1Title: "Implant",
+    beforeAfter2Title: "Correction dentaire",
+    beforeAfter3Title: "Blanchiment dentaire",
   },
 
   it: {
@@ -1067,6 +1121,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Richiedere un appuntamento è stato facilissimo, sono rimasto sorpreso dalla velocità.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "Prima & Dopo",
+    beforeAfterSubtitle:
+      "Scopri tu stesso i risultati dei nostri trattamenti",
+
+    beforeLabel: "Prima",
+    afterLabel: "Dopo",
+
+    beforeAfter1Title: "Impianto",
+    beforeAfter2Title: "Correzione dentale",
+    beforeAfter3Title: "Sbiancamento dentale",
   },
 
   tr: {
@@ -1244,6 +1309,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Randevu almak çok kolaydı, her şeyin ne kadar hızlı olduğuna şaşırdım.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "Öncesi & Sonrası",
+    beforeAfterSubtitle:
+      "Tedavi sonuçlarımızı kendiniz görün",
+
+    beforeLabel: "Önce",
+    afterLabel: "Sonra",
+
+    beforeAfter1Title: "İmplant",
+    beforeAfter2Title: "Diş Düzeltme",
+    beforeAfter3Title: "Diş Beyazlatma",
   },
 
   ru: {
@@ -1421,6 +1497,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Записаться на прием было очень просто, я был удивлен, как быстро все прошло.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "До & После",
+    beforeAfterSubtitle:
+      "Убедитесь сами в результатах наших процедур",
+
+    beforeLabel: "До",
+    afterLabel: "После",
+
+    beforeAfter1Title: "Имплант",
+    beforeAfter2Title: "Выравнивание зубов",
+    beforeAfter3Title: "Отбеливание зубов",
   },
 
   ar: {
@@ -1598,6 +1685,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "طلب الموعد كان سهلاً جدًا، تفاجأت بسرعة كل شيء.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "قبل & بعد",
+    beforeAfterSubtitle:
+      "شاهد بنفسك نتائج علاجاتنا",
+
+    beforeLabel: "قبل",
+    afterLabel: "بعد",
+
+    beforeAfter1Title: "زراعة الأسنان",
+    beforeAfter2Title: "تقويم الأسنان",
+    beforeAfter3Title: "تبييض الأسنان",
   },
 
   fa: {
@@ -1775,6 +1873,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "درخواست نوبت بسیار ساده بود، از سرعت کار شگفت‌زده شدم.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "قبل و بعد",
+    beforeAfterSubtitle:
+      "نتایج درمان‌های ما را خودتان ببینید",
+
+    beforeLabel: "قبل",
+    afterLabel: "بعد",
+
+    beforeAfter1Title: "ایمپلنت",
+    beforeAfter2Title: "اصلاح دندان",
+    beforeAfter3Title: "سفید کردن دندان",
   },
 
   sq: {
@@ -1952,6 +2061,17 @@ const translations: Record<string, Translation> = {
     testimonial3Text:
       "Kërkesa për termin ishte shumë e thjeshtë, u habita sa shpejt shkoi gjithçka.",
     testimonial3Name: "Markus H",
+
+    beforeAfterTitle: "Para & Pas",
+    beforeAfterSubtitle:
+      "Shikoni vetë rezultatet e trajtimeve tona",
+
+    beforeLabel: "Para",
+    afterLabel: "Pas",
+
+    beforeAfter1Title: "Implant",
+    beforeAfter2Title: "Korrigjimi i dhëmbëve",
+    beforeAfter3Title: "Zbardhimi i dhëmbëve",
   },
 };
 
