@@ -519,6 +519,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Request Appointment",
     priceNote:
       "All prices are indicative. Exact costs will be discussed individually.",
+
+    testimonialsTitle: "What Our Patients Say",
+    testimonialsSubtitle:
+      "Over 1000 satisfied patients already trust us.",
+
+    testimonial1Text:
+      "Finally a practice that works digitally. No more waiting on the phone.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Very friendly team and modern practice. I felt comfortable right away.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Super easy appointment request, I was surprised how fast everything went.",
+    testimonial3Name: "Markus H",
   },
 
   es: {
@@ -681,6 +697,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Solicitar cita",
     priceNote:
       "Todos los precios son orientativos. Los costes exactos se determinarán individualmente.",
+
+    testimonialsTitle: "Lo que dicen nuestros pacientes",
+    testimonialsSubtitle:
+      "Más de 1000 pacientes satisfechos ya confían en nosotros.",
+
+    testimonial1Text:
+      "Por fin una clínica que funciona digitalmente. No más esperas al teléfono.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Equipo muy amable y clínica moderna. Me sentí cómodo desde el primer momento.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Solicitar cita fue muy fácil, me sorprendió lo rápido que fue todo.",
+    testimonial3Name: "Markus H",
   },
 
   fr: {
@@ -842,6 +874,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Prendre rendez-vous",
     priceNote:
       "Tous les prix sont indicatifs. Les coûts exacts sont définis individuellement.",
+
+    testimonialsTitle: "Ce que disent nos patients",
+    testimonialsSubtitle:
+      "Plus de 1000 patients satisfaits nous font déjà confiance.",
+
+    testimonial1Text:
+      "Enfin un cabinet qui fonctionne de manière digitale. Plus d’attente au téléphone.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Équipe très sympathique et cabinet moderne. Je me suis senti à l’aise immédiatement.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Demande de rendez-vous super simple, j’ai été surpris de la rapidité.",
+    testimonial3Name: "Markus H",
   },
 
   it: {
@@ -1003,6 +1051,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Richiedi appuntamento",
     priceNote:
       "Tutti i prezzi sono indicativi. I costi esatti saranno concordati individualmente.",
+
+    testimonialsTitle: "Cosa dicono i nostri pazienti",
+    testimonialsSubtitle:
+      "Oltre 1000 pazienti soddisfatti si fidano già di noi.",
+
+    testimonial1Text:
+      "Finalmente uno studio che funziona in modo digitale. Niente più attese al telefono.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Team molto cordiale e studio moderno. Mi sono sentito subito a mio agio.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Richiedere un appuntamento è stato facilissimo, sono rimasto sorpreso dalla velocità.",
+    testimonial3Name: "Markus H",
   },
 
   tr: {
@@ -1164,6 +1228,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Randevu Al",
     priceNote:
       "Tüm fiyatlar yaklaşık değerlerdir. Kesin maliyetler bireysel olarak belirlenir.",
+
+    testimonialsTitle: "Hastalarımız Ne Diyor",
+    testimonialsSubtitle:
+      "1000’den fazla memnun hasta bize güveniyor.",
+
+    testimonial1Text:
+      "Sonunda dijital çalışan bir klinik. Telefonda beklemek yok artık.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Çok güler yüzlü ekip ve modern klinik. Kendimi hemen rahat hissettim.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Randevu almak çok kolaydı, her şeyin ne kadar hızlı olduğuna şaşırdım.",
+    testimonial3Name: "Markus H",
   },
 
   ru: {
@@ -1325,6 +1405,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Записаться",
     priceNote:
       "Все цены являются ориентировочными. Точная стоимость определяется индивидуально.",
+
+    testimonialsTitle: "Что говорят наши пациенты",
+    testimonialsSubtitle:
+      "Более 1000 довольных пациентов уже доверяют нам.",
+
+    testimonial1Text:
+      "Наконец-то клиника, которая работает в цифровом формате. Больше не нужно ждать на телефоне.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Очень дружелюбная команда и современная клиника. Я сразу почувствовал себя комфортно.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Записаться на прием было очень просто, я был удивлен, как быстро все прошло.",
+    testimonial3Name: "Markus H",
   },
 
   ar: {
@@ -1486,6 +1582,22 @@ const translations: Record<string, Translation> = {
     priceButton: "احجز موعد",
     priceNote:
       "جميع الأسعار تقديرية. يتم تحديد التكلفة النهائية بشكل فردي.",
+
+    testimonialsTitle: "آراء مرضانا",
+    testimonialsSubtitle:
+      "أكثر من 1000 مريض راضٍ يثقون بنا بالفعل.",
+
+    testimonial1Text:
+      "أخيرًا عيادة تعمل بشكل رقمي. لا مزيد من الانتظار على الهاتف.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "فريق ودود جدًا وعيادة حديثة. شعرت بالراحة فورًا.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "طلب الموعد كان سهلاً جدًا، تفاجأت بسرعة كل شيء.",
+    testimonial3Name: "Markus H",
   },
 
   fa: {
@@ -1647,6 +1759,22 @@ const translations: Record<string, Translation> = {
     priceButton: "درخواست نوبت",
     priceNote:
       "تمام قیمت‌ها تقریبی هستند. هزینه نهایی به‌صورت فردی تعیین می‌شود.",
+
+    testimonialsTitle: "نظرات بیماران ما",
+    testimonialsSubtitle:
+      "بیش از ۱۰۰۰ بیمار راضی به ما اعتماد کرده‌اند.",
+
+    testimonial1Text:
+      "بالاخره یک کلینیک که دیجیتالی کار می‌کند. دیگر نیازی به انتظار پشت تلفن نیست.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "تیم بسیار دوستانه و کلینیک مدرن. بلافاصله احساس راحتی کردم.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "درخواست نوبت بسیار ساده بود، از سرعت کار شگفت‌زده شدم.",
+    testimonial3Name: "Markus H",
   },
 
   sq: {
@@ -1808,6 +1936,22 @@ const translations: Record<string, Translation> = {
     priceButton: "Rezervo takim",
     priceNote:
       "Të gjitha çmimet janë orientuese. Kostot e sakta përcaktohen individualisht.",
+
+    testimonialsTitle: "Çfarë thonë pacientët tanë",
+    testimonialsSubtitle:
+      "Mbi 1000 pacientë të kënaqur tashmë na besojnë.",
+
+    testimonial1Text:
+      "Më në fund një klinikë që funksionon në mënyrë digjitale. Nuk ka më pritje në telefon.",
+    testimonial1Name: "Daniel K",
+
+    testimonial2Text:
+      "Staf shumë i sjellshëm dhe klinikë moderne. U ndjeva menjëherë rehat.",
+    testimonial2Name: "Julia S",
+
+    testimonial3Text:
+      "Kërkesa për termin ishte shumë e thjeshtë, u habita sa shpejt shkoi gjithçka.",
+    testimonial3Name: "Markus H",
   },
 };
 
