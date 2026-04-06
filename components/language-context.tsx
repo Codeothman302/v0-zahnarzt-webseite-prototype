@@ -3,6 +3,55 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Translation = {
+
+  featuresTitle: string;
+  featuresSubtitle: string;
+
+  feature1Title: string;
+  feature1Desc: string;
+
+  feature2Title: string;
+  feature2Desc: string;
+
+  feature3Title: string;
+  feature3Desc: string;
+
+  feature4Title: string;
+  feature4Desc: string;
+
+  feature5Title: string;
+  feature5Desc: string;
+
+  pricesTitle: string;
+  pricesSubtitle: string;
+
+  priceCard1Title: string;
+  priceCard1Desc: string;
+  priceCard1Price: string;
+  priceCard1List1: string;
+  priceCard1List2: string;
+  priceCard1List3: string;
+  priceCard1List4: string;
+
+  priceCard2Title: string;
+  priceCard2Desc: string;
+  priceCard2Price: string;
+  priceCard2List1: string;
+  priceCard2List2: string;
+  priceCard2List3: string;
+  priceCard2List4: string;
+
+  priceCard3Title: string;
+  priceCard3Desc: string;
+  priceCard3Price: string;
+  priceCard3List1: string;
+  priceCard3List2: string;
+  priceCard3List3: string;
+  priceCard3List4: string;
+
+  priceButton: string;
+  priceNote: string;
+
   services: string;
   team: string;
   prices: string;
@@ -231,6 +280,56 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Warum Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Moderne Technologie für ein besseres Patientenerlebnis.",
+
+    feature1Title: "Digitaler Anfrage-Assistent",
+    feature1Desc: "Ihr Anliegen in wenigen Klicks – ohne Anruf.",
+
+    feature2Title: "Schnelle Terminübersicht",
+    feature2Desc: "Verfügbare Termine auf einen Blick.",
+
+    feature3Title: "Rezept-Anfragen ohne Wartezeit",
+    feature3Desc: "Digital und unkompliziert – rund um die Uhr.",
+
+    feature4Title: "Strukturierte Patientenanfragen",
+    feature4Desc: "Klare Kategorien für schnelle Bearbeitung.",
+
+    feature5Title: "Mobile-optimierte Nutzung",
+    feature5Desc: "Jederzeit erreichbar – auch unterwegs.",
+
+    pricesTitle: "Preise & Behandlungen",
+    pricesSubtitle: "Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.",
+
+    priceCard1Title: "Zahnreinigung",
+    priceCard1Desc: "Gönnen Sie Ihren Zähnen etwas Frische ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Gründliche Reinigung",
+    priceCard1List2: "Frischer Atem",
+    priceCard1List3: "Vorbeugung gegen Karies",
+    priceCard1List4: "Gesunde Zähne langfristig",
+
+    priceCard2Title: "Implantate",
+    priceCard2Desc: "Wieder fest zubeißen können 💪",
+    priceCard2Price: "ab 2.000 €",
+    priceCard2List1: "Feste Zähne wie echte",
+    priceCard2List2: "Langlebige Lösung",
+    priceCard2List3: "Mehr Lebensqualität",
+    priceCard2List4: "Individuelle Planung",
+
+    priceCard3Title: "Bleaching",
+    priceCard3Desc: "Ein Lächeln, das auffällt 😁",
+    priceCard3Price: "ab 250 €",
+    priceCard3List1: "Strahlend weiße Zähne",
+    priceCard3List2: "Schnelle Behandlung",
+    priceCard3List3: "Sichtbare Ergebnisse",
+    priceCard3List4: "Schonende Methode",
+
+    priceButton: "Termin anfragen",
+    priceNote:
+      "Alle Preise verstehen sich als Richtwerte. Die genauen Kosten werden individuell besprochen.",
   },
 
   en: {
@@ -341,6 +440,57 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Why Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Modern technology for a better patient experience.",
+
+    feature1Title: "Digital Request Assistant",
+    feature1Desc: "Submit your request in just a few clicks – no call needed.",
+
+    feature2Title: "Quick Appointment Overview",
+    feature2Desc: "Available appointments at a glance.",
+
+    feature3Title: "Prescription Requests Without Waiting",
+    feature3Desc: "Digital and simple – available 24/7.",
+
+    feature4Title: "Structured Patient Requests",
+    feature4Desc: "Clear categories for faster processing.",
+
+    feature5Title: "Mobile-Optimized Usage",
+    feature5Desc: "Accessible anytime – even on the go.",
+
+    pricesTitle: "Prices & Treatments",
+    pricesSubtitle:
+      "We inform you transparently before every treatment. No hidden costs.",
+
+    priceCard1Title: "Teeth Cleaning",
+    priceCard1Desc: "Give your teeth a fresh feeling ✨",
+    priceCard1Price: "€80–150",
+    priceCard1List1: "Thorough cleaning",
+    priceCard1List2: "Fresh breath",
+    priceCard1List3: "Prevention of cavities",
+    priceCard1List4: "Long-term dental health",
+
+    priceCard2Title: "Implants",
+    priceCard2Desc: "Bite firmly again 💪",
+    priceCard2Price: "from €2,000",
+    priceCard2List1: "Teeth like real ones",
+    priceCard2List2: "Long-lasting solution",
+    priceCard2List3: "Better quality of life",
+    priceCard2List4: "Individual planning",
+
+    priceCard3Title: "Teeth Whitening",
+    priceCard3Desc: "A smile that stands out 😁",
+    priceCard3Price: "from €250",
+    priceCard3List1: "Bright white teeth",
+    priceCard3List2: "Fast treatment",
+    priceCard3List3: "Visible results",
+    priceCard3List4: "Gentle method",
+
+    priceButton: "Request Appointment",
+    priceNote:
+      "All prices are indicative. Exact costs will be discussed individually.",
   },
 
   es: {
@@ -452,6 +602,57 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "¿Por qué Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Tecnología moderna para una mejor experiencia del paciente.",
+
+    feature1Title: "Asistente digital de solicitudes",
+    feature1Desc: "Envía tu solicitud en pocos clics – sin llamadas.",
+
+    feature2Title: "Vista rápida de citas",
+    feature2Desc: "Citas disponibles de un vistazo.",
+
+    feature3Title: "Solicitudes de recetas sin espera",
+    feature3Desc: "Digital y sencillo – disponible 24/7.",
+
+    feature4Title: "Solicitudes de pacientes estructuradas",
+    feature4Desc: "Categorías claras para un procesamiento rápido.",
+
+    feature5Title: "Uso optimizado para móviles",
+    feature5Desc: "Accesible en cualquier momento – incluso en movimiento.",
+
+    pricesTitle: "Precios & Tratamientos",
+    pricesSubtitle:
+      "Le informamos de forma transparente antes de cada tratamiento. Sin costes ocultos.",
+
+    priceCard1Title: "Limpieza dental",
+    priceCard1Desc: "Dale a tus dientes una sensación de frescura ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Limpieza profunda",
+    priceCard1List2: "Aliento fresco",
+    priceCard1List3: "Prevención de caries",
+    priceCard1List4: "Salud dental a largo plazo",
+
+    priceCard2Title: "Implantes",
+    priceCard2Desc: "Vuelve a morder con fuerza 💪",
+    priceCard2Price: "desde 2.000 €",
+    priceCard2List1: "Dientes como los naturales",
+    priceCard2List2: "Solución duradera",
+    priceCard2List3: "Mejor calidad de vida",
+    priceCard2List4: "Planificación individual",
+
+    priceCard3Title: "Blanqueamiento",
+    priceCard3Desc: "Una sonrisa que destaca 😁",
+    priceCard3Price: "desde 250 €",
+    priceCard3List1: "Dientes blancos brillantes",
+    priceCard3List2: "Tratamiento rápido",
+    priceCard3List3: "Resultados visibles",
+    priceCard3List4: "Método suave",
+
+    priceButton: "Solicitar cita",
+    priceNote:
+      "Todos los precios son orientativos. Los costes exactos se determinarán individualmente.",
   },
 
   fr: {
@@ -562,6 +763,57 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Pourquoi Zahnzentrum Neckarblick ?",
+    featuresSubtitle:
+      "Une technologie moderne pour une meilleure expérience patient.",
+
+    feature1Title: "Assistant de demande numérique",
+    feature1Desc: "Soumettez votre demande en quelques clics – sans appel.",
+
+    feature2Title: "Vue rapide des rendez-vous",
+    feature2Desc: "Les créneaux disponibles en un coup d'œil.",
+
+    feature3Title: "Demandes d’ordonnance sans attente",
+    feature3Desc: "Numérique et simple – disponible 24h/24.",
+
+    feature4Title: "Demandes patients structurées",
+    feature4Desc: "Catégories claires pour un traitement rapide.",
+
+    feature5Title: "Utilisation optimisée mobile",
+    feature5Desc: "Accessible à tout moment – même en déplacement.",
+
+    pricesTitle: "Prix & Traitements",
+    pricesSubtitle:
+      "Nous vous informons en toute transparence avant chaque traitement. Aucun coût caché.",
+
+    priceCard1Title: "Nettoyage dentaire",
+    priceCard1Desc: "Offrez à vos dents une sensation de fraîcheur ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Nettoyage en profondeur",
+    priceCard1List2: "Haleine fraîche",
+    priceCard1List3: "Prévention des caries",
+    priceCard1List4: "Santé dentaire durable",
+
+    priceCard2Title: "Implants",
+    priceCard2Desc: "Retrouvez une mastication solide 💪",
+    priceCard2Price: "à partir de 2000 €",
+    priceCard2List1: "Dents fixes comme naturelles",
+    priceCard2List2: "Solution durable",
+    priceCard2List3: "Meilleure qualité de vie",
+    priceCard2List4: "Planification personnalisée",
+
+    priceCard3Title: "Blanchiment",
+    priceCard3Desc: "Un sourire éclatant 😁",
+    priceCard3Price: "à partir de 250 €",
+    priceCard3List1: "Dents blanches éclatantes",
+    priceCard3List2: "Traitement rapide",
+    priceCard3List3: "Résultats visibles",
+    priceCard3List4: "Méthode douce",
+
+    priceButton: "Prendre rendez-vous",
+    priceNote:
+      "Tous les prix sont indicatifs. Les coûts exacts sont définis individuellement.",
   },
 
   it: {
@@ -672,6 +924,57 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Perché Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Tecnologia moderna per una migliore esperienza del paziente.",
+
+    feature1Title: "Assistente digitale per richieste",
+    feature1Desc: "Invia la tua richiesta in pochi clic – senza chiamare.",
+
+    feature2Title: "Panoramica veloce degli appuntamenti",
+    feature2Desc: "Appuntamenti disponibili a colpo d'occhio.",
+
+    feature3Title: "Richieste di prescrizione senza attesa",
+    feature3Desc: "Digitale e semplice – disponibile 24/7.",
+
+    feature4Title: "Richieste pazienti strutturate",
+    feature4Desc: "Categorie chiare per una gestione rapida.",
+
+    feature5Title: "Utilizzo ottimizzato per mobile",
+    feature5Desc: "Accessibile in qualsiasi momento – anche in movimento.",
+
+    pricesTitle: "Prezzi & Trattamenti",
+    pricesSubtitle:
+      "Vi informiamo in modo trasparente prima di ogni trattamento. Nessun costo nascosto.",
+
+    priceCard1Title: "Pulizia dentale",
+    priceCard1Desc: "Regala ai tuoi denti una sensazione di freschezza ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Pulizia approfondita",
+    priceCard1List2: "Alito fresco",
+    priceCard1List3: "Prevenzione della carie",
+    priceCard1List4: "Salute dentale a lungo termine",
+
+    priceCard2Title: "Impianti",
+    priceCard2Desc: "Torna a mordere con forza 💪",
+    priceCard2Price: "da 2.000 €",
+    priceCard2List1: "Denti come naturali",
+    priceCard2List2: "Soluzione duratura",
+    priceCard2List3: "Maggiore qualità della vita",
+    priceCard2List4: "Pianificazione personalizzata",
+
+    priceCard3Title: "Sbiancamento",
+    priceCard3Desc: "Un sorriso che si distingue 😁",
+    priceCard3Price: "da 250 €",
+    priceCard3List1: "Denti bianchi brillanti",
+    priceCard3List2: "Trattamento veloce",
+    priceCard3List3: "Risultati visibili",
+    priceCard3List4: "Metodo delicato",
+
+    priceButton: "Richiedi appuntamento",
+    priceNote:
+      "Tutti i prezzi sono indicativi. I costi esatti saranno concordati individualmente.",
   },
 
   tr: {
@@ -782,6 +1085,57 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Neden Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Daha iyi bir hasta deneyimi için modern teknoloji.",
+
+    feature1Title: "Dijital Talep Asistanı",
+    feature1Desc: "Talebinizi birkaç tıklama ile iletin – aramaya gerek yok.",
+
+    feature2Title: "Hızlı Randevu Görünümü",
+    feature2Desc: "Mevcut randevulara tek bakışta ulaşın.",
+
+    feature3Title: "Beklemeden Reçete Talepleri",
+    feature3Desc: "Dijital ve kolay – 7/24 erişilebilir.",
+
+    feature4Title: "Yapılandırılmış Hasta Talepleri",
+    feature4Desc: "Hızlı işlem için net kategoriler.",
+
+    feature5Title: "Mobil Uyumlu Kullanım",
+    feature5Desc: "Her zaman erişilebilir – hareket halindeyken bile.",
+
+    pricesTitle: "Fiyatlar & Tedaviler",
+    pricesSubtitle:
+      "Her tedavi öncesinde sizi şeffaf bir şekilde bilgilendiriyoruz. Gizli maliyet yok.",
+
+    priceCard1Title: "Diş Temizliği",
+    priceCard1Desc: "Dişlerinize ferahlık kazandırın ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Derinlemesine temizlik",
+    priceCard1List2: "Ferah nefes",
+    priceCard1List3: "Çürük önleme",
+    priceCard1List4: "Uzun vadeli diş sağlığı",
+
+    priceCard2Title: "İmplantlar",
+    priceCard2Desc: "Yeniden güçlü ısırın 💪",
+    priceCard2Price: "2000 €'dan itibaren",
+    priceCard2List1: "Gerçek gibi dişler",
+    priceCard2List2: "Uzun ömürlü çözüm",
+    priceCard2List3: "Daha iyi yaşam kalitesi",
+    priceCard2List4: "Kişiye özel planlama",
+
+    priceCard3Title: "Beyazlatma",
+    priceCard3Desc: "Dikkat çeken bir gülüş 😁",
+    priceCard3Price: "250 €'dan itibaren",
+    priceCard3List1: "Parlak beyaz dişler",
+    priceCard3List2: "Hızlı işlem",
+    priceCard3List3: "Görünür sonuçlar",
+    priceCard3List4: "Nazik yöntem",
+
+    priceButton: "Randevu Al",
+    priceNote:
+      "Tüm fiyatlar yaklaşık değerlerdir. Kesin maliyetler bireysel olarak belirlenir.",
   },
 
   ru: {
@@ -892,6 +1246,57 @@ const translations: Record<string, Translation> = {
     teamName1: "Анна Мюллер",
     teamName2: "Мехмет Йылмаз",
     teamName3: "Лаура Шнайдер",
+
+    featuresTitle: "Почему Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Современные технологии для лучшего опыта пациентов.",
+
+    feature1Title: "Цифровой ассистент запросов",
+    feature1Desc: "Отправьте запрос в несколько кликов – без звонка.",
+
+    feature2Title: "Быстрый обзор записей",
+    feature2Desc: "Доступные записи с первого взгляда.",
+
+    feature3Title: "Запрос рецептов без ожидания",
+    feature3Desc: "Цифрово и просто – доступно 24/7.",
+
+    feature4Title: "Структурированные запросы пациентов",
+    feature4Desc: "Четкие категории для быстрой обработки.",
+
+    feature5Title: "Оптимизация для мобильных устройств",
+    feature5Desc: "Доступно в любое время – даже в пути.",
+
+    pricesTitle: "Цены & Лечение",
+    pricesSubtitle:
+      "Мы заранее информируем вас прозрачно перед каждым лечением. Без скрытых затрат.",
+
+    priceCard1Title: "Чистка зубов",
+    priceCard1Desc: "Подарите своим зубам свежесть ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Глубокая чистка",
+    priceCard1List2: "Свежое дыхание",
+    priceCard1List3: "Профилактика кариеса",
+    priceCard1List4: "Долгосрочное здоровье зубов",
+
+    priceCard2Title: "Импланты",
+    priceCard2Desc: "Снова уверенно кусать 💪",
+    priceCard2Price: "от 2.000 €",
+    priceCard2List1: "Зубы как настоящие",
+    priceCard2List2: "Долговечное решение",
+    priceCard2List3: "Лучшее качество жизни",
+    priceCard2List4: "Индивидуальное планирование",
+
+    priceCard3Title: "Отбеливание",
+    priceCard3Desc: "Улыбка, которая выделяется 😁",
+    priceCard3Price: "от 250 €",
+    priceCard3List1: "Ярко-белые зубы",
+    priceCard3List2: "Быстрое лечение",
+    priceCard3List3: "Видимый результат",
+    priceCard3List4: "Щадящий метод",
+
+    priceButton: "Записаться",
+    priceNote:
+      "Все цены являются ориентировочными. Точная стоимость определяется индивидуально.",
   },
 
   ar: {
@@ -1002,6 +1407,57 @@ const translations: Record<string, Translation> = {
     teamName1: "آنا مولر",
     teamName2: "محمد يلماز",
     teamName3: "لورا شنايدر",
+
+    featuresTitle: "لماذا Zahnzentrum Neckarblick؟",
+    featuresSubtitle:
+      "تقنية حديثة لتجربة أفضل للمرضى.",
+
+    feature1Title: "مساعد الطلبات الرقمي",
+    feature1Desc: "أرسل طلبك ببضع نقرات فقط – بدون اتصال.",
+
+    feature2Title: "نظرة سريعة على المواعيد",
+    feature2Desc: "المواعيد المتاحة بنظرة واحدة.",
+
+    feature3Title: "طلبات الوصفات بدون انتظار",
+    feature3Desc: "رقمي وبسيط – متاح على مدار الساعة.",
+
+    feature4Title: "طلبات مرضى منظمة",
+    feature4Desc: "فئات واضحة لمعالجة أسرع.",
+
+    feature5Title: "استخدام محسّن للجوال",
+    feature5Desc: "متاح في أي وقت – حتى أثناء التنقل.",
+
+    pricesTitle: "الأسعار & العلاجات",
+    pricesSubtitle:
+      "نقوم بإعلامك بشفافية قبل كل علاج. لا توجد تكاليف مخفية.",
+
+    priceCard1Title: "تنظيف الأسنان",
+    priceCard1Desc: "امنح أسنانك إحساسًا بالانتعاش ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "تنظيف عميق",
+    priceCard1List2: "نفس منعش",
+    priceCard1List3: "الوقاية من التسوس",
+    priceCard1List4: "صحة طويلة الأمد",
+
+    priceCard2Title: "زراعة الأسنان",
+    priceCard2Desc: "استعد لقوة المضغ 💪",
+    priceCard2Price: "ابتداءً من 2000 €",
+    priceCard2List1: "أسنان ثابتة كالحقيقية",
+    priceCard2List2: "حل طويل الأمد",
+    priceCard2List3: "جودة حياة أفضل",
+    priceCard2List4: "تخطيط فردي",
+
+    priceCard3Title: "تبييض الأسنان",
+    priceCard3Desc: "ابتسامة ملفتة 😁",
+    priceCard3Price: "ابتداءً من 250 €",
+    priceCard3List1: "أسنان بيضاء ناصعة",
+    priceCard3List2: "علاج سريع",
+    priceCard3List3: "نتائج واضحة",
+    priceCard3List4: "طريقة لطيفة",
+
+    priceButton: "احجز موعد",
+    priceNote:
+      "جميع الأسعار تقديرية. يتم تحديد التكلفة النهائية بشكل فردي.",
   },
 
   fa: {
@@ -1112,6 +1568,57 @@ const translations: Record<string, Translation> = {
     teamName1: "آنا مولر",
     teamName2: "محمد ییلماز",
     teamName3: "لورا اشنایدر",
+
+    featuresTitle: "چرا Zahnzentrum Neckarblick؟",
+    featuresSubtitle:
+      "فناوری مدرن برای تجربه بهتر بیماران.",
+
+    feature1Title: "دستیار دیجیتال درخواست‌ها",
+    feature1Desc: "درخواست خود را تنها با چند کلیک ارسال کنید – بدون تماس.",
+
+    feature2Title: "نمای سریع نوبت‌ها",
+    feature2Desc: "مشاهده نوبت‌های موجود در یک نگاه.",
+
+    feature3Title: "درخواست نسخه بدون انتظار",
+    feature3Desc: "دیجیتال و ساده – در دسترس ۲۴/۷.",
+
+    feature4Title: "درخواست‌های ساختاریافته بیماران",
+    feature4Desc: "دسته‌بندی‌های واضح برای پردازش سریع.",
+
+    feature5Title: "استفاده بهینه برای موبایل",
+    feature5Desc: "در هر زمان در دسترس – حتی در حال حرکت.",
+
+    pricesTitle: "قیمت‌ها و درمان‌ها",
+    pricesSubtitle:
+      "ما قبل از هر درمان به‌صورت شفاف شما را مطلع می‌کنیم. بدون هزینه پنهان.",
+
+    priceCard1Title: "جرم‌گیری دندان",
+    priceCard1Desc: "به دندان‌های خود حس تازگی بدهید ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "تمیزکاری کامل",
+    priceCard1List2: "نفس تازه",
+    priceCard1List3: "پیشگیری از پوسیدگی",
+    priceCard1List4: "سلامت بلندمدت دندان",
+
+    priceCard2Title: "ایمپلنت",
+    priceCard2Desc: "دوباره محکم گاز بزنید 💪",
+    priceCard2Price: "از 2000 €",
+    priceCard2List1: "دندان‌های طبیعی‌مانند",
+    priceCard2List2: "راه‌حل ماندگار",
+    priceCard2List3: "کیفیت زندگی بهتر",
+    priceCard2List4: "برنامه‌ریزی شخصی",
+
+    priceCard3Title: "بلیچینگ",
+    priceCard3Desc: "لبخندی که می‌درخشد 😁",
+    priceCard3Price: "از 250 €",
+    priceCard3List1: "دندان‌های سفید درخشان",
+    priceCard3List2: "درمان سریع",
+    priceCard3List3: "نتایج قابل مشاهده",
+    priceCard3List4: "روش ملایم",
+
+    priceButton: "درخواست نوبت",
+    priceNote:
+      "تمام قیمت‌ها تقریبی هستند. هزینه نهایی به‌صورت فردی تعیین می‌شود.",
   },
 
   sq: {
@@ -1222,6 +1729,57 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Pse Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Teknologji moderne për një përvojë më të mirë të pacientit.",
+
+    feature1Title: "Asistent dixhital për kërkesa",
+    feature1Desc: "Dërgoni kërkesën tuaj me disa klikime – pa telefonatë.",
+
+    feature2Title: "Pamje e shpejtë e termineve",
+    feature2Desc: "Terminet e disponueshme me një shikim.",
+
+    feature3Title: "Kërkesa për receta pa pritje",
+    feature3Desc: "Digjitale dhe e thjeshtë – në dispozicion 24/7.",
+
+    feature4Title: "Kërkesa të strukturuara të pacientëve",
+    feature4Desc: "Kategori të qarta për përpunim të shpejtë.",
+
+    feature5Title: "Përdorim i optimizuar për celular",
+    feature5Desc: "I aksesueshëm në çdo kohë – edhe në lëvizje.",
+
+    pricesTitle: "Çmimet & Trajtimet",
+    pricesSubtitle:
+      "Ne ju informojmë në mënyrë transparente para çdo trajtimi. Pa kosto të fshehura.",
+
+    priceCard1Title: "Pastrimi i dhëmbëve",
+    priceCard1Desc: "Jepuni dhëmbëve tuaj freski ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Pastrimi i thellë",
+    priceCard1List2: "Frymëmarrje e freskët",
+    priceCard1List3: "Parandalimi i kariesit",
+    priceCard1List4: "Shëndet afatgjatë i dhëmbëve",
+
+    priceCard2Title: "Implantet",
+    priceCard2Desc: "Kafsho sërish fort 💪",
+    priceCard2Price: "nga 2000 €",
+    priceCard2List1: "Dhëmbë si natyralë",
+    priceCard2List2: "Zgjidhje afatgjatë",
+    priceCard2List3: "Cilësi më e mirë jete",
+    priceCard2List4: "Planifikim individual",
+
+    priceCard3Title: "Zbardhimi",
+    priceCard3Desc: "Një buzëqeshje që bie në sy 😁",
+    priceCard3Price: "nga 250 €",
+    priceCard3List1: "Dhëmbë të bardhë të ndritshëm",
+    priceCard3List2: "Trajtim i shpejtë",
+    priceCard3List3: "Rezultate të dukshme",
+    priceCard3List4: "Metodë e butë",
+
+    priceButton: "Rezervo takim",
+    priceNote:
+      "Të gjitha çmimet janë orientuese. Kostot e sakta përcaktohen individualisht.",
   },
 };
 
