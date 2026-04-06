@@ -172,6 +172,14 @@ type Translation = {
   story1: string;
   story2: string;
   story3: string;
+
+  ctaTitle: string;
+  ctaSubtitle: string;
+  ctaButton: string;
+
+  ctaPoint1: string;
+  ctaPoint2: string;
+  ctaPoint3: string;
 };
 
 type LanguageContextType = {
@@ -398,6 +406,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Früher war alles kompliziert mit Terminen. Jetzt dauert es nur noch wenige Klicks – genau so sollte es sein.",
+
+    ctaTitle: "Schnell, persönlich & zuverlässig",
+    ctaSubtitle:
+      "Starten Sie Ihre Anfrage bequem über unseren digitalen Assistenten – jederzeit und ohne Wartezeit.",
+    ctaButton: "Termin oder Anliegen starten",
+
+    ctaPoint1: "In unter 1 Minute erledigt",
+    ctaPoint2: "Ohne Registrierung",
+    ctaPoint3: "Sicher & vertraulich",
   },
 
   en: {
@@ -598,6 +615,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Appointments used to be complicated. Now it only takes a few clicks – exactly how it should be.",
+
+    ctaTitle: "Fast, Personal & Reliable",
+    ctaSubtitle:
+      "Start your request easily through our digital assistant – anytime and without waiting.",
+    ctaButton: "Start Appointment or Request",
+
+    ctaPoint1: "Done in under 1 minute",
+    ctaPoint2: "No registration required",
+    ctaPoint3: "Secure & confidential",
   },
 
   es: {
@@ -799,6 +825,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Antes, las citas eran complicadas. Ahora solo toma unos pocos clics – como debería ser.",
+
+    ctaTitle: "Rápido, Personal & Fiable",
+    ctaSubtitle:
+      "Inicie su solicitud fácilmente a través de nuestro asistente digital – en cualquier momento y sin espera.",
+    ctaButton: "Iniciar cita o solicitud",
+
+    ctaPoint1: "En menos de 1 minuto",
+    ctaPoint2: "Sin registro",
+    ctaPoint3: "Seguro y confidencial",
   },
 
   fr: {
@@ -999,6 +1034,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Avant, les rendez-vous étaient compliqués. Maintenant, cela ne prend que quelques clics – exactement comme il faut.",
+
+    ctaTitle: "Rapide, Personnel & Fiable",
+    ctaSubtitle:
+      "Lancez votre demande facilement via notre assistant numérique – à tout moment et sans attente.",
+    ctaButton: "Démarrer un rendez-vous ou une demande",
+
+    ctaPoint1: "En moins d’une minute",
+    ctaPoint2: "Sans inscription",
+    ctaPoint3: "Sécurisé & confidentiel",
   },
 
   it: {
@@ -1199,6 +1243,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Prima gli appuntamenti erano complicati. Ora bastano pochi clic – esattamente come dovrebbe essere.",
+
+    ctaTitle: "Veloce, Personale & Affidabile",
+    ctaSubtitle:
+      "Avvia la tua richiesta comodamente tramite il nostro assistente digitale – in qualsiasi momento e senza attese.",
+    ctaButton: "Avvia appuntamento o richiesta",
+
+    ctaPoint1: "Completato in meno di 1 minuto",
+    ctaPoint2: "Senza registrazione",
+    ctaPoint3: "Sicuro e riservato",
   },
 
   tr: {
@@ -1399,6 +1452,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Eskiden randevular karmaşıktı. Şimdi sadece birkaç tıklama sürüyor – olması gerektiği gibi.",
+
+    ctaTitle: "Hızlı, Kişisel & Güvenilir",
+    ctaSubtitle:
+      "Talebinizi dijital asistanımız üzerinden kolayca başlatın – her zaman ve beklemeden.",
+    ctaButton: "Randevu veya Talep Başlat",
+
+    ctaPoint1: "1 dakikadan kısa sürede tamamlanır",
+    ctaPoint2: "Kayıt gerekmez",
+    ctaPoint3: "Güvenli & gizli",
   },
 
   ru: {
@@ -1599,6 +1661,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Раньше запись была сложной. Теперь это занимает всего несколько кликов – как и должно быть.",
+
+    ctaTitle: "Быстро, Персонально & Надежно",
+    ctaSubtitle:
+      "Начните свой запрос через нашего цифрового ассистента – в любое время и без ожидания.",
+    ctaButton: "Начать запись или запрос",
+
+    ctaPoint1: "Менее чем за 1 минуту",
+    ctaPoint2: "Без регистрации",
+    ctaPoint3: "Безопасно и конфиденциально",
   },
 
   ar: {
@@ -1799,6 +1870,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "في السابق كانت المواعيد معقدة. الآن تستغرق بضع نقرات فقط – كما يجب أن يكون.",
+
+    ctaTitle: "سريع، شخصي & موثوق",
+    ctaSubtitle:
+      "ابدأ طلبك بسهولة عبر مساعدنا الرقمي – في أي وقت وبدون انتظار.",
+    ctaButton: "ابدأ الموعد أو الطلب",
+
+    ctaPoint1: "يتم خلال أقل من دقيقة",
+    ctaPoint2: "بدون تسجيل",
+    ctaPoint3: "آمن وسري",
   },
 
   fa: {
@@ -2000,6 +2080,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "قبلاً گرفتن نوبت پیچیده بود. حالا فقط چند کلیک طول می‌کشد – دقیقاً همان‌طور که باید باشد.",
+
+    ctaTitle: "سریع، شخصی و قابل اعتماد",
+    ctaSubtitle:
+      "درخواست خود را به‌راحتی از طریق دستیار دیجیتال ما شروع کنید – در هر زمان و بدون انتظار.",
+    ctaButton: "شروع نوبت یا درخواست",
+
+    ctaPoint1: "در کمتر از ۱ دقیقه",
+    ctaPoint2: "بدون نیاز به ثبت‌نام",
+    ctaPoint3: "ایمن و محرمانه",
   },
 
   sq: {
@@ -2200,6 +2289,15 @@ const translations: Record<string, Translation> = {
 
     story3:
       "Më parë terminet ishin të komplikuara. Tani duhen vetëm disa klikime – pikërisht si duhet të jetë.",
+
+    ctaTitle: "I shpejtë, Personal & i besueshëm",
+    ctaSubtitle:
+      "Nisni kërkesën tuaj lehtësisht përmes asistentit tonë dixhital – në çdo kohë dhe pa pritje.",
+    ctaButton: "Nis takim ose kërkesë",
+
+    ctaPoint1: "Përfundon në më pak se 1 minutë",
+    ctaPoint2: "Pa regjistrim",
+    ctaPoint3: "I sigurt dhe konfidencial",
   },
 };
 
