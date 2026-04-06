@@ -231,6 +231,37 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+    pricesTitle: "Preise & Behandlungen",
+    pricesSubtitle:
+      "Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.",
+
+    priceCard1Title: "Zahnreinigung",
+    priceCard1Desc: "Gönnen Sie Ihren Zähnen etwas Frische ✨",
+    priceCard1Price: "80–150 €",
+    priceCard1List1: "Gründliche Reinigung",
+    priceCard1List2: "Frischer Atem",
+    priceCard1List3: "Vorbeugung gegen Karies",
+    priceCard1List4: "Gesunde Zähne langfristig",
+
+    priceCard2Title: "Implantate",
+    priceCard2Desc: "Wieder fest zubeißen können 💪",
+    priceCard2Price: "ab 2.000 €",
+    priceCard2List1: "Feste Zähne wie echte",
+    priceCard2List2: "Langlebige Lösung",
+    priceCard2List3: "Mehr Lebensqualität",
+    priceCard2List4: "Individuelle Planung",
+
+    priceCard3Title: "Bleaching",
+    priceCard3Desc: "Ein Lächeln, das auffällt 😁",
+    priceCard3Price: "ab 250 €",
+    priceCard3List1: "Strahlend weiße Zähne",
+    priceCard3List2: "Schnelle Behandlung",
+    priceCard3List3: "Sichtbare Ergebnisse",
+    priceCard3List4: "Schonende Methode",
+
+    priceButton: "Termin anfragen",
+    priceNote:
+      "Alle Preise verstehen sich als Richtwerte. Die genauen Kosten werden individuell besprochen.",
   },
 
   en: {
