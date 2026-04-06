@@ -280,10 +280,8 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
-    pricesTitle: "Preise & Behandlungen",
-    pricesSubtitle:
 
-      featuresTitle: "Warum Zahnzentrum Neckarblick?",
+    featuresTitle: "Warum Zahnzentrum Neckarblick?",
     featuresSubtitle:
       "Moderne Technologie für ein besseres Patientenerlebnis.",
 
@@ -302,7 +300,8 @@ const translations: Record<string, Translation> = {
     feature5Title: "Mobile-optimierte Nutzung",
     feature5Desc: "Jederzeit erreichbar – auch unterwegs.",
 
-    "Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.",
+    pricesTitle: "Preise & Behandlungen",
+    pricesSubtitle: "Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.",
 
     priceCard1Title: "Zahnreinigung",
     priceCard1Desc: "Gönnen Sie Ihren Zähnen etwas Frische ✨",
@@ -441,6 +440,26 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Why Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Modern technology for a better patient experience.",
+
+    feature1Title: "Digital Request Assistant",
+    feature1Desc: "Submit your request in just a few clicks – no call needed.",
+
+    feature2Title: "Quick Appointment Overview",
+    feature2Desc: "Available appointments at a glance.",
+
+    feature3Title: "Prescription Requests Without Waiting",
+    feature3Desc: "Digital and simple – available 24/7.",
+
+    feature4Title: "Structured Patient Requests",
+    feature4Desc: "Clear categories for faster processing.",
+
+    feature5Title: "Mobile-Optimized Usage",
+    feature5Desc: "Accessible anytime – even on the go.",
+
     pricesTitle: "Prices & Treatments",
     pricesSubtitle:
       "We inform you transparently before every treatment. No hidden costs.",
@@ -583,6 +602,26 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "¿Por qué Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Tecnología moderna para una mejor experiencia del paciente.",
+
+    feature1Title: "Asistente digital de solicitudes",
+    feature1Desc: "Envía tu solicitud en pocos clics – sin llamadas.",
+
+    feature2Title: "Vista rápida de citas",
+    feature2Desc: "Citas disponibles de un vistazo.",
+
+    feature3Title: "Solicitudes de recetas sin espera",
+    feature3Desc: "Digital y sencillo – disponible 24/7.",
+
+    feature4Title: "Solicitudes de pacientes estructuradas",
+    feature4Desc: "Categorías claras para un procesamiento rápido.",
+
+    feature5Title: "Uso optimizado para móviles",
+    feature5Desc: "Accesible en cualquier momento – incluso en movimiento.",
+
     pricesTitle: "Precios & Tratamientos",
     pricesSubtitle:
       "Le informamos de forma transparente antes de cada tratamiento. Sin costes ocultos.",
@@ -724,6 +763,26 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Pourquoi Zahnzentrum Neckarblick ?",
+    featuresSubtitle:
+      "Une technologie moderne pour une meilleure expérience patient.",
+
+    feature1Title: "Assistant de demande numérique",
+    feature1Desc: "Soumettez votre demande en quelques clics – sans appel.",
+
+    feature2Title: "Vue rapide des rendez-vous",
+    feature2Desc: "Les créneaux disponibles en un coup d'œil.",
+
+    feature3Title: "Demandes d’ordonnance sans attente",
+    feature3Desc: "Numérique et simple – disponible 24h/24.",
+
+    feature4Title: "Demandes patients structurées",
+    feature4Desc: "Catégories claires pour un traitement rapide.",
+
+    feature5Title: "Utilisation optimisée mobile",
+    feature5Desc: "Accessible à tout moment – même en déplacement.",
+
     pricesTitle: "Prix & Traitements",
     pricesSubtitle:
       "Nous vous informons en toute transparence avant chaque traitement. Aucun coût caché.",
@@ -865,6 +924,26 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Perché Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Tecnologia moderna per una migliore esperienza del paziente.",
+
+    feature1Title: "Assistente digitale per richieste",
+    feature1Desc: "Invia la tua richiesta in pochi clic – senza chiamare.",
+
+    feature2Title: "Panoramica veloce degli appuntamenti",
+    feature2Desc: "Appuntamenti disponibili a colpo d'occhio.",
+
+    feature3Title: "Richieste di prescrizione senza attesa",
+    feature3Desc: "Digitale e semplice – disponibile 24/7.",
+
+    feature4Title: "Richieste pazienti strutturate",
+    feature4Desc: "Categorie chiare per una gestione rapida.",
+
+    feature5Title: "Utilizzo ottimizzato per mobile",
+    feature5Desc: "Accessibile in qualsiasi momento – anche in movimento.",
+
     pricesTitle: "Prezzi & Trattamenti",
     pricesSubtitle:
       "Vi informiamo in modo trasparente prima di ogni trattamento. Nessun costo nascosto.",
@@ -1006,6 +1085,26 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Neden Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Daha iyi bir hasta deneyimi için modern teknoloji.",
+
+    feature1Title: "Dijital Talep Asistanı",
+    feature1Desc: "Talebinizi birkaç tıklama ile iletin – aramaya gerek yok.",
+
+    feature2Title: "Hızlı Randevu Görünümü",
+    feature2Desc: "Mevcut randevulara tek bakışta ulaşın.",
+
+    feature3Title: "Beklemeden Reçete Talepleri",
+    feature3Desc: "Dijital ve kolay – 7/24 erişilebilir.",
+
+    feature4Title: "Yapılandırılmış Hasta Talepleri",
+    feature4Desc: "Hızlı işlem için net kategoriler.",
+
+    feature5Title: "Mobil Uyumlu Kullanım",
+    feature5Desc: "Her zaman erişilebilir – hareket halindeyken bile.",
+
     pricesTitle: "Fiyatlar & Tedaviler",
     pricesSubtitle:
       "Her tedavi öncesinde sizi şeffaf bir şekilde bilgilendiriyoruz. Gizli maliyet yok.",
@@ -1147,6 +1246,26 @@ const translations: Record<string, Translation> = {
     teamName1: "Анна Мюллер",
     teamName2: "Мехмет Йылмаз",
     teamName3: "Лаура Шнайдер",
+
+    featuresTitle: "Почему Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Современные технологии для лучшего опыта пациентов.",
+
+    feature1Title: "Цифровой ассистент запросов",
+    feature1Desc: "Отправьте запрос в несколько кликов – без звонка.",
+
+    feature2Title: "Быстрый обзор записей",
+    feature2Desc: "Доступные записи с первого взгляда.",
+
+    feature3Title: "Запрос рецептов без ожидания",
+    feature3Desc: "Цифрово и просто – доступно 24/7.",
+
+    feature4Title: "Структурированные запросы пациентов",
+    feature4Desc: "Четкие категории для быстрой обработки.",
+
+    feature5Title: "Оптимизация для мобильных устройств",
+    feature5Desc: "Доступно в любое время – даже в пути.",
+
     pricesTitle: "Цены & Лечение",
     pricesSubtitle:
       "Мы заранее информируем вас прозрачно перед каждым лечением. Без скрытых затрат.",
@@ -1288,6 +1407,26 @@ const translations: Record<string, Translation> = {
     teamName1: "آنا مولر",
     teamName2: "محمد يلماز",
     teamName3: "لورا شنايدر",
+
+    featuresTitle: "لماذا Zahnzentrum Neckarblick؟",
+    featuresSubtitle:
+      "تقنية حديثة لتجربة أفضل للمرضى.",
+
+    feature1Title: "مساعد الطلبات الرقمي",
+    feature1Desc: "أرسل طلبك ببضع نقرات فقط – بدون اتصال.",
+
+    feature2Title: "نظرة سريعة على المواعيد",
+    feature2Desc: "المواعيد المتاحة بنظرة واحدة.",
+
+    feature3Title: "طلبات الوصفات بدون انتظار",
+    feature3Desc: "رقمي وبسيط – متاح على مدار الساعة.",
+
+    feature4Title: "طلبات مرضى منظمة",
+    feature4Desc: "فئات واضحة لمعالجة أسرع.",
+
+    feature5Title: "استخدام محسّن للجوال",
+    feature5Desc: "متاح في أي وقت – حتى أثناء التنقل.",
+
     pricesTitle: "الأسعار & العلاجات",
     pricesSubtitle:
       "نقوم بإعلامك بشفافية قبل كل علاج. لا توجد تكاليف مخفية.",
@@ -1429,6 +1568,26 @@ const translations: Record<string, Translation> = {
     teamName1: "آنا مولر",
     teamName2: "محمد ییلماز",
     teamName3: "لورا اشنایدر",
+
+    featuresTitle: "چرا Zahnzentrum Neckarblick؟",
+    featuresSubtitle:
+      "فناوری مدرن برای تجربه بهتر بیماران.",
+
+    feature1Title: "دستیار دیجیتال درخواست‌ها",
+    feature1Desc: "درخواست خود را تنها با چند کلیک ارسال کنید – بدون تماس.",
+
+    feature2Title: "نمای سریع نوبت‌ها",
+    feature2Desc: "مشاهده نوبت‌های موجود در یک نگاه.",
+
+    feature3Title: "درخواست نسخه بدون انتظار",
+    feature3Desc: "دیجیتال و ساده – در دسترس ۲۴/۷.",
+
+    feature4Title: "درخواست‌های ساختاریافته بیماران",
+    feature4Desc: "دسته‌بندی‌های واضح برای پردازش سریع.",
+
+    feature5Title: "استفاده بهینه برای موبایل",
+    feature5Desc: "در هر زمان در دسترس – حتی در حال حرکت.",
+
     pricesTitle: "قیمت‌ها و درمان‌ها",
     pricesSubtitle:
       "ما قبل از هر درمان به‌صورت شفاف شما را مطلع می‌کنیم. بدون هزینه پنهان.",
@@ -1570,6 +1729,26 @@ const translations: Record<string, Translation> = {
     teamName1: "Anna Müller",
     teamName2: "Mehmet Yilmaz",
     teamName3: "Laura Schneider",
+
+    featuresTitle: "Pse Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Teknologji moderne për një përvojë më të mirë të pacientit.",
+
+    feature1Title: "Asistent dixhital për kërkesa",
+    feature1Desc: "Dërgoni kërkesën tuaj me disa klikime – pa telefonatë.",
+
+    feature2Title: "Pamje e shpejtë e termineve",
+    feature2Desc: "Terminet e disponueshme me një shikim.",
+
+    feature3Title: "Kërkesa për receta pa pritje",
+    feature3Desc: "Digjitale dhe e thjeshtë – në dispozicion 24/7.",
+
+    feature4Title: "Kërkesa të strukturuara të pacientëve",
+    feature4Desc: "Kategori të qarta për përpunim të shpejtë.",
+
+    feature5Title: "Përdorim i optimizuar për celular",
+    feature5Desc: "I aksesueshëm në çdo kohë – edhe në lëvizje.",
+
     pricesTitle: "Çmimet & Trajtimet",
     pricesSubtitle:
       "Ne ju informojmë në mënyrë transparente para çdo trajtimi. Pa kosto të fshehura.",
