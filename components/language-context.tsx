@@ -165,6 +165,13 @@ type Translation = {
   beforeAfter1Title: string;
   beforeAfter2Title: string;
   beforeAfter3Title: string;
+
+  storiesTitle: string;
+  storiesSubtitle: string;
+
+  story1: string;
+  story2: string;
+  story3: string;
 };
 
 type LanguageContextType = {
@@ -379,6 +386,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "Implantat",
     beforeAfter2Title: "Zahnkorrektur",
     beforeAfter3Title: "Zahnaufhellung",
+
+    storiesTitle: "Geschichten, die berühren",
+    storiesSubtitle: "Echte Erfahrungen unserer Patienten",
+
+    story1:
+      "Ich hatte lange Angst vor dem Zahnarzt. Durch die einfache Anfrage und das ruhige Team habe ich endlich den Schritt gemacht. Heute gehe ich entspannt zu meinen Terminen.",
+
+    story2:
+      "Meine Zähne haben mich jahrelang gestört. Nach der Behandlung lächle ich endlich wieder gerne – das hat mein Selbstbewusstsein komplett verändert.",
+
+    story3:
+      "Früher war alles kompliziert mit Terminen. Jetzt dauert es nur noch wenige Klicks – genau so sollte es sein.",
   },
 
   en: {
@@ -567,6 +586,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "Implant",
     beforeAfter2Title: "Teeth Alignment",
     beforeAfter3Title: "Teeth Whitening",
+
+    storiesTitle: "Stories That Matter",
+    storiesSubtitle: "Real experiences from our patients",
+
+    story1:
+      "I was afraid of going to the dentist for a long time. Thanks to the simple request process and the calm team, I finally took the step. Now I go to my appointments relaxed.",
+
+    story2:
+      "My teeth bothered me for years. After the treatment, I finally smile again – it completely changed my confidence.",
+
+    story3:
+      "Appointments used to be complicated. Now it only takes a few clicks – exactly how it should be.",
   },
 
   es: {
@@ -756,6 +787,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "Implante",
     beforeAfter2Title: "Corrección dental",
     beforeAfter3Title: "Blanqueamiento dental",
+
+    storiesTitle: "Historias que emocionan",
+    storiesSubtitle: "Experiencias reales de nuestros pacientes",
+
+    story1:
+      "Durante mucho tiempo tuve miedo al dentista. Gracias al proceso sencillo y al equipo tranquilo, finalmente di el paso. Ahora voy relajado a mis citas.",
+
+    story2:
+      "Mis dientes me molestaron durante años. Después del tratamiento, vuelvo a sonreír – cambió completamente mi confianza.",
+
+    story3:
+      "Antes, las citas eran complicadas. Ahora solo toma unos pocos clics – como debería ser.",
   },
 
   fr: {
@@ -944,6 +987,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "Implant",
     beforeAfter2Title: "Correction dentaire",
     beforeAfter3Title: "Blanchiment dentaire",
+
+    storiesTitle: "Des histoires qui touchent",
+    storiesSubtitle: "Expériences réelles de nos patients",
+
+    story1:
+      "J'avais longtemps peur du dentiste. Grâce à la demande simple et à l’équipe calme, j’ai enfin franchi le pas. Aujourd’hui, je vais à mes rendez-vous détendu.",
+
+    story2:
+      "Mes dents me dérangeaient depuis des années. Après le traitement, je souris enfin à nouveau – cela a complètement changé ma confiance en moi.",
+
+    story3:
+      "Avant, les rendez-vous étaient compliqués. Maintenant, cela ne prend que quelques clics – exactement comme il faut.",
   },
 
   it: {
@@ -1132,6 +1187,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "Impianto",
     beforeAfter2Title: "Correzione dentale",
     beforeAfter3Title: "Sbiancamento dentale",
+
+    storiesTitle: "Storie che emozionano",
+    storiesSubtitle: "Esperienze reali dei nostri pazienti",
+
+    story1:
+      "Ho avuto paura del dentista per molto tempo. Grazie alla richiesta semplice e al team tranquillo, ho finalmente fatto il passo. Ora vado agli appuntamenti rilassato.",
+
+    story2:
+      "I miei denti mi hanno dato fastidio per anni. Dopo il trattamento, finalmente sorrido di nuovo – ha cambiato completamente la mia sicurezza.",
+
+    story3:
+      "Prima gli appuntamenti erano complicati. Ora bastano pochi clic – esattamente come dovrebbe essere.",
   },
 
   tr: {
@@ -1320,6 +1387,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "İmplant",
     beforeAfter2Title: "Diş Düzeltme",
     beforeAfter3Title: "Diş Beyazlatma",
+
+    storiesTitle: "Dokunan Hikayeler",
+    storiesSubtitle: "Hastalarımızın gerçek deneyimleri",
+
+    story1:
+      "Uzun süre dişçiden korkuyordum. Kolay başvuru ve sakin ekip sayesinde sonunda adım attım. Artık randevulara rahat gidiyorum.",
+
+    story2:
+      "Dişlerim yıllarca beni rahatsız etti. Tedaviden sonra tekrar gülümsemeye başladım – bu özgüvenimi tamamen değiştirdi.",
+
+    story3:
+      "Eskiden randevular karmaşıktı. Şimdi sadece birkaç tıklama sürüyor – olması gerektiği gibi.",
   },
 
   ru: {
@@ -1508,6 +1587,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "Имплант",
     beforeAfter2Title: "Выравнивание зубов",
     beforeAfter3Title: "Отбеливание зубов",
+
+    storiesTitle: "Истории, которые трогают",
+    storiesSubtitle: "Реальный опыт наших пациентов",
+
+    story1:
+      "Я долго боялся стоматолога. Благодаря простому запросу и спокойной команде я наконец решился. Теперь я спокойно хожу на приемы.",
+
+    story2:
+      "Мои зубы беспокоили меня годами. После лечения я снова улыбаюсь – это полностью изменило мою уверенность.",
+
+    story3:
+      "Раньше запись была сложной. Теперь это занимает всего несколько кликов – как и должно быть.",
   },
 
   ar: {
@@ -1696,6 +1787,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "زراعة الأسنان",
     beforeAfter2Title: "تقويم الأسنان",
     beforeAfter3Title: "تبييض الأسنان",
+
+    storiesTitle: "قصص مؤثرة",
+    storiesSubtitle: "تجارب حقيقية من مرضانا",
+
+    story1:
+      "كنت أخاف من طبيب الأسنان لفترة طويلة. بفضل الطلب السهل والفريق الهادئ، اتخذت الخطوة أخيرًا. الآن أذهب إلى مواعيدي براحة.",
+
+    story2:
+      "أسناني كانت تزعجني لسنوات. بعد العلاج، أصبحت أبتسم مرة أخرى – وقد غيّر ذلك ثقتي بنفسي تمامًا.",
+
+    story3:
+      "في السابق كانت المواعيد معقدة. الآن تستغرق بضع نقرات فقط – كما يجب أن يكون.",
   },
 
   fa: {
@@ -1884,6 +1987,19 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "ایمپلنت",
     beforeAfter2Title: "اصلاح دندان",
     beforeAfter3Title: "سفید کردن دندان",
+
+
+    storiesTitle: "داستان‌هایی که تاثیرگذارند",
+    storiesSubtitle: "تجربیات واقعی بیماران ما",
+
+    story1:
+      "مدت‌ها از دندانپزشک می‌ترسیدم. به لطف درخواست ساده و تیم آرام، بالاخره این قدم را برداشتم. حالا با آرامش به نوبت‌هایم می‌روم.",
+
+    story2:
+      "دندان‌هایم سال‌ها مرا اذیت می‌کردند. بعد از درمان، دوباره لبخند می‌زنم – این موضوع اعتماد به نفسم را کاملاً تغییر داد.",
+
+    story3:
+      "قبلاً گرفتن نوبت پیچیده بود. حالا فقط چند کلیک طول می‌کشد – دقیقاً همان‌طور که باید باشد.",
   },
 
   sq: {
@@ -2072,6 +2188,18 @@ const translations: Record<string, Translation> = {
     beforeAfter1Title: "Implant",
     beforeAfter2Title: "Korrigjimi i dhëmbëve",
     beforeAfter3Title: "Zbardhimi i dhëmbëve",
+
+    storiesTitle: "Histori që prekin",
+    storiesSubtitle: "Përvoja reale të pacientëve tanë",
+
+    story1:
+      "Kisha frikë nga dentisti për një kohë të gjatë. Falë kërkesës së thjeshtë dhe ekipit të qetë, më në fund mora hapin. Tani shkoj i qetë në takime.",
+
+    story2:
+      "Dhëmbët e mi më shqetësonin për vite. Pas trajtimit, më në fund buzëqesh përsëri – kjo ndryshoi plotësisht vetëbesimin tim.",
+
+    story3:
+      "Më parë terminet ishin të komplikuara. Tani duhen vetëm disa klikime – pikërisht si duhet të jetë.",
   },
 };
 
