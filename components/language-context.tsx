@@ -3,6 +3,25 @@
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Translation = {
+
+  featuresTitle: string;
+  featuresSubtitle: string;
+
+  feature1Title: string;
+  feature1Desc: string;
+
+  feature2Title: string;
+  feature2Desc: string;
+
+  feature3Title: string;
+  feature3Desc: string;
+
+  feature4Title: string;
+  feature4Desc: string;
+
+  feature5Title: string;
+  feature5Desc: string;
+
   pricesTitle: string;
   pricesSubtitle: string;
 
@@ -263,7 +282,27 @@ const translations: Record<string, Translation> = {
     teamName3: "Laura Schneider",
     pricesTitle: "Preise & Behandlungen",
     pricesSubtitle:
-      "Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.",
+
+      featuresTitle: "Warum Zahnzentrum Neckarblick?",
+    featuresSubtitle:
+      "Moderne Technologie für ein besseres Patientenerlebnis.",
+
+    feature1Title: "Digitaler Anfrage-Assistent",
+    feature1Desc: "Ihr Anliegen in wenigen Klicks – ohne Anruf.",
+
+    feature2Title: "Schnelle Terminübersicht",
+    feature2Desc: "Verfügbare Termine auf einen Blick.",
+
+    feature3Title: "Rezept-Anfragen ohne Wartezeit",
+    feature3Desc: "Digital und unkompliziert – rund um die Uhr.",
+
+    feature4Title: "Strukturierte Patientenanfragen",
+    feature4Desc: "Klare Kategorien für schnelle Bearbeitung.",
+
+    feature5Title: "Mobile-optimierte Nutzung",
+    feature5Desc: "Jederzeit erreichbar – auch unterwegs.",
+
+    "Wir informieren Sie transparent vor jeder Behandlung. Keine versteckten Kosten.",
 
     priceCard1Title: "Zahnreinigung",
     priceCard1Desc: "Gönnen Sie Ihren Zähnen etwas Frische ✨",
