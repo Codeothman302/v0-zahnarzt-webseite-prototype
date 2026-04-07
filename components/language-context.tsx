@@ -183,6 +183,9 @@ type Translation = {
   footerImprint: string;
   footerPrivacy: string;
   footerRights: string;
+
+  // FAQ / CTA
+  faqTitle: string;
 };
 
 type LanguageContextType = {
@@ -414,6 +417,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "Impressum",
     footerPrivacy: "Datenschutz",
     footerRights: "Alle Rechte vorbehalten.",
+
+    // FAQ / CTA
+    faqTitle: "Bereit für Ihr neues Lächeln? Wir machen den ersten Schritt so einfach wie möglich.",
   },
 
   en: {
@@ -619,6 +625,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "Imprint",
     footerPrivacy: "Privacy Policy",
     footerRights: "All rights reserved.",
+
+    // FAQ / CTA
+    faqTitle: "Ready for your new smile? We make the first step as easy as possible.",
   },
 
   es: {
@@ -827,6 +836,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "Aviso legal",
     footerPrivacy: "Privacidad",
     footerRights: "Todos los derechos reservados.",
+
+    // FAQ / CTA
+    faqTitle: "¿Listo para su nueva sonrisa? Hacemos que el primer paso sea lo más fácil posible.",
   },
   
   fr: {
@@ -1036,6 +1048,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "Mentions légales",
     footerPrivacy: "Confidentialité",
     footerRights: "Tous droits réservés.",
+
+    // FAQ / CTA
+    faqTitle: "Prêt pour votre nouveau sourire ? Nous rendons la première étape aussi simple que possible.",
   },
   
   it: {
@@ -1229,7 +1244,7 @@ const translations: Record<string, Translation> = {
 
     // CTA Banner
     ctaTitle: "Veloce e semplice",
-    ctaSubtitle: "La tua richiesta in pochi clic – inizia ora.",
+    ctaSubtitle: "La tua richiesta in pochi clic �� inizia ora.",
     ctaButton: "Avvia appuntamento o richiesta",
     ctaTrust1: "Fatto in meno di 1 minuto",
     ctaTrust2: "Senza registrazione",
@@ -1244,6 +1259,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "Note legali",
     footerPrivacy: "Privacy",
     footerRights: "Tutti i diritti riservati.",
+
+    // FAQ / CTA
+    faqTitle: "Pronti per il vostro nuovo sorriso? Rendiamo il primo passo il più semplice possibile.",
   },
   
   tr: {
@@ -1452,6 +1470,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "Künye",
     footerPrivacy: "Gizlilik",
     footerRights: "Tüm hakları saklıdır.",
+
+    // FAQ / CTA
+    faqTitle: "Yeni gülüşünüze hazır mısınız? İlk adımı mümkün olduğunca kolaylaştırıyoruz.",
   },
   
   ru: {
@@ -1494,7 +1515,7 @@ const translations: Record<string, Translation> = {
     servicesTitle: "Наши услуги",
     servicesDesc:
       "Комплексный уход за зубами с современными технологиями и личным вниманием.",
-    service1Title: "Имплантаты",
+    service1Title: "��мплантаты",
     service1Desc:
       "Фиксированные зубы для уверенной улыбки. Долговечные решения с современными технологиями.",
     service2Title: "Чистка зубов",
@@ -1543,7 +1564,7 @@ const translations: Record<string, Translation> = {
     doctor1Specialty: "Имплантология & Эстетическая стоматология",
     doctor1Experience: "12 лет опыта",
     doctor1Desc:
-      "Специалист по современной имплантологии с минимально инвазивными методами. Его спокойный подход помогает пациентам расслабиться.",
+      "Специалист по ��овременной имплантологии с минимально инвазивными методами. Его спокойный подход помогает пациентам расслабиться.",
     doctor1Focus1: "Имплантология",
     doctor1Focus2: "Эстетическая стоматология",
     doctor1Focus3: "Минимально инвазивные методы",
@@ -1603,7 +1624,7 @@ const translations: Record<string, Translation> = {
     priceCard3List4: "Щадящий метод",
     priceButton: "Записаться",
     priceNote:
-      "Все цены являются ориентировочными. Точная стоимость определяется индивидуально.",
+      "Все цены являются ориентировоч��ыми. Точная стоимость определяется индивидуально.",
 
     // Contact
     contactTitle: "Контакты & Как добраться",
@@ -1660,6 +1681,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "Выходные данные",
     footerPrivacy: "Конфиденциальность",
     footerRights: "Все права защищены.",
+
+    // FAQ / CTA
+    faqTitle: "Готовы к новой улыбке? Мы делаем первый шаг максимально простым.",
   },
   
   ar: {
@@ -1865,6 +1889,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "البيانات القانونية",
     footerPrivacy: "الخصوصية",
     footerRights: "جميع الحقوق محفوظة.",
+
+    // FAQ / CTA
+    faqTitle: "هل أنت مستعد لابتسامتك الجديدة؟ نجعل الخطوة الأولى سهلة قدر الإمكان.",
   },
   
   fa: {
@@ -1993,7 +2020,7 @@ const translations: Record<string, Translation> = {
     pricesSubtitle:
       "ما قبل از هر درمان به‌صورت شفاف شما را مطلع می‌کنیم. بدون هزینه پنهان.",
     priceCard1Title: "جرم‌گیری دندان",
-    priceCard1Desc: "به دندان‌های خود حس تازگی بدهید ✨",
+    priceCard1Desc: "به دند��ن‌های خود حس تازگی بدهید ✨",
     priceCard1Price: "80–150 €",
     priceCard1List1: "تمیزکاری کامل",
     priceCard1List2: "نفس تازه",
@@ -2031,12 +2058,12 @@ const translations: Record<string, Translation> = {
 
     // Testimonials
     testimonialsTitle: "نظر بیماران ما",
-    testimonialsSubtitle: "بیش از ۱۰۰۰ بیمار راضی قبلاً به ما اعتماد کرده‌اند.",
+    testimonialsSubtitle: "بیش از ۱۰۰۰ بیمار راضی قبلاً به ما اعت��اد کرده‌اند.",
     testimonial1Quote: "درخواست نوبت خیلی آسان بود، از سرعت همه چیز تعجب کردم.",
     testimonial1Author: "مارکوس هـ.",
     testimonial2Quote: "تیم بسیار مهربان و مطب مدرن. فوراً احساس راحتی کردم.",
     testimonial2Author: "یولیا س.",
-    testimonial3Quote: "بالاخره یک مطب که دیجیتالی کار می‌کند. دیگر انتظار پشت تلفن نیست.",
+    testimonial3Quote: "بالاخره یک مطب ک�� دیجیتالی کار می‌کند. دیگر انتظار پشت تلفن نیست.",
     testimonial3Author: "دانیل ک.",
 
     // Before & After
@@ -2072,6 +2099,9 @@ const translations: Record<string, Translation> = {
     footerImprint: "اطلاعات قانونی",
     footerPrivacy: "حریم خصوصی",
     footerRights: "تمامی حقوق محفوظ است.",
+
+    // FAQ / CTA
+    faqTitle: "آماده لبخند جدید خود هستید؟ ما اولین قدم را تا حد امکان آسان می‌کنیم.",
   },
   
   sq: {
@@ -2279,8 +2309,11 @@ const translations: Record<string, Translation> = {
     footerImprint: "Impresi",
     footerPrivacy: "Privatësia",
     footerRights: "Të gjitha të drejtat e rezervuara.",
+
+    // FAQ / CTA
+    faqTitle: "Gati për buzëqeshjen tuaj të re? Ne e bëjmë hapin e parë sa më të lehtë.",
   },
-  };
+};
 
 export function LanguageProvider({
   children,
