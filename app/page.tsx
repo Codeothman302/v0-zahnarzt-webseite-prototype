@@ -2,7 +2,6 @@
 
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { FloatingCTA } from "@/components/layout/floating-cta";
 import { openVoiceflowChat } from "@/components/voiceflow-chat";
 import { Hero } from "@/components/sections/hero";
 import { Services } from "@/components/sections/services";
@@ -36,7 +35,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-      <FloatingCTA onClick={openVoiceflowChat} />
     </>
   );
 }
