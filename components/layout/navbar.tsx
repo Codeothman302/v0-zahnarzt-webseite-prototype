@@ -1,11 +1,91 @@
 "use client";
 
-import { useLanguage, languages } from "@/components/language-context";
-import { useState, useCallback } from "react";
+import { useLanguage } from "@/components/language-context";
+import { useState, useCallback, useRef, useEffect } from "react";
 import Link from "next/link";
-import { Menu } from "lucide-react";
+import { Menu, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+
+const LANGUAGE_OPTIONS = [
+  { code: "de", flag: "🇩🇪", label: "Deutsch" },
+  { code: "en", flag: "🇺🇸", label: "English" },
+  { code: "es", flag: "🇪🇸", label: "Español" },
+  { code: "fr", flag: "🇫🇷", label: "Français" },
+  { code: "it", flag: "🇮🇹", label: "Italiano" },
+  { code: "tr", flag: "🇹🇷", label: "Türkçe" },
+  { code: "ru", flag: "🇷🇺", label: "Русский" },
+  { code: "ar", flag: "🇸🇦", label: "العربية" },
+  { code: "fa", flag: "🇮🇷", label: "فارسی" },
+  { code: "sq", flag: "🇦🇱", label: "Shqip" },
+] as const;
+
+function LanguageDropdown() {
+  const { lang, setLang } = useLanguage();
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  const current = LANGUAGE_OPTIONS.find((o) => o.code === lang) ?? LANGUAGE_OPTIONS[0];
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      {/* Trigger */}
+      <button
+        onClick={() => setOpen((v) => !v)}
+        className="flex items-center gap-1.5 rounded-lg border border-border/60 bg-background px-3 py-1.5 text-sm font-medium text-foreground shadow-sm transition-colors hover:bg-muted focus:outline-none"
+        aria-haspopup="listbox"
+        aria-expanded={open}
+      >
+        <span>{current.flag}</span>
+        <span>{current.label}</span>
+        <ChevronDown
+          className={`size-3.5 text-muted-foreground transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+        />
+      </button>
+
+      {/* Dropdown */}
+      {open && (
+        <div
+          className="absolute right-0 top-full z-50 mt-2 w-44 overflow-hidden rounded-xl border border-border/60 bg-background shadow-lg"
+          style={{
+            animation: "langDropdownIn 0.15s ease-out forwards",
+          }}
+          role="listbox"
+        >
+          {LANGUAGE_OPTIONS.map((opt) => (
+            <button
+              key={opt.code}
+              role="option"
+              aria-selected={lang === opt.code}
+              onClick={() => {
+                setLang(opt.code as typeof lang);
+                setOpen(false);
+              }}
+              className={`flex w-full items-center gap-2.5 px-3 py-2 text-sm transition-colors hover:bg-muted ${
+                lang === opt.code
+                  ? "bg-primary/10 font-semibold text-primary"
+                  : "text-foreground"
+              }`}
+            >
+              <span className="text-base leading-none">{opt.flag}</span>
+              <span>{opt.label}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 interface NavbarProps {
   onOpenModal: () => void;
@@ -69,21 +149,8 @@ export function Navbar({ onOpenModal }: NavbarProps) {
         {/* Right Side */}
         <div className="hidden md:flex items-center gap-4">
 
-          {/* 🌍 Language Switch */}
-          <div className="flex gap-2">
-            {languages.map((lng) => (
-              <button
-                key={lng}
-                onClick={() => setLang(lng)}
-                className={`px-2 py-1 text-xs rounded-full transition ${lang === lng
-                    ? "bg-teal-500 text-white"
-                    : "bg-gray-100 hover:bg-gray-200"
-                  }`}
-              >
-                {lng.toUpperCase()}
-              </button>
-            ))}
-          </div>
+          {/* Language Selector */}
+          <LanguageDropdown />
 
           {/* Button */}
           <Button
@@ -120,6 +187,10 @@ export function Navbar({ onOpenModal }: NavbarProps) {
                   {link.label}
                 </a>
               ))}
+
+              <div className="mt-2">
+                <LanguageDropdown />
+              </div>
 
               <Button
                 onClick={() => {
