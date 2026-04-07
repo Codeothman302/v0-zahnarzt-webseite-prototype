@@ -117,8 +117,9 @@
 
 /* Hide the default Voiceflow floating launcher button */
 /* Hide Voiceflow floating button only */
-div[class*="voiceflow-launcher"],
-button[class*="voiceflow-launcher"] {
+/* Hide ONLY the Voiceflow launcher button */
+[id*="launcher"],
+button[id*="voiceflow"] {
   display: none !important;
 }
 
