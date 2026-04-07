@@ -3,44 +3,47 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedSection } from "@/components/ui/animated-section";
-
-const contactInfo = [
-  {
-    icon: MapPin,
-    label: "Adresse",
-    value: "Marktplatz 1, 72160 Horb am Neckar",
-  },
-  {
-    icon: Phone,
-    label: "Telefon",
-    value: "+49 7451 123456",
-    href: "tel:+497451123456",
-  },
-  {
-    icon: Mail,
-    label: "E-Mail",
-    value: "info@zahnzentrum-neckarblick.de",
-    href: "mailto:info@zahnzentrum-neckarblick.de",
-  },
-];
-
-const openingHours = [
-  { day: "Montag - Donnerstag", hours: "08:00 - 18:00" },
-  { day: "Freitag", hours: "08:00 - 14:00" },
-  { day: "Samstag - Sonntag", hours: "Geschlossen" },
-];
+import { useLanguage } from "@/components/language-context";
 
 export function Contact() {
+  const { t } = useLanguage();
+
+  const contactInfo = [
+    {
+      icon: MapPin,
+      label: t.contactAddress,
+      value: "Marktplatz 1, 72160 Horb am Neckar",
+    },
+    {
+      icon: Phone,
+      label: t.contactPhone,
+      value: "+49 7451 123456",
+      href: "tel:+497451123456",
+    },
+    {
+      icon: Mail,
+      label: t.contactEmail,
+      value: "info@zahnzentrum-neckarblick.de",
+      href: "mailto:info@zahnzentrum-neckarblick.de",
+    },
+  ];
+
+  const openingHours = [
+    { day: t.contactMonThu, hours: "08:00 - 18:00" },
+    { day: t.contactFri, hours: "08:00 - 14:00" },
+    { day: t.contactWeekend, hours: t.contactClosed },
+  ];
+
   return (
     <section id="kontakt" className="bg-background py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Kontakt & Anfahrt
+              {t.contactTitle}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">
-              Wir freuen uns auf Ihren Besuch.
+              {t.contactSubtitle}
             </p>
           </div>
         </AnimatedSection>
@@ -80,7 +83,7 @@ export function Contact() {
                   <div className="flex items-center gap-3">
                     <Clock className="size-5 text-primary" />
                     <h3 className="font-semibold text-foreground">
-                      Öffnungszeiten
+                      {t.contactOpeningHours}
                     </h3>
                   </div>
                   <div className="mt-4 space-y-2">

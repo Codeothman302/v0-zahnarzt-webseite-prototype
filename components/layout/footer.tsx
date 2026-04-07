@@ -1,17 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { Facebook, Instagram } from "lucide-react";
-
-const footerLinks = [
-  { label: "Leistungen", href: "#leistungen" },
-  { label: "Team", href: "#team" },
-  { label: "Preise", href: "#preise" },
-  { label: "Kontakt", href: "#kontakt" },
-];
-
-const legalLinks = [
-  { label: "Impressum", href: "#" },
-  { label: "Datenschutz", href: "#" },
-];
+import { useLanguage } from "@/components/language-context";
 
 const socialLinks = [
   { label: "Facebook", href: "#", icon: Facebook },
@@ -19,6 +10,20 @@ const socialLinks = [
 ];
 
 export function Footer() {
+  const { t } = useLanguage();
+
+  const footerLinks = [
+    { label: t.footerServices, href: "#leistungen" },
+    { label: t.footerTeam, href: "#team" },
+    { label: t.footerPrices, href: "#preise" },
+    { label: t.footerContact, href: "#kontakt" },
+  ];
+
+  const legalLinks = [
+    { label: t.footerImprint, href: "#" },
+    { label: t.footerPrivacy, href: "#" },
+  ];
+
   return (
     <footer className="border-t border-border bg-card">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
@@ -29,7 +34,7 @@ export function Footer() {
               Zahnzentrum <span className="text-primary">Neckarblick</span>
             </Link>
             <p className="mt-2 max-w-sm text-sm text-muted-foreground">
-              Moderne Zahnmedizin in Horb am Neckar. Ihr Lächeln in besten Händen.
+              {t.footerDescription}
             </p>
           </div>
 
@@ -66,7 +71,7 @@ export function Footer() {
 
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-border pt-8 md:flex-row md:justify-between">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Zahnzentrum Neckarblick. Alle Rechte vorbehalten.
+            &copy; {new Date().getFullYear()} Zahnzentrum Neckarblick. {t.footerRights}
           </p>
           <div className="flex gap-6">
             {legalLinks.map((link) => (

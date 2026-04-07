@@ -3,36 +3,39 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedSection } from "@/components/ui/animated-section";
-
-const comparisons = [
-  {
-    title: "Zahnaufhellung",
-    beforeImage: "/images/before-whitening.jpg",
-    afterImage: "/images/after-whitening.jpg",
-  },
-  {
-    title: "Zahnkorrektur",
-    beforeImage: "/images/before-correction.jpg",
-    afterImage: "/images/after-correction.jpg",
-  },
-  {
-    title: "Implantat",
-    beforeImage: "/images/before-implant.jpg",
-    afterImage: "/images/after-implant.jpg",
-  },
-];
+import { useLanguage } from "@/components/language-context";
 
 export function BeforeAfter() {
+  const { t } = useLanguage();
+
+  const comparisons = [
+    {
+      title: t.beforeAfter1Title,
+      beforeImage: "/images/before-whitening.jpg",
+      afterImage: "/images/after-whitening.jpg",
+    },
+    {
+      title: t.beforeAfter2Title,
+      beforeImage: "/images/before-correction.jpg",
+      afterImage: "/images/after-correction.jpg",
+    },
+    {
+      title: t.beforeAfter3Title,
+      beforeImage: "/images/before-implant.jpg",
+      afterImage: "/images/after-implant.jpg",
+    },
+  ];
+
   return (
     <section className="bg-card py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Vorher & Nachher
+              {t.beforeAfterTitle}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">
-              Überzeugen Sie sich selbst von unseren Behandlungsergebnissen.
+              {t.beforeAfterSubtitle}
             </p>
           </div>
         </AnimatedSection>
@@ -47,26 +50,26 @@ export function BeforeAfter() {
                       <div className="relative aspect-square bg-muted">
                         <Image
                           src={comparison.beforeImage}
-                          alt={`${comparison.title} vorher`}
+                          alt={`${comparison.title} ${t.beforeLabel}`}
                           fill
                           className="object-cover transition-transform duration-500 group-hover:scale-105"
                         />
                       </div>
                       <span className="absolute bottom-2 left-2 rounded bg-foreground/80 px-2 py-1 text-xs font-medium text-background">
-                        Vorher
+                        {t.beforeLabel}
                       </span>
                     </div>
                     <div className="relative overflow-hidden">
                       <div className="relative aspect-square bg-muted">
                         <Image
                           src={comparison.afterImage}
-                          alt={`${comparison.title} nachher`}
+                          alt={`${comparison.title} ${t.afterLabel}`}
                           fill
                           className="object-cover transition-transform duration-500 group-hover:scale-105"
                         />
                       </div>
                       <span className="absolute bottom-2 right-2 rounded bg-primary px-2 py-1 text-xs font-medium text-primary-foreground">
-                        Nachher
+                        {t.afterLabel}
                       </span>
                     </div>
                   </div>

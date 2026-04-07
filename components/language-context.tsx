@@ -138,6 +138,51 @@ type Translation = {
   contactMonThu: string;
   contactFri: string;
   contactWeekend: string;
+  contactClosed: string;
+
+  // Testimonials
+  testimonialsTitle: string;
+  testimonialsSubtitle: string;
+  testimonial1Quote: string;
+  testimonial1Author: string;
+  testimonial2Quote: string;
+  testimonial2Author: string;
+  testimonial3Quote: string;
+  testimonial3Author: string;
+
+  // Before & After
+  beforeAfterTitle: string;
+  beforeAfterSubtitle: string;
+  beforeLabel: string;
+  afterLabel: string;
+  beforeAfter1Title: string;
+  beforeAfter2Title: string;
+  beforeAfter3Title: string;
+
+  // Stories
+  storiesTitle: string;
+  storiesSubtitle: string;
+  story1Text: string;
+  story2Text: string;
+  story3Text: string;
+
+  // CTA Banner
+  ctaTitle: string;
+  ctaSubtitle: string;
+  ctaButton: string;
+  ctaTrust1: string;
+  ctaTrust2: string;
+  ctaTrust3: string;
+
+  // Footer
+  footerDescription: string;
+  footerServices: string;
+  footerTeam: string;
+  footerPrices: string;
+  footerContact: string;
+  footerImprint: string;
+  footerPrivacy: string;
+  footerRights: string;
 };
 
 type LanguageContextType = {
@@ -324,6 +369,51 @@ const translations: Record<string, Translation> = {
     contactMonThu: "Montag - Donnerstag",
     contactFri: "Freitag",
     contactWeekend: "Samstag - Sonntag",
+    contactClosed: "Geschlossen",
+
+    // Testimonials
+    testimonialsTitle: "Das sagen unsere Patienten",
+    testimonialsSubtitle: "Über 1000 zufriedene Patienten vertrauen uns bereits.",
+    testimonial1Quote: "Super einfache Terminanfrage, ich war überrascht wie schnell alles ging.",
+    testimonial1Author: "Markus H.",
+    testimonial2Quote: "Sehr freundliches Team und moderne Praxis. Fühlte mich direkt wohl.",
+    testimonial2Author: "Julia S.",
+    testimonial3Quote: "Endlich eine Praxis, die digital funktioniert. Kein Warten am Telefon mehr.",
+    testimonial3Author: "Daniel K.",
+
+    // Before & After
+    beforeAfterTitle: "Vorher & Nachher",
+    beforeAfterSubtitle: "Überzeugen Sie sich selbst von unseren Behandlungsergebnissen.",
+    beforeLabel: "Vorher",
+    afterLabel: "Nachher",
+    beforeAfter1Title: "Zahnaufhellung",
+    beforeAfter2Title: "Zahnkorrektur",
+    beforeAfter3Title: "Implantat",
+
+    // Stories
+    storiesTitle: "Geschichten, die berühren",
+    storiesSubtitle: "Echte Erfahrungen unserer Patienten.",
+    story1Text: "Ich hatte lange Angst vor dem Zahnarzt. Durch die einfache Anfrage und das ruhige Team habe ich endlich den Schritt gemacht. Heute gehe ich entspannt zu meinen Terminen.",
+    story2Text: "Meine Zähne haben mich jahrelang gestört. Nach der Behandlung lächle ich endlich wieder gerne – das hat mein Selbstbewusstsein komplett verändert.",
+    story3Text: "Früher war alles kompliziert mit Terminen. Jetzt dauert es nur noch wenige Klicks – genau so sollte es sein.",
+
+    // CTA Banner
+    ctaTitle: "Schnell & unkompliziert",
+    ctaSubtitle: "Ihr Anliegen in wenigen Klicks – starten Sie jetzt.",
+    ctaButton: "Termin oder Anliegen starten",
+    ctaTrust1: "In unter 1 Minute erledigt",
+    ctaTrust2: "Ohne Registrierung",
+    ctaTrust3: "Sicher & vertraulich",
+
+    // Footer
+    footerDescription: "Moderne Zahnmedizin in Horb am Neckar. Ihr Lächeln in besten Händen.",
+    footerServices: "Leistungen",
+    footerTeam: "Team",
+    footerPrices: "Preise",
+    footerContact: "Kontakt",
+    footerImprint: "Impressum",
+    footerPrivacy: "Datenschutz",
+    footerRights: "Alle Rechte vorbehalten.",
   },
 
   en: {
@@ -484,6 +574,51 @@ const translations: Record<string, Translation> = {
     contactMonThu: "Monday - Thursday",
     contactFri: "Friday",
     contactWeekend: "Saturday - Sunday",
+    contactClosed: "Closed",
+
+    // Testimonials
+    testimonialsTitle: "What our patients say",
+    testimonialsSubtitle: "Over 1000 satisfied patients already trust us.",
+    testimonial1Quote: "Super easy appointment request, I was surprised how quickly everything went.",
+    testimonial1Author: "Markus H.",
+    testimonial2Quote: "Very friendly team and modern practice. I felt comfortable right away.",
+    testimonial2Author: "Julia S.",
+    testimonial3Quote: "Finally a practice that works digitally. No more waiting on the phone.",
+    testimonial3Author: "Daniel K.",
+
+    // Before & After
+    beforeAfterTitle: "Before & After",
+    beforeAfterSubtitle: "See our treatment results for yourself.",
+    beforeLabel: "Before",
+    afterLabel: "After",
+    beforeAfter1Title: "Teeth Whitening",
+    beforeAfter2Title: "Teeth Correction",
+    beforeAfter3Title: "Implant",
+
+    // Stories
+    storiesTitle: "Stories that touch",
+    storiesSubtitle: "Real experiences from our patients.",
+    story1Text: "I was afraid of the dentist for a long time. Through the simple request process and the calm team, I finally took the step. Today I go to my appointments relaxed.",
+    story2Text: "My teeth bothered me for years. After the treatment, I finally enjoy smiling again – it completely changed my confidence.",
+    story3Text: "Before, everything was complicated with appointments. Now it only takes a few clicks – exactly how it should be.",
+
+    // CTA Banner
+    ctaTitle: "Quick & uncomplicated",
+    ctaSubtitle: "Your request in just a few clicks – start now.",
+    ctaButton: "Start appointment or request",
+    ctaTrust1: "Done in under 1 minute",
+    ctaTrust2: "No registration required",
+    ctaTrust3: "Safe & confidential",
+
+    // Footer
+    footerDescription: "Modern dentistry in Horb am Neckar. Your smile in the best hands.",
+    footerServices: "Services",
+    footerTeam: "Team",
+    footerPrices: "Prices",
+    footerContact: "Contact",
+    footerImprint: "Imprint",
+    footerPrivacy: "Privacy Policy",
+    footerRights: "All rights reserved.",
   },
 
   es: {
@@ -643,12 +778,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "Dirección",
     contactPhone: "Teléfono",
     contactEmail: "Correo electrónico",
-    contactOpeningHours: "Horario de apertura",
-    contactMonThu: "Lunes - Jueves",
-    contactFri: "Viernes",
-    contactWeekend: "Sábado - Domingo",
-  },
+  contactOpeningHours: "Horario de apertura",
+  contactMonThu: "Lunes - Jueves",
+  contactFri: "Viernes",
+  contactWeekend: "Sábado - Domingo",
+  contactClosed: "Cerrado",
 
+    // Testimonials
+    testimonialsTitle: "Lo que dicen nuestros pacientes",
+    testimonialsSubtitle: "Más de 1000 pacientes satisfechos ya confían en nosotros.",
+    testimonial1Quote: "Solicitar cita fue muy fácil, me sorprendió lo rápido que fue todo.",
+    testimonial1Author: "Markus H.",
+    testimonial2Quote: "Equipo muy amable y clínica moderna. Me sentí cómodo de inmediato.",
+    testimonial2Author: "Julia S.",
+    testimonial3Quote: "Por fin una clínica que funciona digitalmente. No más esperas al teléfono.",
+    testimonial3Author: "Daniel K.",
+
+    // Before & After
+    beforeAfterTitle: "Antes y Después",
+    beforeAfterSubtitle: "Compruebe usted mismo nuestros resultados de tratamiento.",
+    beforeLabel: "Antes",
+    afterLabel: "Después",
+    beforeAfter1Title: "Blanqueamiento dental",
+    beforeAfter2Title: "Corrección dental",
+    beforeAfter3Title: "Implante",
+
+    // Stories
+    storiesTitle: "Historias que conmueven",
+    storiesSubtitle: "Experiencias reales de nuestros pacientes.",
+    story1Text: "Tuve miedo al dentista durante mucho tiempo. Gracias al sencillo proceso de solicitud y al equipo tranquilo, finalmente di el paso. Hoy voy a mis citas relajado.",
+    story2Text: "Mis dientes me molestaron durante años. Después del tratamiento, finalmente disfruto sonriendo de nuevo – cambió completamente mi confianza.",
+    story3Text: "Antes, todo era complicado con las citas. Ahora solo se necesitan unos pocos clics – exactamente como debería ser.",
+
+    // CTA Banner
+    ctaTitle: "Rápido y sencillo",
+    ctaSubtitle: "Su solicitud en pocos clics – empiece ahora.",
+    ctaButton: "Iniciar cita o solicitud",
+    ctaTrust1: "Hecho en menos de 1 minuto",
+    ctaTrust2: "Sin registro",
+    ctaTrust3: "Seguro y confidencial",
+
+    // Footer
+    footerDescription: "Odontología moderna en Horb am Neckar. Su sonrisa en las mejores manos.",
+    footerServices: "Servicios",
+    footerTeam: "Equipo",
+    footerPrices: "Precios",
+    footerContact: "Contacto",
+    footerImprint: "Aviso legal",
+    footerPrivacy: "Privacidad",
+    footerRights: "Todos los derechos reservados.",
+  },
+  
   fr: {
     // Navigation
     services: "Services",
@@ -807,12 +987,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "Adresse",
     contactPhone: "Téléphone",
     contactEmail: "E-mail",
-    contactOpeningHours: "Horaires d'ouverture",
-    contactMonThu: "Lundi - Jeudi",
-    contactFri: "Vendredi",
-    contactWeekend: "Samedi - Dimanche",
-  },
+  contactOpeningHours: "Horaires d'ouverture",
+  contactMonThu: "Lundi - Jeudi",
+  contactFri: "Vendredi",
+  contactWeekend: "Samedi - Dimanche",
+  contactClosed: "Fermé",
 
+    // Testimonials
+    testimonialsTitle: "Ce que disent nos patients",
+    testimonialsSubtitle: "Plus de 1000 patients satisfaits nous font déjà confiance.",
+    testimonial1Quote: "Demande de rendez-vous super facile, j'ai été surpris de la rapidité.",
+    testimonial1Author: "Markus H.",
+    testimonial2Quote: "Équipe très sympathique et cabinet moderne. Je me suis senti à l'aise immédiatement.",
+    testimonial2Author: "Julia S.",
+    testimonial3Quote: "Enfin un cabinet qui fonctionne numériquement. Plus d'attente au téléphone.",
+    testimonial3Author: "Daniel K.",
+
+    // Before & After
+    beforeAfterTitle: "Avant et Après",
+    beforeAfterSubtitle: "Découvrez vous-même nos résultats de traitement.",
+    beforeLabel: "Avant",
+    afterLabel: "Après",
+    beforeAfter1Title: "Blanchiment dentaire",
+    beforeAfter2Title: "Correction dentaire",
+    beforeAfter3Title: "Implant",
+
+    // Stories
+    storiesTitle: "Histoires qui touchent",
+    storiesSubtitle: "Expériences réelles de nos patients.",
+    story1Text: "J'ai eu peur du dentiste pendant longtemps. Grâce au processus de demande simple et à l'équipe calme, j'ai finalement franchi le pas. Aujourd'hui, je vais à mes rendez-vous détendu.",
+    story2Text: "Mes dents m'ont gêné pendant des années. Après le traitement, j'aime enfin sourire à nouveau – cela a complètement changé ma confiance.",
+    story3Text: "Avant, tout était compliqué avec les rendez-vous. Maintenant, il suffit de quelques clics – exactement comme ça devrait être.",
+
+    // CTA Banner
+    ctaTitle: "Rapide et simple",
+    ctaSubtitle: "Votre demande en quelques clics – commencez maintenant.",
+    ctaButton: "Démarrer un rendez-vous ou une demande",
+    ctaTrust1: "Fait en moins d'1 minute",
+    ctaTrust2: "Sans inscription",
+    ctaTrust3: "Sûr et confidentiel",
+
+    // Footer
+    footerDescription: "Dentisterie moderne à Horb am Neckar. Votre sourire entre de bonnes mains.",
+    footerServices: "Services",
+    footerTeam: "Équipe",
+    footerPrices: "Tarifs",
+    footerContact: "Contact",
+    footerImprint: "Mentions légales",
+    footerPrivacy: "Confidentialité",
+    footerRights: "Tous droits réservés.",
+  },
+  
   it: {
     // Navigation
     services: "Servizi",
@@ -970,12 +1195,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "Indirizzo",
     contactPhone: "Telefono",
     contactEmail: "E-mail",
-    contactOpeningHours: "Orari di apertura",
-    contactMonThu: "Lunedì - Giovedì",
-    contactFri: "Venerdì",
-    contactWeekend: "Sabato - Domenica",
-  },
+  contactOpeningHours: "Orari di apertura",
+  contactMonThu: "Lunedì - Giovedì",
+  contactFri: "Venerdì",
+  contactWeekend: "Sabato - Domenica",
+  contactClosed: "Chiuso",
 
+    // Testimonials
+    testimonialsTitle: "Cosa dicono i nostri pazienti",
+    testimonialsSubtitle: "Oltre 1000 pazienti soddisfatti si fidano già di noi.",
+    testimonial1Quote: "Richiesta di appuntamento semplicissima, sono rimasto sorpreso dalla velocità.",
+    testimonial1Author: "Markus H.",
+    testimonial2Quote: "Team molto gentile e studio moderno. Mi sono sentito subito a mio agio.",
+    testimonial2Author: "Julia S.",
+    testimonial3Quote: "Finalmente uno studio che funziona digitalmente. Niente più attese al telefono.",
+    testimonial3Author: "Daniel K.",
+
+    // Before & After
+    beforeAfterTitle: "Prima e Dopo",
+    beforeAfterSubtitle: "Scoprite voi stessi i nostri risultati di trattamento.",
+    beforeLabel: "Prima",
+    afterLabel: "Dopo",
+    beforeAfter1Title: "Sbiancamento dentale",
+    beforeAfter2Title: "Correzione dentale",
+    beforeAfter3Title: "Impianto",
+
+    // Stories
+    storiesTitle: "Storie che toccano",
+    storiesSubtitle: "Esperienze reali dei nostri pazienti.",
+    story1Text: "Ho avuto paura del dentista per molto tempo. Grazie al semplice processo di richiesta e al team calmo, ho finalmente fatto il passo. Oggi vado ai miei appuntamenti rilassato.",
+    story2Text: "I miei denti mi hanno dato fastidio per anni. Dopo il trattamento, finalmente mi piace sorridere di nuovo – ha cambiato completamente la mia fiducia.",
+    story3Text: "Prima, tutto era complicato con gli appuntamenti. Ora bastano pochi clic – esattamente come dovrebbe essere.",
+
+    // CTA Banner
+    ctaTitle: "Veloce e semplice",
+    ctaSubtitle: "La tua richiesta in pochi clic – inizia ora.",
+    ctaButton: "Avvia appuntamento o richiesta",
+    ctaTrust1: "Fatto in meno di 1 minuto",
+    ctaTrust2: "Senza registrazione",
+    ctaTrust3: "Sicuro e riservato",
+
+    // Footer
+    footerDescription: "Odontoiatria moderna a Horb am Neckar. Il tuo sorriso nelle migliori mani.",
+    footerServices: "Servizi",
+    footerTeam: "Team",
+    footerPrices: "Prezzi",
+    footerContact: "Contatto",
+    footerImprint: "Note legali",
+    footerPrivacy: "Privacy",
+    footerRights: "Tutti i diritti riservati.",
+  },
+  
   tr: {
     // Navigation
     services: "Hizmetler",
@@ -1133,12 +1403,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "Adres",
     contactPhone: "Telefon",
     contactEmail: "E-posta",
-    contactOpeningHours: "Açılış Saatleri",
-    contactMonThu: "Pazartesi - Perşembe",
-    contactFri: "Cuma",
-    contactWeekend: "Cumartesi - Pazar",
-  },
+  contactOpeningHours: "Açılış Saatleri",
+  contactMonThu: "Pazartesi - Perşembe",
+  contactFri: "Cuma",
+  contactWeekend: "Cumartesi - Pazar",
+  contactClosed: "Kapalı",
 
+    // Testimonials
+    testimonialsTitle: "Hastalarımız ne diyor",
+    testimonialsSubtitle: "1000'den fazla memnun hasta bize güveniyor.",
+    testimonial1Quote: "Randevu talebi çok kolaydı, her şeyin ne kadar hızlı olduğuna şaşırdım.",
+    testimonial1Author: "Markus H.",
+    testimonial2Quote: "Çok güler yüzlü ekip ve modern klinik. Hemen rahat hissettim.",
+    testimonial2Author: "Julia S.",
+    testimonial3Quote: "Sonunda dijital çalışan bir klinik. Artık telefonda bekleme yok.",
+    testimonial3Author: "Daniel K.",
+
+    // Before & After
+    beforeAfterTitle: "Önce ve Sonra",
+    beforeAfterSubtitle: "Tedavi sonuçlarımızı kendiniz görün.",
+    beforeLabel: "Önce",
+    afterLabel: "Sonra",
+    beforeAfter1Title: "Diş Beyazlatma",
+    beforeAfter2Title: "Diş Düzeltme",
+    beforeAfter3Title: "İmplant",
+
+    // Stories
+    storiesTitle: "Dokunan hikayeler",
+    storiesSubtitle: "Hastalarımızın gerçek deneyimleri.",
+    story1Text: "Uzun süre diş hekiminden korktum. Basit başvuru süreci ve sakin ekip sayesinde sonunda adım attım. Bugün randevularıma rahat gidiyorum.",
+    story2Text: "Dişlerim yıllarca beni rahatsız etti. Tedaviden sonra sonunda yeniden gülümsemekten keyif alıyorum – özgüvenimi tamamen değiştirdi.",
+    story3Text: "Eskiden randevularla her şey karmaşıktı. Şimdi sadece birkaç tıklama yetiyor – tam olması gerektiği gibi.",
+
+    // CTA Banner
+    ctaTitle: "Hızlı ve kolay",
+    ctaSubtitle: "Talebiniz birkaç tıkla – şimdi başlayın.",
+    ctaButton: "Randevu veya talep başlat",
+    ctaTrust1: "1 dakikadan kısa sürede tamamlanır",
+    ctaTrust2: "Kayıt gerektirmez",
+    ctaTrust3: "Güvenli ve gizli",
+
+    // Footer
+    footerDescription: "Horb am Neckar'da modern diş hekimliği. Gülüşünüz en iyi ellerde.",
+    footerServices: "Hizmetler",
+    footerTeam: "Ekip",
+    footerPrices: "Fiyatlar",
+    footerContact: "İletişim",
+    footerImprint: "Künye",
+    footerPrivacy: "Gizlilik",
+    footerRights: "Tüm hakları saklıdır.",
+  },
+  
   ru: {
     // Navigation
     services: "Услуги",
@@ -1259,7 +1574,7 @@ const translations: Record<string, Translation> = {
     feature4Title: "Структурированные запросы пациентов",
     feature4Desc: "Четкие категории для быстрой обработки.",
     feature5Title: "Оптимизация для мобильных устройств",
-    feature5Desc: "Доступно в любое время – даже в пути.",
+    feature5Desc: "Доступно в любое врем�� – даже в пути.",
 
     // Pricing
     pricesTitle: "Цены & Лечение",
@@ -1296,12 +1611,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "Адрес",
     contactPhone: "Телефон",
     contactEmail: "Электронная почта",
-    contactOpeningHours: "Часы работы",
-    contactMonThu: "Понедельник - Четверг",
-    contactFri: "Пятница",
-    contactWeekend: "Суббота - Воскресенье",
-  },
+  contactOpeningHours: "Часы работы",
+  contactMonThu: "Понедельник - Четверг",
+  contactFri: "Пятница",
+  contactWeekend: "Суббота - Воскресенье",
+  contactClosed: "Закрыто",
 
+    // Testimonials
+    testimonialsTitle: "Что говорят наши пациенты",
+    testimonialsSubtitle: "Более 1000 довольных пациентов уже доверяют нам.",
+    testimonial1Quote: "Записаться на прием было очень просто, я был удивлен, как быстро все прошло.",
+    testimonial1Author: "Маркус Х.",
+    testimonial2Quote: "Очень дружелюбный коллектив и современная клиника. Я сразу почувствовал себя комфортно.",
+    testimonial2Author: "Юлия С.",
+    testimonial3Quote: "Наконец-то клиника, которая работает в цифровом формате. Больше никаких ожиданий по телефону.",
+    testimonial3Author: "Даниэль К.",
+
+    // Before & After
+    beforeAfterTitle: "До и После",
+    beforeAfterSubtitle: "Убедитесь сами в наших результатах лечения.",
+    beforeLabel: "До",
+    afterLabel: "После",
+    beforeAfter1Title: "Отбеливание зубов",
+    beforeAfter2Title: "Коррекция зубов",
+    beforeAfter3Title: "Имплант",
+
+    // Stories
+    storiesTitle: "Истории, которые трогают",
+    storiesSubtitle: "Реальный опыт наших пациентов.",
+    story1Text: "Я долго боялся стоматолога. Благодаря простому процессу записи и спокойной команде я наконец сделал этот шаг. Сегодня я спокойно хожу на приемы.",
+    story2Text: "Мои зубы беспокоили меня годами. После лечения я наконец снова рад улыбаться – это полностью изменило мою уверенность в себе.",
+    story3Text: "Раньше все было сложно с записью. Теперь нужно всего несколько кликов – именно так и должно быть.",
+
+    // CTA Banner
+    ctaTitle: "Быстро и просто",
+    ctaSubtitle: "Ваш запрос в несколько кликов – начните сейчас.",
+    ctaButton: "Начать запись или запрос",
+    ctaTrust1: "Занимает менее 1 минуты",
+    ctaTrust2: "Без регистрации",
+    ctaTrust3: "Безопасно и конфиденциально",
+
+    // Footer
+    footerDescription: "Современная стоматология в Хорб-ам-Неккар. Ваша улыбка в лучших руках.",
+    footerServices: "Услуги",
+    footerTeam: "Команда",
+    footerPrices: "Цены",
+    footerContact: "Контакт",
+    footerImprint: "Выходные данные",
+    footerPrivacy: "Конфиденциальность",
+    footerRights: "Все права защищены.",
+  },
+  
   ar: {
     // Navigation
     services: "الخدمات",
@@ -1414,7 +1774,7 @@ const translations: Record<string, Translation> = {
     feature1Desc: "أرسل طلبك ببضع نقرات فقط – بدون اتصال.",
     feature2Title: "نظرة سريعة على المواعيد",
     feature2Desc: "المواعيد المتاحة بنظرة واحدة.",
-    feature3Title: "طلبات الوصفات بدون انتظار",
+    feature3Title: "طلبات الوص��ات بدون انتظار",
     feature3Desc: "رقمي وبسيط – متاح على مدار الساعة.",
     feature4Title: "طلبات مرضى منظمة",
     feature4Desc: "فئات واضحة لمعالجة أسرع.",
@@ -1456,12 +1816,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "العنوان",
     contactPhone: "الهاتف",
     contactEmail: "البريد الإلكتروني",
-    contactOpeningHours: "ساعات العمل",
-    contactMonThu: "الإثنين - الخميس",
-    contactFri: "الجمعة",
-    contactWeekend: "السبت - الأحد",
-  },
+  contactOpeningHours: "ساعات العمل",
+  contactMonThu: "الإثنين - الخميس",
+  contactFri: "الجمعة",
+  contactWeekend: "السبت - الأحد",
+  contactClosed: "مغلق",
 
+    // Testimonials
+    testimonialsTitle: "ماذا يقول مرضانا",
+    testimonialsSubtitle: "أكثر من 1000 مريض راضٍ يثقون بنا بالفعل.",
+    testimonial1Quote: "طلب الموعد كان سهلاً جداً، فوجئت بمدى سرعة كل شيء.",
+    testimonial1Author: "ماركوس هـ.",
+    testimonial2Quote: "فريق ودود جداً وعيادة حديثة. شعرت بالراحة على الفور.",
+    testimonial2Author: "جوليا س.",
+    testimonial3Quote: "أخيراً عيادة تعمل رقمياً. لا مزيد من الانتظار على الهاتف.",
+    testimonial3Author: "دانيال ك.",
+
+    // Before & After
+    beforeAfterTitle: "قبل وبعد",
+    beforeAfterSubtitle: "اطلع بنفسك على نتائج علاجنا.",
+    beforeLabel: "قبل",
+    afterLabel: "بعد",
+    beforeAfter1Title: "تبييض الأسنان",
+    beforeAfter2Title: "تقويم الأسنان",
+    beforeAfter3Title: "زرع الأسنان",
+
+    // Stories
+    storiesTitle: "قصص مؤثرة",
+    storiesSubtitle: "تجارب حقيقية من مرضانا.",
+    story1Text: "كنت خائفاً من طبيب الأسنان لفترة طويلة. بفضل عملية الطلب البسيطة والفريق الهادئ، اتخذت الخطوة أخيراً. اليوم أذهب إلى مواعيدي مرتاحاً.",
+    story2Text: "أزعجتني أسناني لسنوات. بعد العلاج، أستمتع أخيراً بالابتسام مرة أخرى – لقد غيّر ثقتي بنفسي تماماً.",
+    story3Text: "في السابق، كان كل شيء معقداً مع المواعيد. الآن لا يتطلب الأمر سوى بضع نقرات – بالضبط كما ينبغي.",
+
+    // CTA Banner
+    ctaTitle: "سريع وسهل",
+    ctaSubtitle: "طلبك في بضع نقرات – ابدأ الآن.",
+    ctaButton: "ابدأ موعداً أو طلباً",
+    ctaTrust1: "يتم في أقل من دقيقة",
+    ctaTrust2: "بدون تسجيل",
+    ctaTrust3: "آمن وسري",
+
+    // Footer
+    footerDescription: "طب الأسنان الحديث في هورب آم نيكار. ابتسامتك في أفضل الأيدي.",
+    footerServices: "الخدمات",
+    footerTeam: "الفريق",
+    footerPrices: "الأسعار",
+    footerContact: "اتصل بنا",
+    footerImprint: "البيانات القانونية",
+    footerPrivacy: "الخصوصية",
+    footerRights: "جميع الحقوق محفوظة.",
+  },
+  
   fa: {
     // Navigation
     services: "خدمات",
@@ -1555,7 +1960,7 @@ const translations: Record<string, Translation> = {
     doctor1Focus2: "دندانپزشکی زیبایی",
     doctor1Focus3: "روش‌های کم‌تهاجمی",
     doctor1Philosophy:
-      "تمرکز بر درمانی آرام، مبتنی بر اعتماد و حداکثر راحتی برای بیمار است.",
+      "تمرکز بر درمانی آرام، مبتنی بر اعتماد �� حداکثر راحتی برای بیمار است.",
     doctor2Name: "دکتر سارا کلاین",
     doctor2Specialty: "ارتودنسی & پیشگیری",
     doctor2Experience: "۹ سال تجربه",
@@ -1618,12 +2023,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "آدرس",
     contactPhone: "تلفن",
     contactEmail: "ایمیل",
-    contactOpeningHours: "ساعات کاری",
-    contactMonThu: "دوشنبه - پنج‌شنبه",
-    contactFri: "جمعه",
-    contactWeekend: "شنبه - یکشنبه",
-  },
+  contactOpeningHours: "ساعات کاری",
+  contactMonThu: "دوشنبه - پنج‌شنبه",
+  contactFri: "جمعه",
+  contactWeekend: "شنبه - یکشنبه",
+  contactClosed: "تعطیل",
 
+    // Testimonials
+    testimonialsTitle: "نظر بیماران ما",
+    testimonialsSubtitle: "بیش از ۱۰۰۰ بیمار راضی قبلاً به ما اعتماد کرده‌اند.",
+    testimonial1Quote: "درخواست نوبت خیلی آسان بود، از سرعت همه چیز تعجب کردم.",
+    testimonial1Author: "مارکوس هـ.",
+    testimonial2Quote: "تیم بسیار مهربان و مطب مدرن. فوراً احساس راحتی کردم.",
+    testimonial2Author: "یولیا س.",
+    testimonial3Quote: "بالاخره یک مطب که دیجیتالی کار می‌کند. دیگر انتظار پشت تلفن نیست.",
+    testimonial3Author: "دانیل ک.",
+
+    // Before & After
+    beforeAfterTitle: "قبل و بعد",
+    beforeAfterSubtitle: "خودتان نتایج درمان ما را ببینید.",
+    beforeLabel: "قبل",
+    afterLabel: "بعد",
+    beforeAfter1Title: "سفید کردن دندان",
+    beforeAfter2Title: "اصلاح دندان",
+    beforeAfter3Title: "ایمپلنت",
+
+    // Stories
+    storiesTitle: "داستان‌های تأثیرگذار",
+    storiesSubtitle: "تجربیات واقعی بیماران ما.",
+    story1Text: "مدت‌ها از دندانپزشک می‌ترسیدم. با فرآیند ساده درخواست و تیم آرام، بالاخره این قدم را برداشتم. امروز با آرامش به قرارهایم می‌روم.",
+    story2Text: "دندان‌هایم سال‌ها اذیتم می‌کردند. بعد از درمان، بالاخره دوباره از لبخند زدن لذت می‌برم – اعتماد به نفسم کاملاً تغییر کرد.",
+    story3Text: "قبلاً همه چیز با قرارها پیچیده بود. حالا فقط چند کلیک کافی است – دقیقاً همانطور که باید باشد.",
+
+    // CTA Banner
+    ctaTitle: "سریع و آسان",
+    ctaSubtitle: "درخواست شما با چند کلیک – همین الان شروع کنید.",
+    ctaButton: "شروع نوبت یا درخواست",
+    ctaTrust1: "در کمتر از ۱ دقیقه انجام می‌شود",
+    ctaTrust2: "بدون ثبت‌نام",
+    ctaTrust3: "امن و محرمانه",
+
+    // Footer
+    footerDescription: "دندانپزشکی مدرن در هورب آم نکار. لبخند شما در بهترین دست‌ها.",
+    footerServices: "خدمات",
+    footerTeam: "تیم",
+    footerPrices: "قیمت‌ها",
+    footerContact: "تماس",
+    footerImprint: "اطلاعات قانونی",
+    footerPrivacy: "حریم خصوصی",
+    footerRights: "تمامی حقوق محفوظ است.",
+  },
+  
   sq: {
     // Navigation
     services: "Shërbimet",
@@ -1780,12 +2230,57 @@ const translations: Record<string, Translation> = {
     contactAddress: "Adresa",
     contactPhone: "Telefoni",
     contactEmail: "Email",
-    contactOpeningHours: "Oraret e punës",
-    contactMonThu: "E Hënë - E Enjte",
-    contactFri: "E Premte",
-    contactWeekend: "E Shtunë - E Diel",
+  contactOpeningHours: "Oraret e punës",
+  contactMonThu: "E Hënë - E Enjte",
+  contactFri: "E Premte",
+  contactWeekend: "E Shtunë - E Diel",
+  contactClosed: "Mbyllur",
+
+    // Testimonials
+    testimonialsTitle: "Çfarë thonë pacientët tanë",
+    testimonialsSubtitle: "Mbi 1000 pacientë të kënaqur na besojnë tashmë.",
+    testimonial1Quote: "Kërkesa për takim ishte shumë e lehtë, u habita sa shpejt shkoi gjithçka.",
+    testimonial1Author: "Markus H.",
+    testimonial2Quote: "Ekip shumë miqësor dhe klinikë moderne. U ndjeva rehat menjëherë.",
+    testimonial2Author: "Julia S.",
+    testimonial3Quote: "Më në fund një klinikë që punon në mënyrë digjitale. Nuk ka më pritje në telefon.",
+    testimonial3Author: "Daniel K.",
+
+    // Before & After
+    beforeAfterTitle: "Para dhe Pas",
+    beforeAfterSubtitle: "Shikoni vetë rezultatet tona të trajtimit.",
+    beforeLabel: "Para",
+    afterLabel: "Pas",
+    beforeAfter1Title: "Zbardhimi i dhëmbëve",
+    beforeAfter2Title: "Korrigjimi i dhëmbëve",
+    beforeAfter3Title: "Implant",
+
+    // Stories
+    storiesTitle: "Histori që prekin",
+    storiesSubtitle: "Përvoja reale nga pacientët tanë.",
+    story1Text: "Kam pasur frikë nga dentisti për një kohë të gjatë. Falë procesit të thjeshtë të kërkesës dhe ekipit të qetë, më në fund e bëra hapin. Sot shkoj në takimet e mia i qetë.",
+    story2Text: "Dhëmbët e mi më shqetësonin vite me radhë. Pas trajtimit, më në fund shijoj sërish të buzëqesh – kjo ndryshoi plotësisht besimin tim.",
+    story3Text: "Më parë, gjithçka ishte e komplikuar me takimet. Tani duhen vetëm disa klikime – pikërisht siç duhet të jetë.",
+
+    // CTA Banner
+    ctaTitle: "Shpejt dhe lehtë",
+    ctaSubtitle: "Kërkesa juaj me disa klikime – filloni tani.",
+    ctaButton: "Fillo një takim ose kërkesë",
+    ctaTrust1: "Bëhet në më pak se 1 minutë",
+    ctaTrust2: "Pa regjistrim",
+    ctaTrust3: "I sigurt dhe konfidencial",
+
+    // Footer
+    footerDescription: "Stomatologji moderne në Horb am Neckar. Buzëqeshja juaj në duart më të mira.",
+    footerServices: "Shërbimet",
+    footerTeam: "Ekipi",
+    footerPrices: "Çmimet",
+    footerContact: "Kontakti",
+    footerImprint: "Impresi",
+    footerPrivacy: "Privatësia",
+    footerRights: "Të gjitha të drejtat e rezervuara.",
   },
-};
+  };
 
 export function LanguageProvider({
   children,
