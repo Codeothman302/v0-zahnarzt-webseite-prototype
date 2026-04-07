@@ -115,6 +115,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* Hide the default Voiceflow floating launcher button */
+#voiceflow-chat,
+#voiceflow-chat-frame,
+[id^="voiceflow-chat"] {
+  display: none !important;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

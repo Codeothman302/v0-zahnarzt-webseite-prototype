@@ -35,6 +35,10 @@ export function VoiceflowChat() {
           mode: "embedded",
         },
       });
+      // Hide the default floating launcher after load completes (load is async)
+      setTimeout(() => {
+        window.voiceflow?.chat.hide();
+      }, 1000);
     }
   }, []);
 
