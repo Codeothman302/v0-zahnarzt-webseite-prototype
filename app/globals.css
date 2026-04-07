@@ -115,13 +115,33 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* Language dropdown entrance animation */
+@keyframes langDropdownIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Hide the default Voiceflow floating launcher button */
+[id*="launcher"],
+button[id*="voiceflow"] {
+  display: none !important;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   html {
     scroll-behavior: smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }

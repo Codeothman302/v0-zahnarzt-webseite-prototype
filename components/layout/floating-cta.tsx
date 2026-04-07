@@ -1,12 +1,4 @@
-"use client";
-
-import { MessageCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
-
-interface FloatingCTAProps {
-  onClick: () => void;
-}
-
-export function FloatingCTA({ onClick }: FloatingCTAProps) {
+// Custom floating CTA button removed — Voiceflow widget handles the floating button.
+export function FloatingCTA(_props: { onClick?: () => void }) {
   return null;
 }

@@ -32,9 +32,11 @@ export function VoiceflowChat() {
         url: "https://general-runtime.voiceflow.com",
         versionID: "production",
         render: {
-          mode: "embedded",
+          mode: "overlay",
         },
       });
+
+      // ❌ WICHTIG: KEIN hide() MEHR
     }
   }, []);
 
