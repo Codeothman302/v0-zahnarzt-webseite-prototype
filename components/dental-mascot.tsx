@@ -72,27 +72,81 @@ function ToothMascotSVG({ armAngle }: { armAngle: number }) {
         fill="none"
       />
 
-      {/* ── Pointing arm (right side) — rotates via armAngle prop ── */}
-      <g
-        transform={`translate(58, 30) rotate(${armAngle})`}
-        style={{ transformOrigin: "0 0" }}
-      >
-        {/* Upper arm */}
+      {/* ── Pointing arm (right side) — pivot at shoulder on tooth body ── */}
+      <g transform={`translate(58, 28) rotate(${armAngle})`}>
+        {/* Shoulder cap — rounded blob connecting to tooth body */}
+        <ellipse cx="0" cy="0" rx="5" ry="4.5" fill="#e0f7fa" stroke="#2CB1BC" strokeWidth="1.5" />
+
+        {/* Upper arm — tapered filled shape, wider at shoulder narrower at elbow */}
         <path
-          d="M0 0 L14 6"
+          d="M-2 -1 C 0 -3, 10 -1, 11 2 C 10 5, 0 4, -2 2 Z"
+          fill="#e0f7fa"
           stroke="#2CB1BC"
-          strokeWidth="3"
-          strokeLinecap="round"
+          strokeWidth="1.2"
+          strokeLinejoin="round"
         />
-        {/* Forearm */}
+
+        {/* Elbow joint — small circle for definition */}
+        <circle cx="11" cy="2" r="3" fill="#e0f7fa" stroke="#2CB1BC" strokeWidth="1.2" />
+
+        {/* Forearm — tapers from elbow toward wrist, slight upward angle */}
         <path
-          d="M14 6 L22 2"
+          d="M9 -1 C 12 -4, 20 -5, 22 -4 C 22 -2, 12 1, 10 3 Z"
+          fill="#e0f7fa"
           stroke="#2CB1BC"
-          strokeWidth="2.5"
-          strokeLinecap="round"
+          strokeWidth="1.2"
+          strokeLinejoin="round"
         />
-        {/* Pointing finger tip */}
-        <circle cx="23" cy="1.5" r="2" fill="#2CB1BC" fillOpacity="0.8" />
+
+        {/* Wrist bump */}
+        <ellipse cx="22" cy="-3" rx="2.5" ry="3" fill="#e0f7fa" stroke="#2CB1BC" strokeWidth="1.2" />
+
+        {/* Hand palm */}
+        <path
+          d="M20 -6 C 21 -8, 25 -8, 26 -6 C 27 -4, 26 -1, 24 -1 C 22 -1, 20 -3, 20 -6 Z"
+          fill="#d0f0f5"
+          stroke="#2CB1BC"
+          strokeWidth="1.2"
+          strokeLinejoin="round"
+        />
+
+        {/* Index finger — extended, pointing right */}
+        <path
+          d="M25 -7 C 26 -9, 30 -9, 32 -8 C 33 -7, 33 -5, 31 -5 C 29 -5, 25 -5, 24 -6 Z"
+          fill="#e0f7fa"
+          stroke="#2CB1BC"
+          strokeWidth="1.1"
+          strokeLinejoin="round"
+        />
+        {/* Fingertip highlight */}
+        <ellipse cx="32" cy="-6.5" rx="1.2" ry="1.5" fill="#2CB1BC" fillOpacity="0.25" />
+
+        {/* Middle finger — slightly curled behind index */}
+        <path
+          d="M24 -4 C 25 -6, 28 -6, 29 -5 C 29 -3, 27 -2, 25 -2 Z"
+          fill="#d0f0f5"
+          stroke="#2CB1BC"
+          strokeWidth="1"
+          strokeLinejoin="round"
+        />
+
+        {/* Ring + pinky — tucked as a small rounded bump */}
+        <path
+          d="M22 -2 C 23 -4, 26 -4, 26 -2 C 26 0, 23 1, 22 0 Z"
+          fill="#d0f0f5"
+          stroke="#2CB1BC"
+          strokeWidth="1"
+          strokeLinejoin="round"
+        />
+
+        {/* Thumb — short, angled downward from palm base */}
+        <path
+          d="M20 -3 C 19 -5, 18 -6, 19 -7 C 20 -8, 22 -7, 21 -5 Z"
+          fill="#e0f7fa"
+          stroke="#2CB1BC"
+          strokeWidth="1"
+          strokeLinejoin="round"
+        />
       </g>
     </svg>
   );
