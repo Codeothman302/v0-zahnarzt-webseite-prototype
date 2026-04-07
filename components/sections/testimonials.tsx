@@ -3,39 +3,39 @@
 import { Star, Quote } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedSection } from "@/components/ui/animated-section";
-
-const testimonials = [
-  {
-    quote:
-      "Super einfache Terminanfrage, ich war überrascht wie schnell alles ging.",
-    author: "Markus H.",
-    rating: 5,
-  },
-  {
-    quote:
-      "Sehr freundliches Team und moderne Praxis. Fühlte mich direkt wohl.",
-    author: "Julia S.",
-    rating: 5,
-  },
-  {
-    quote:
-      "Endlich eine Praxis, die digital funktioniert. Kein Warten am Telefon mehr.",
-    author: "Daniel K.",
-    rating: 5,
-  },
-];
+import { useLanguage } from "@/components/language-context";
 
 export function Testimonials() {
+  const { t } = useLanguage();
+
+  const testimonials = [
+    {
+      quote: t.testimonial1Quote,
+      author: t.testimonial1Author,
+      rating: 5,
+    },
+    {
+      quote: t.testimonial2Quote,
+      author: t.testimonial2Author,
+      rating: 5,
+    },
+    {
+      quote: t.testimonial3Quote,
+      author: t.testimonial3Author,
+      rating: 5,
+    },
+  ];
+
   return (
     <section className="bg-background py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <div className="text-center">
             <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Das sagen unsere Patienten
+              {t.testimonialsTitle}
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">
-              Über 1000 zufriedene Patienten vertrauen uns bereits.
+              {t.testimonialsSubtitle}
             </p>
           </div>
         </AnimatedSection>
