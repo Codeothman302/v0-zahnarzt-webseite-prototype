@@ -116,9 +116,9 @@
 }
 
 /* Hide the default Voiceflow floating launcher button */
-#voiceflow-chat,
-#voiceflow-chat-frame,
-[id^="voiceflow-chat"] {
+/* Hide Voiceflow floating button only */
+div[class*="voiceflow-launcher"],
+button[class*="voiceflow-launcher"] {
   display: none !important;
 }
 
@@ -126,9 +126,11 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   html {
     scroll-behavior: smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }
